@@ -1,0 +1,3962 @@
+[
+  {
+    "filename": "calendar_event_auto-tag.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/calendar_event_auto-tag.json",
+    "file_extension": ".json",
+    "file_size": 7620,
+    "created_at": "2025-06-13T04:47:07.192799",
+    "is_directory": false
+  },
+  {
+    "filename": "grant_application_routing.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/grant_application_routing.json",
+    "file_extension": ".json",
+    "file_size": 7638,
+    "created_at": "2025-06-13T04:47:07.192814",
+    "is_directory": false
+  },
+  {
+    "filename": "Simple Expense Tracker with n8n Chat, AI Agent and Google Sheets.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Simple Expense Tracker with n8n Chat, AI Agent and Google Sheets.txt",
+    "file_extension": ".txt",
+    "file_size": 7812,
+    "created_at": "2025-06-13T04:47:07.192828",
+    "is_directory": false
+  },
+  {
+    "filename": "AI-Generated Summary Block for WordPress Posts.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI-Generated Summary Block for WordPress Posts.txt",
+    "file_extension": ".txt",
+    "file_size": 34600,
+    "created_at": "2025-06-13T04:47:07.192837",
+    "is_directory": false
+  },
+  {
+    "filename": "Zoom AI Meeting Assistant creates mail summary, ClickUp tasks and follow-up call.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Zoom AI Meeting Assistant creates mail summary, ClickUp tasks and follow-up call.txt",
+    "file_extension": ".txt",
+    "file_size": 20578,
+    "created_at": "2025-06-13T04:47:07.192846",
+    "is_directory": false
+  },
+  {
+    "filename": "auto-dm_new_twitter_followers.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/auto-dm_new_twitter_followers.json",
+    "file_extension": ".json",
+    "file_size": 7830,
+    "created_at": "2025-06-13T04:47:07.192855",
+    "is_directory": false
+  },
+  {
+    "filename": "Automatic Background Removal for Images in Google Drive.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Automatic Background Removal for Images in Google Drive.txt",
+    "file_extension": ".txt",
+    "file_size": 10984,
+    "created_at": "2025-06-13T04:47:07.192863",
+    "is_directory": false
+  },
+  {
+    "filename": "AI-Powered Candidate Shortlisting Automation for ERPNext.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI-Powered Candidate Shortlisting Automation for ERPNext.txt",
+    "file_extension": ".txt",
+    "file_size": 24251,
+    "created_at": "2025-06-13T04:47:07.192870",
+    "is_directory": false
+  },
+  {
+    "filename": "Chat with PDF docs using AI (quoting sources).txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Chat with PDF docs using AI (quoting sources).txt",
+    "file_extension": ".txt",
+    "file_size": 11643,
+    "created_at": "2025-06-13T04:47:07.192878",
+    "is_directory": false
+  },
+  {
+    "filename": "Send a ChatGPT email reply and save responses to Google Sheets.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Send a ChatGPT email reply and save responses to Google Sheets.txt",
+    "file_extension": ".txt",
+    "file_size": 74895,
+    "created_at": "2025-06-13T04:47:07.192886",
+    "is_directory": false
+  },
+  {
+    "filename": "idea_to_ig_carousel.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/idea_to_ig_carousel.json",
+    "file_extension": ".json",
+    "file_size": 7596,
+    "created_at": "2025-06-13T04:47:07.192894",
+    "is_directory": false
+  },
+  {
+    "filename": "Chat with a Google Sheet using AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Chat with a Google Sheet using AI.txt",
+    "file_extension": ".txt",
+    "file_size": 11040,
+    "created_at": "2025-06-13T04:47:07.192901",
+    "is_directory": false
+  },
+  {
+    "filename": "public_form_auto_triage.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/public_form_auto_triage.json",
+    "file_extension": ".json",
+    "file_size": 7628,
+    "created_at": "2025-06-13T04:47:07.192909",
+    "is_directory": false
+  },
+  {
+    "filename": "Telegram AI Bot_ NeurochainAI Text & Image - NeurochainAI Basic API Integration.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Telegram AI Bot_ NeurochainAI Text & Image - NeurochainAI Basic API Integration.txt",
+    "file_extension": ".txt",
+    "file_size": 19739,
+    "created_at": "2025-06-13T04:47:07.192917",
+    "is_directory": false
+  },
+  {
+    "filename": "Use AI to organize your Todoist Inbox.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Use AI to organize your Todoist Inbox.txt",
+    "file_extension": ".txt",
+    "file_size": 5799,
+    "created_at": "2025-06-13T04:47:07.192925",
+    "is_directory": false
+  },
+  {
+    "filename": "api_stats_chart.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/api_stats_chart.json",
+    "file_extension": ".json",
+    "file_size": 7828,
+    "created_at": "2025-06-13T04:47:07.192932",
+    "is_directory": false
+  },
+  {
+    "filename": "Monthly Spotify Track Archiving and Playlist Classification.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Monthly Spotify Track Archiving and Playlist Classification.txt",
+    "file_extension": ".txt",
+    "file_size": 41883,
+    "created_at": "2025-06-13T04:47:07.192940",
+    "is_directory": false
+  },
+  {
+    "filename": "create e-mail responses with fastmail and OpenAI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/create e-mail responses with fastmail and OpenAI.txt",
+    "file_extension": ".txt",
+    "file_size": 10760,
+    "created_at": "2025-06-13T04:47:07.192947",
+    "is_directory": false
+  },
+  {
+    "filename": "car_insurance_quote_generator.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/car_insurance_quote_generator.json",
+    "file_extension": ".json",
+    "file_size": 6050,
+    "created_at": "2025-06-13T04:47:07.192955",
+    "is_directory": false
+  },
+  {
+    "filename": "morning_briefing_email.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/morning_briefing_email.json",
+    "file_extension": ".json",
+    "file_size": 7619,
+    "created_at": "2025-06-13T04:47:07.192962",
+    "is_directory": false
+  },
+  {
+    "filename": "follow-up_emails.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/follow-up_emails.json",
+    "file_extension": ".json",
+    "file_size": 7446,
+    "created_at": "2025-06-13T04:47:07.192969",
+    "is_directory": false
+  },
+  {
+    "filename": "Summarize Google Sheets form feedback via OpenAI_s GPT-4.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Summarize Google Sheets form feedback via OpenAI_s GPT-4.txt",
+    "file_extension": ".txt",
+    "file_size": 6791,
+    "created_at": "2025-06-13T04:47:07.192976",
+    "is_directory": false
+  },
+  {
+    "filename": "OpenAI-powered tweet generator.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/OpenAI-powered tweet generator.txt",
+    "file_extension": ".txt",
+    "file_size": 2264,
+    "created_at": "2025-06-13T04:47:07.192983",
+    "is_directory": false
+  },
+  {
+    "filename": "Suggest meeting slots using AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Suggest meeting slots using AI.txt",
+    "file_extension": ".txt",
+    "file_size": 10997,
+    "created_at": "2025-06-13T04:47:07.192991",
+    "is_directory": false
+  },
+  {
+    "filename": "customer_auto-tagging.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/customer_auto-tagging.json",
+    "file_extension": ".json",
+    "file_size": 7878,
+    "created_at": "2025-06-13T04:47:07.192998",
+    "is_directory": false
+  },
+  {
+    "filename": "Email Summary Agent.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Email Summary Agent.txt",
+    "file_extension": ".txt",
+    "file_size": 9257,
+    "created_at": "2025-06-13T04:47:07.193005",
+    "is_directory": false
+  },
+  {
+    "filename": "Analyze Suspicious Email Contents with ChatGPT Vision.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Analyze Suspicious Email Contents with ChatGPT Vision.txt",
+    "file_extension": ".txt",
+    "file_size": 14315,
+    "created_at": "2025-06-13T04:47:07.193014",
+    "is_directory": false
+  },
+  {
+    "filename": "tenant_screening_summary.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/tenant_screening_summary.json",
+    "file_extension": ".json",
+    "file_size": 6004,
+    "created_at": "2025-06-13T04:47:07.193021",
+    "is_directory": false
+  },
+  {
+    "filename": "transaction_logs_backup.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/transaction_logs_backup.json",
+    "file_extension": ".json",
+    "file_size": 7486,
+    "created_at": "2025-06-13T04:47:07.193028",
+    "is_directory": false
+  },
+  {
+    "filename": "Supabase Insertion & Upsertion & Retrieval.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Supabase Insertion & Upsertion & Retrieval.txt",
+    "file_extension": ".txt",
+    "file_size": 11389,
+    "created_at": "2025-06-13T04:47:07.193036",
+    "is_directory": false
+  },
+  {
+    "filename": "RAG_Context-Aware Chunking _ Google Drive to Pinecone via OpenRouter & Gemini.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/RAG_Context-Aware Chunking _ Google Drive to Pinecone via OpenRouter & Gemini.txt",
+    "file_extension": ".txt",
+    "file_size": 8957,
+    "created_at": "2025-06-13T04:47:07.193044",
+    "is_directory": false
+  },
+  {
+    "filename": "Automate LinkedIn Outreach with Notion and OpenAI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Automate LinkedIn Outreach with Notion and OpenAI.txt",
+    "file_extension": ".txt",
+    "file_size": 6722,
+    "created_at": "2025-06-13T04:47:07.193051",
+    "is_directory": false
+  },
+  {
+    "filename": "Query n8n Credentials with AI SQL Agent.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Query n8n Credentials with AI SQL Agent.txt",
+    "file_extension": ".txt",
+    "file_size": 7821,
+    "created_at": "2025-06-13T04:47:07.193058",
+    "is_directory": false
+  },
+  {
+    "filename": "Update Twitter banner using HTTP request.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Update Twitter banner using HTTP request.txt",
+    "file_extension": ".txt",
+    "file_size": 1339,
+    "created_at": "2025-06-13T04:47:07.193065",
+    "is_directory": false
+  },
+  {
+    "filename": "AI Agent for realtime insights on meetings.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI Agent for realtime insights on meetings.txt",
+    "file_extension": ".txt",
+    "file_size": 17217,
+    "created_at": "2025-06-13T04:47:07.193072",
+    "is_directory": false
+  },
+  {
+    "filename": "Extract license plate number from image uploaded via an n8n form.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Extract license plate number from image uploaded via an n8n form.txt",
+    "file_extension": ".txt",
+    "file_size": 3156,
+    "created_at": "2025-06-13T04:47:07.193079",
+    "is_directory": false
+  },
+  {
+    "filename": "AI agent for Instagram DM_inbox. Manychat + Open AI integration.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI agent for Instagram DM_inbox. Manychat + Open AI integration.txt",
+    "file_extension": ".txt",
+    "file_size": 6028,
+    "created_at": "2025-06-13T04:47:07.193086",
+    "is_directory": false
+  },
+  {
+    "filename": "Chat with your event schedule from Google Sheets in Telegram.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Chat with your event schedule from Google Sheets in Telegram.txt",
+    "file_extension": ".txt",
+    "file_size": 12700,
+    "created_at": "2025-06-13T04:47:07.193093",
+    "is_directory": false
+  },
+  {
+    "filename": "grid_load_alert.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/grid_load_alert.json",
+    "file_extension": ".json",
+    "file_size": 5969,
+    "created_at": "2025-06-13T04:47:07.193100",
+    "is_directory": false
+  },
+  {
+    "filename": "Easy Image Captioning with Gemini 1.5 Pro.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Easy Image Captioning with Gemini 1.5 Pro.txt",
+    "file_extension": ".txt",
+    "file_size": 10162,
+    "created_at": "2025-06-13T04:47:07.193107",
+    "is_directory": false
+  },
+  {
+    "filename": "Force AI to use a specific output format.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Force AI to use a specific output format.txt",
+    "file_extension": ".txt",
+    "file_size": 4509,
+    "created_at": "2025-06-13T04:47:07.193114",
+    "is_directory": false
+  },
+  {
+    "filename": "IT Ops AI SlackBot Workflow - Chat with your knowledge base.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/IT Ops AI SlackBot Workflow - Chat with your knowledge base.txt",
+    "file_extension": ".txt",
+    "file_size": 16494,
+    "created_at": "2025-06-13T04:47:07.193121",
+    "is_directory": false
+  },
+  {
+    "filename": "Analyze feedback using AWS Comprehend and send it to a Mattermost channel.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Analyze feedback using AWS Comprehend and send it to a Mattermost channel.txt",
+    "file_extension": ".txt",
+    "file_size": 1811,
+    "created_at": "2025-06-13T04:47:07.193128",
+    "is_directory": false
+  },
+  {
+    "filename": "Invoice data extraction with LlamaParse and OpenAI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Invoice data extraction with LlamaParse and OpenAI.txt",
+    "file_extension": ".txt",
+    "file_size": 22067,
+    "created_at": "2025-06-13T04:47:07.193139",
+    "is_directory": false
+  },
+  {
+    "filename": "Generate Instagram Content from Top Trends with AI Image Generation.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Generate Instagram Content from Top Trends with AI Image Generation.txt",
+    "file_extension": ".txt",
+    "file_size": 29271,
+    "created_at": "2025-06-13T04:47:07.193146",
+    "is_directory": false
+  },
+  {
+    "filename": "AI-Powered Social Media Amplifier.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI-Powered Social Media Amplifier.txt",
+    "file_extension": ".txt",
+    "file_size": 25469,
+    "created_at": "2025-06-13T04:47:07.193153",
+    "is_directory": false
+  },
+  {
+    "filename": "Sentiment Analysis Tracking on Support Issues with Linear and Slack.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Sentiment Analysis Tracking on Support Issues with Linear and Slack.txt",
+    "file_extension": ".txt",
+    "file_size": 17943,
+    "created_at": "2025-06-13T04:47:07.193160",
+    "is_directory": false
+  },
+  {
+    "filename": "AI-Powered Email Automation for Business_ Summarize & Respond with RAG.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI-Powered Email Automation for Business_ Summarize & Respond with RAG.txt",
+    "file_extension": ".txt",
+    "file_size": 23659,
+    "created_at": "2025-06-13T04:47:07.193167",
+    "is_directory": false
+  },
+  {
+    "filename": "Upload to Instagram and Tiktok from Google Drive.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Upload to Instagram and Tiktok from Google Drive.txt",
+    "file_extension": ".txt",
+    "file_size": 10277,
+    "created_at": "2025-06-13T04:47:07.193174",
+    "is_directory": false
+  },
+  {
+    "filename": "commodity_price_tracker.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/commodity_price_tracker.json",
+    "file_extension": ".json",
+    "file_size": 5982,
+    "created_at": "2025-06-13T04:47:07.193182",
+    "is_directory": false
+  },
+  {
+    "filename": "Siri AI Agent_ Apple Shortcuts powered voice template.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Siri AI Agent_ Apple Shortcuts powered voice template.txt",
+    "file_extension": ".txt",
+    "file_size": 4868,
+    "created_at": "2025-06-13T04:47:07.193188",
+    "is_directory": false
+  },
+  {
+    "filename": "open_house_reminder.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/open_house_reminder.json",
+    "file_extension": ".json",
+    "file_size": 5977,
+    "created_at": "2025-06-13T04:47:07.193195",
+    "is_directory": false
+  },
+  {
+    "filename": "in\u2011game_event_reminder.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/in\u2011game_event_reminder.json",
+    "file_extension": ".json",
+    "file_size": 6029,
+    "created_at": "2025-06-13T04:47:07.193203",
+    "is_directory": false
+  },
+  {
+    "filename": "Detect hallucinations using specialised Ollama model bespoke-minicheck.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Detect hallucinations using specialised Ollama model bespoke-minicheck.txt",
+    "file_extension": ".txt",
+    "file_size": 13099,
+    "created_at": "2025-06-13T04:47:07.193210",
+    "is_directory": false
+  },
+  {
+    "filename": "weather_packing_list_generator.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/weather_packing_list_generator.json",
+    "file_extension": ".json",
+    "file_size": 6044,
+    "created_at": "2025-06-13T04:47:07.193218",
+    "is_directory": false
+  },
+  {
+    "filename": "content_idea_brainstormer.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/content_idea_brainstormer.json",
+    "file_extension": ".json",
+    "file_size": 5992,
+    "created_at": "2025-06-13T04:47:07.193225",
+    "is_directory": false
+  },
+  {
+    "filename": "Configure your own Image Creation API Using OpenAI DALLE-3.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Configure your own Image Creation API Using OpenAI DALLE-3.txt",
+    "file_extension": ".txt",
+    "file_size": 3061,
+    "created_at": "2025-06-13T04:47:07.193231",
+    "is_directory": false
+  },
+  {
+    "filename": "Automate SIEM Alert Enrichment with MITRE ATT&CK, Qdrant & Zendesk in n8n.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Automate SIEM Alert Enrichment with MITRE ATT&CK, Qdrant & Zendesk in n8n.txt",
+    "file_extension": ".txt",
+    "file_size": 18190,
+    "created_at": "2025-06-13T04:47:07.193238",
+    "is_directory": false
+  },
+  {
+    "filename": "airport_lounge_finder.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/airport_lounge_finder.json",
+    "file_extension": ".json",
+    "file_size": 5962,
+    "created_at": "2025-06-13T04:47:07.193245",
+    "is_directory": false
+  },
+  {
+    "filename": "environmental_data_dashboard.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/environmental_data_dashboard.json",
+    "file_extension": ".json",
+    "file_size": 6022,
+    "created_at": "2025-06-13T04:47:07.193252",
+    "is_directory": false
+  },
+  {
+    "filename": "Automate Your RFP Process with OpenAI Assistants.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Automate Your RFP Process with OpenAI Assistants.txt",
+    "file_extension": ".txt",
+    "file_size": 14297,
+    "created_at": "2025-06-13T04:47:07.193259",
+    "is_directory": false
+  },
+  {
+    "filename": "ad_campaign_performance_alert.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/ad_campaign_performance_alert.json",
+    "file_extension": ".json",
+    "file_size": 6027,
+    "created_at": "2025-06-13T04:47:07.193266",
+    "is_directory": false
+  },
+  {
+    "filename": "Analyze feedback and send a message on Mattermost.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Analyze feedback and send a message on Mattermost.txt",
+    "file_extension": ".txt",
+    "file_size": 2066,
+    "created_at": "2025-06-13T04:47:07.193273",
+    "is_directory": false
+  },
+  {
+    "filename": ".DS_Store",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/.DS_Store",
+    "file_extension": "",
+    "file_size": 6148,
+    "created_at": "2025-06-13T04:47:07.193279",
+    "is_directory": false
+  },
+  {
+    "filename": "rental_price_estimator.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/rental_price_estimator.json",
+    "file_extension": ".json",
+    "file_size": 6004,
+    "created_at": "2025-06-13T04:47:07.193286",
+    "is_directory": false
+  },
+  {
+    "filename": "product_description_generator.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/product_description_generator.json",
+    "file_extension": ".json",
+    "file_size": 7842,
+    "created_at": "2025-06-13T04:47:07.193293",
+    "is_directory": false
+  },
+  {
+    "filename": "Send Google analytics data to A.I. to analyze then save results in Baserow.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Send Google analytics data to A.I. to analyze then save results in Baserow.txt",
+    "file_extension": ".txt",
+    "file_size": 24195,
+    "created_at": "2025-06-13T04:47:07.193300",
+    "is_directory": false
+  },
+  {
+    "filename": "pr_crisis_detector.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/pr_crisis_detector.json",
+    "file_extension": ".json",
+    "file_size": 5947,
+    "created_at": "2025-06-13T04:47:07.193307",
+    "is_directory": false
+  },
+  {
+    "filename": "Ask questions about a PDF using AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Ask questions about a PDF using AI.txt",
+    "file_extension": ".txt",
+    "file_size": 7340,
+    "created_at": "2025-06-13T04:47:07.193313",
+    "is_directory": false
+  },
+  {
+    "filename": "Create a Branded AI-Powered Website Chatbot.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Create a Branded AI-Powered Website Chatbot.txt",
+    "file_extension": ".txt",
+    "file_size": 27600,
+    "created_at": "2025-06-13T04:47:07.193322",
+    "is_directory": false
+  },
+  {
+    "filename": "Telegram chat with PDF.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Telegram chat with PDF.txt",
+    "file_extension": ".txt",
+    "file_size": 10228,
+    "created_at": "2025-06-13T04:47:07.193328",
+    "is_directory": false
+  },
+  {
+    "filename": "order_shipped_notification.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/order_shipped_notification.json",
+    "file_extension": ".json",
+    "file_size": 7659,
+    "created_at": "2025-06-13T04:47:07.193335",
+    "is_directory": false
+  },
+  {
+    "filename": "\ud83e\udd16\ud83e\udde0 AI Agent Chatbot + LONG TERM Memory + Note Storage + Telegram.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/\ud83e\udd16\ud83e\udde0 AI Agent Chatbot + LONG TERM Memory + Note Storage + Telegram.txt",
+    "file_extension": ".txt",
+    "file_size": 12986,
+    "created_at": "2025-06-13T04:47:07.193343",
+    "is_directory": false
+  },
+  {
+    "filename": "AI Agent to chat with Airtable and analyze data.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI Agent to chat with Airtable and analyze data.txt",
+    "file_extension": ".txt",
+    "file_size": 33388,
+    "created_at": "2025-06-13T04:47:07.193350",
+    "is_directory": false
+  },
+  {
+    "filename": "Automate Image Validation Tasks using AI Vision.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Automate Image Validation Tasks using AI Vision.txt",
+    "file_extension": ".txt",
+    "file_size": 8817,
+    "created_at": "2025-06-13T04:47:07.193357",
+    "is_directory": false
+  },
+  {
+    "filename": "Convert URL HTML to Markdown Format and Get Page Links.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Convert URL HTML to Markdown Format and Get Page Links.txt",
+    "file_extension": ".txt",
+    "file_size": 9246,
+    "created_at": "2025-06-13T04:47:07.193364",
+    "is_directory": false
+  },
+  {
+    "filename": "applicant_feedback_folder.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/applicant_feedback_folder.json",
+    "file_extension": ".json",
+    "file_size": 7938,
+    "created_at": "2025-06-13T04:47:07.193371",
+    "is_directory": false
+  },
+  {
+    "filename": "Build a Financial Documents Assistant using Qdrant and Mistral.ai.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Build a Financial Documents Assistant using Qdrant and Mistral.ai.txt",
+    "file_extension": ".txt",
+    "file_size": 19038,
+    "created_at": "2025-06-13T04:47:07.193379",
+    "is_directory": false
+  },
+  {
+    "filename": "Summarize SERPBear data with AI (via Openrouter) and save it to Baserow.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Summarize SERPBear data with AI (via Openrouter) and save it to Baserow.txt",
+    "file_extension": ".txt",
+    "file_size": 7046,
+    "created_at": "2025-06-13T04:47:07.193386",
+    "is_directory": false
+  },
+  {
+    "filename": "ble_beacon_mapper.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/ble_beacon_mapper.json",
+    "file_extension": ".json",
+    "file_size": 5978,
+    "created_at": "2025-06-13T04:47:07.193393",
+    "is_directory": false
+  },
+  {
+    "filename": "quiz_auto_grader.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/quiz_auto_grader.json",
+    "file_extension": ".json",
+    "file_size": 7823,
+    "created_at": "2025-06-13T04:47:07.193400",
+    "is_directory": false
+  },
+  {
+    "filename": "Extract insights & analyse YouTube comments via AI Agent chat.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Extract insights & analyse YouTube comments via AI Agent chat.txt",
+    "file_extension": ".txt",
+    "file_size": 28091,
+    "created_at": "2025-06-13T04:47:07.193407",
+    "is_directory": false
+  },
+  {
+    "filename": "Detect toxic language in Telegram messages.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Detect toxic language in Telegram messages.txt",
+    "file_extension": ".txt",
+    "file_size": 2150,
+    "created_at": "2025-06-13T04:47:07.193414",
+    "is_directory": false
+  },
+  {
+    "filename": "monthly_social_media_report.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/monthly_social_media_report.json",
+    "file_extension": ".json",
+    "file_size": 7534,
+    "created_at": "2025-06-13T04:47:07.193421",
+    "is_directory": false
+  },
+  {
+    "filename": "Respond to WhatsApp Messages with AI Like a Pro!.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Respond to WhatsApp Messages with AI Like a Pro!.txt",
+    "file_extension": ".txt",
+    "file_size": 21746,
+    "created_at": "2025-06-13T04:47:07.193428",
+    "is_directory": false
+  },
+  {
+    "filename": "log_twitter_mentions_in_notion.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/log_twitter_mentions_in_notion.json",
+    "file_extension": ".json",
+    "file_size": 7554,
+    "created_at": "2025-06-13T04:47:07.193435",
+    "is_directory": false
+  },
+  {
+    "filename": "Prepare CSV files with GPT-4Prepare CSV files with GPT-4.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Prepare CSV files with GPT-4Prepare CSV files with GPT-4.txt",
+    "file_extension": ".txt",
+    "file_size": 10039,
+    "created_at": "2025-06-13T04:47:07.193443",
+    "is_directory": false
+  },
+  {
+    "filename": "Author and Publish Blog Posts From Google Sheets.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Author and Publish Blog Posts From Google Sheets.txt",
+    "file_extension": ".txt",
+    "file_size": 36265,
+    "created_at": "2025-06-13T04:47:07.193449",
+    "is_directory": false
+  },
+  {
+    "filename": "Make OpenAI Citation for File Retrieval RAG.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Make OpenAI Citation for File Retrieval RAG.txt",
+    "file_extension": ".txt",
+    "file_size": 10834,
+    "created_at": "2025-06-13T04:47:07.193456",
+    "is_directory": false
+  },
+  {
+    "filename": "Daily meetings summarization with Gemini AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Daily meetings summarization with Gemini AI.txt",
+    "file_extension": ".txt",
+    "file_size": 5172,
+    "created_at": "2025-06-13T04:47:07.193463",
+    "is_directory": false
+  },
+  {
+    "filename": "AI Automated HR Workflow for CV Analysis and Candidate Evaluation.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI Automated HR Workflow for CV Analysis and Candidate Evaluation.txt",
+    "file_extension": ".txt",
+    "file_size": 14438,
+    "created_at": "2025-06-13T04:47:07.193470",
+    "is_directory": false
+  },
+  {
+    "filename": "birthday_telegram_reminder.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/birthday_telegram_reminder.json",
+    "file_extension": ".json",
+    "file_size": 7647,
+    "created_at": "2025-06-13T04:47:07.193478",
+    "is_directory": false
+  },
+  {
+    "filename": "ev_charging_station_locator.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/ev_charging_station_locator.json",
+    "file_extension": ".json",
+    "file_size": 6040,
+    "created_at": "2025-06-13T04:47:07.193486",
+    "is_directory": false
+  },
+  {
+    "filename": "lemlist __ GPT-3_ Supercharge your sales workflows.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/lemlist __ GPT-3_ Supercharge your sales workflows.txt",
+    "file_extension": ".txt",
+    "file_size": 7024,
+    "created_at": "2025-06-13T04:47:07.193493",
+    "is_directory": false
+  },
+  {
+    "filename": "Analyze tradingview.com charts with Chrome extension, N8N and OpenAI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Analyze tradingview.com charts with Chrome extension, N8N and OpenAI.txt",
+    "file_extension": ".txt",
+    "file_size": 2990,
+    "created_at": "2025-06-13T04:47:07.193500",
+    "is_directory": false
+  },
+  {
+    "filename": "customer_sentiment_analysis.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/customer_sentiment_analysis.json",
+    "file_extension": ".json",
+    "file_size": 7822,
+    "created_at": "2025-06-13T04:47:07.193509",
+    "is_directory": false
+  },
+  {
+    "filename": "drone_image_crop_health.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/drone_image_crop_health.json",
+    "file_extension": ".json",
+    "file_size": 6009,
+    "created_at": "2025-06-13T04:47:07.193516",
+    "is_directory": false
+  },
+  {
+    "filename": "Automate Content Generator for WordPress with DeepSeek R1.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Automate Content Generator for WordPress with DeepSeek R1.txt",
+    "file_extension": ".txt",
+    "file_size": 12277,
+    "created_at": "2025-06-13T04:47:07.193523",
+    "is_directory": false
+  },
+  {
+    "filename": "mailchimp_campaign_tracking.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/mailchimp_campaign_tracking.json",
+    "file_extension": ".json",
+    "file_size": 7534,
+    "created_at": "2025-06-13T04:47:07.193529",
+    "is_directory": false
+  },
+  {
+    "filename": "calendar_to_clickup.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/calendar_to_clickup.json",
+    "file_extension": ".json",
+    "file_size": 7860,
+    "created_at": "2025-06-13T04:47:07.193535",
+    "is_directory": false
+  },
+  {
+    "filename": "price_update_google_sheet.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/price_update_google_sheet.json",
+    "file_extension": ".json",
+    "file_size": 7634,
+    "created_at": "2025-06-13T04:47:07.193541",
+    "is_directory": false
+  },
+  {
+    "filename": "abandoned_cart_email.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/abandoned_cart_email.json",
+    "file_extension": ".json",
+    "file_size": 7589,
+    "created_at": "2025-06-13T04:47:07.193547",
+    "is_directory": false
+  },
+  {
+    "filename": "csv_attachment_to_airtable.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/csv_attachment_to_airtable.json",
+    "file_extension": ".json",
+    "file_size": 7945,
+    "created_at": "2025-06-13T04:47:07.193553",
+    "is_directory": false
+  },
+  {
+    "filename": "Automate Blog Creation in Brand Voice with AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Automate Blog Creation in Brand Voice with AI.txt",
+    "file_extension": ".txt",
+    "file_size": 17085,
+    "created_at": "2025-06-13T04:47:07.193559",
+    "is_directory": false
+  },
+  {
+    "filename": "podcast_show_notes_generator.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/podcast_show_notes_generator.json",
+    "file_extension": ".json",
+    "file_size": 6022,
+    "created_at": "2025-06-13T04:47:07.193565",
+    "is_directory": false
+  },
+  {
+    "filename": "Write a WordPress post with AI (starting from a few keywords).txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Write a WordPress post with AI (starting from a few keywords).txt",
+    "file_extension": ".txt",
+    "file_size": 22040,
+    "created_at": "2025-06-13T04:47:07.193572",
+    "is_directory": false
+  },
+  {
+    "filename": "WordPress - AI Chatbot to enhance user experience - with Supabase and OpenAI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/WordPress - AI Chatbot to enhance user experience - with Supabase and OpenAI.txt",
+    "file_extension": ".txt",
+    "file_size": 33890,
+    "created_at": "2025-06-13T04:47:07.193578",
+    "is_directory": false
+  },
+  {
+    "filename": "Telegram AI bot assistant_ ready-made template for voice & text messages.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Telegram AI bot assistant_ ready-made template for voice & text messages.txt",
+    "file_extension": ".txt",
+    "file_size": 11167,
+    "created_at": "2025-06-13T04:47:07.193584",
+    "is_directory": false
+  },
+  {
+    "filename": "Notion to Pinecone Vector Store Integration.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Notion to Pinecone Vector Store Integration.txt",
+    "file_extension": ".txt",
+    "file_size": 5467,
+    "created_at": "2025-06-13T04:47:07.193590",
+    "is_directory": false
+  },
+  {
+    "filename": "AI Agent To Chat With Files In Supabase Storage.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI Agent To Chat With Files In Supabase Storage.txt",
+    "file_extension": ".txt",
+    "file_size": 17910,
+    "created_at": "2025-06-13T04:47:07.193596",
+    "is_directory": false
+  },
+  {
+    "filename": "Automate testimonials in Strapi with n8n.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Automate testimonials in Strapi with n8n.txt",
+    "file_extension": ".txt",
+    "file_size": 6310,
+    "created_at": "2025-06-13T04:47:07.193603",
+    "is_directory": false
+  },
+  {
+    "filename": "Gmail AI Auto-Responder_ Create Draft Replies to incoming emails.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Gmail AI Auto-Responder_ Create Draft Replies to incoming emails.txt",
+    "file_extension": ".txt",
+    "file_size": 6952,
+    "created_at": "2025-06-13T04:47:07.193609",
+    "is_directory": false
+  },
+  {
+    "filename": "sendgrid_bounce_alert.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/sendgrid_bounce_alert.json",
+    "file_extension": ".json",
+    "file_size": 7486,
+    "created_at": "2025-06-13T04:47:07.193615",
+    "is_directory": false
+  },
+  {
+    "filename": "lead_to_hubspot.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/lead_to_hubspot.json",
+    "file_extension": ".json",
+    "file_size": 7434,
+    "created_at": "2025-06-13T04:47:07.193621",
+    "is_directory": false
+  },
+  {
+    "filename": "Automated End-to-End Fine-Tuning of OpenAI Models with Google Drive Integration.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Automated End-to-End Fine-Tuning of OpenAI Models with Google Drive Integration.txt",
+    "file_extension": ".txt",
+    "file_size": 5709,
+    "created_at": "2025-06-13T04:47:07.193627",
+    "is_directory": false
+  },
+  {
+    "filename": "blood_test_email_alert.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/blood_test_email_alert.json",
+    "file_extension": ".json",
+    "file_size": 7623,
+    "created_at": "2025-06-13T04:47:07.193633",
+    "is_directory": false
+  },
+  {
+    "filename": "Vector Database as a Big Data Analysis Tool for AI Agents [1_3 anomaly][1_2 KNN].txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Vector Database as a Big Data Analysis Tool for AI Agents [1_3 anomaly][1_2 KNN].txt",
+    "file_extension": ".txt",
+    "file_size": 18757,
+    "created_at": "2025-06-13T04:47:07.193639",
+    "is_directory": false
+  },
+  {
+    "filename": "Build a Tax Code Assistant with Qdrant, Mistral.ai and OpenAI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Build a Tax Code Assistant with Qdrant, Mistral.ai and OpenAI.txt",
+    "file_extension": ".txt",
+    "file_size": 23251,
+    "created_at": "2025-06-13T04:47:07.193645",
+    "is_directory": false
+  },
+  {
+    "filename": "AI-Powered RAG Workflow For Stock Earnings Report Analysis.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI-Powered RAG Workflow For Stock Earnings Report Analysis.txt",
+    "file_extension": ".txt",
+    "file_size": 17500,
+    "created_at": "2025-06-13T04:47:07.193652",
+    "is_directory": false
+  },
+  {
+    "filename": "Customer Support Channel and Ticketing System with Slack and Linear.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Customer Support Channel and Ticketing System with Slack and Linear.txt",
+    "file_extension": ".txt",
+    "file_size": 11640,
+    "created_at": "2025-06-13T04:47:07.193658",
+    "is_directory": false
+  },
+  {
+    "filename": "loot\u2011box_probability_calculator.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/loot\u2011box_probability_calculator.json",
+    "file_extension": ".json",
+    "file_size": 6062,
+    "created_at": "2025-06-13T04:47:07.193664",
+    "is_directory": false
+  },
+  {
+    "filename": "Create dynamic Twitter profile banner.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Create dynamic Twitter profile banner.txt",
+    "file_extension": ".txt",
+    "file_size": 5015,
+    "created_at": "2025-06-13T04:47:07.193672",
+    "is_directory": false
+  },
+  {
+    "filename": "AI chatbot that can search the web.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI chatbot that can search the web.txt",
+    "file_extension": ".txt",
+    "file_size": 3079,
+    "created_at": "2025-06-13T04:47:07.193678",
+    "is_directory": false
+  },
+  {
+    "filename": "auto-post_blogs_to_linkedin_and_twitter.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/auto-post_blogs_to_linkedin_and_twitter.json",
+    "file_extension": ".json",
+    "file_size": 7630,
+    "created_at": "2025-06-13T04:47:07.193684",
+    "is_directory": false
+  },
+  {
+    "filename": "AI_ Ask questions about any data source (using the n8n workflow retriever).txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI_ Ask questions about any data source (using the n8n workflow retriever).txt",
+    "file_extension": ".txt",
+    "file_size": 2981,
+    "created_at": "2025-06-13T04:47:07.193691",
+    "is_directory": false
+  },
+  {
+    "filename": "Generate Text-to-Speech Using Elevenlabs via API.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Generate Text-to-Speech Using Elevenlabs via API.txt",
+    "file_extension": ".txt",
+    "file_size": 3927,
+    "created_at": "2025-06-13T04:47:07.193697",
+    "is_directory": false
+  },
+  {
+    "filename": "Summarize your emails with A.I. (via Openrouter) and send to Line messenger (1).txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Summarize your emails with A.I. (via Openrouter) and send to Line messenger (1).txt",
+    "file_extension": ".txt",
+    "file_size": 4976,
+    "created_at": "2025-06-13T04:47:07.193703",
+    "is_directory": false
+  },
+  {
+    "filename": "machine_downtime_predictor.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/machine_downtime_predictor.json",
+    "file_extension": ".json",
+    "file_size": 6024,
+    "created_at": "2025-06-13T04:47:07.193710",
+    "is_directory": false
+  },
+  {
+    "filename": "Create, update, and get a profile in Humantic AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Create, update, and get a profile in Humantic AI.txt",
+    "file_extension": ".txt",
+    "file_size": 1788,
+    "created_at": "2025-06-13T04:47:07.193716",
+    "is_directory": false
+  },
+  {
+    "filename": "currency_exchange_estimator.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/currency_exchange_estimator.json",
+    "file_extension": ".json",
+    "file_size": 6030,
+    "created_at": "2025-06-13T04:47:07.193722",
+    "is_directory": false
+  },
+  {
+    "filename": "road_trip_stop_planner.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/road_trip_stop_planner.json",
+    "file_extension": ".json",
+    "file_size": 6004,
+    "created_at": "2025-06-13T04:47:07.193728",
+    "is_directory": false
+  },
+  {
+    "filename": "Chat with OpenAIs GPT via a simple Telegram Bot.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Chat with OpenAIs GPT via a simple Telegram Bot.txt",
+    "file_extension": ".txt",
+    "file_size": 1924,
+    "created_at": "2025-06-13T04:47:07.193734",
+    "is_directory": false
+  },
+  {
+    "filename": "predictive_maintenance_alert.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/predictive_maintenance_alert.json",
+    "file_extension": ".json",
+    "file_size": 6022,
+    "created_at": "2025-06-13T04:47:07.193740",
+    "is_directory": false
+  },
+  {
+    "filename": "cron_success_slack.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/cron_success_slack.json",
+    "file_extension": ".json",
+    "file_size": 7587,
+    "created_at": "2025-06-13T04:47:07.193746",
+    "is_directory": false
+  },
+  {
+    "filename": "Building RAG Chatbot for Movie Recommendations with Qdrant and Open AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Building RAG Chatbot for Movie Recommendations with Qdrant and Open AI.txt",
+    "file_extension": ".txt",
+    "file_size": 15163,
+    "created_at": "2025-06-13T04:47:07.193753",
+    "is_directory": false
+  },
+  {
+    "filename": "recall_notice_tracker.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/recall_notice_tracker.json",
+    "file_extension": ".json",
+    "file_size": 5999,
+    "created_at": "2025-06-13T04:47:07.193762",
+    "is_directory": false
+  },
+  {
+    "filename": "Notion knowledge base AI assistant.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Notion knowledge base AI assistant.txt",
+    "file_extension": ".txt",
+    "file_size": 10276,
+    "created_at": "2025-06-13T04:47:07.193768",
+    "is_directory": false
+  },
+  {
+    "filename": "live_stream_chat_moderator.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/live_stream_chat_moderator.json",
+    "file_extension": ".json",
+    "file_size": 6024,
+    "created_at": "2025-06-13T04:47:07.193774",
+    "is_directory": false
+  },
+  {
+    "filename": "image_captioning.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/image_captioning.json",
+    "file_extension": ".json",
+    "file_size": 7446,
+    "created_at": "2025-06-13T04:47:07.193780",
+    "is_directory": false
+  },
+  {
+    "filename": "irrigation_schedule_optimizer.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/irrigation_schedule_optimizer.json",
+    "file_extension": ".json",
+    "file_size": 6029,
+    "created_at": "2025-06-13T04:47:07.193786",
+    "is_directory": false
+  },
+  {
+    "filename": "Automated Hugging Face Paper Summary Fetching & Categorization Workflow.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Automated Hugging Face Paper Summary Fetching & Categorization Workflow.txt",
+    "file_extension": ".txt",
+    "file_size": 12452,
+    "created_at": "2025-06-13T04:47:07.193793",
+    "is_directory": false
+  },
+  {
+    "filename": "power_outage_sms.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/power_outage_sms.json",
+    "file_extension": ".json",
+    "file_size": 5962,
+    "created_at": "2025-06-13T04:47:07.193799",
+    "is_directory": false
+  },
+  {
+    "filename": "Conversational Interviews with AI Agents and n8n Forms.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Conversational Interviews with AI Agents and n8n Forms.txt",
+    "file_extension": ".txt",
+    "file_size": 40263,
+    "created_at": "2025-06-13T04:47:07.193805",
+    "is_directory": false
+  },
+  {
+    "filename": "Add positive feedback messages to a table in Notion.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Add positive feedback messages to a table in Notion.txt",
+    "file_extension": ".txt",
+    "file_size": 2873,
+    "created_at": "2025-06-13T04:47:07.193812",
+    "is_directory": false
+  },
+  {
+    "filename": "Using External Workflows as Tools in n8n.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Using External Workflows as Tools in n8n.txt",
+    "file_extension": ".txt",
+    "file_size": 2462,
+    "created_at": "2025-06-13T04:47:07.193818",
+    "is_directory": false
+  },
+  {
+    "filename": "Flux Dev Image Generation (Fal.ai) to Google Drive.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Flux Dev Image Generation (Fal.ai) to Google Drive.txt",
+    "file_extension": ".txt",
+    "file_size": 6668,
+    "created_at": "2025-06-13T04:47:07.193824",
+    "is_directory": false
+  },
+  {
+    "filename": "Text automations using Apple Shortcuts.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Text automations using Apple Shortcuts.txt",
+    "file_extension": ".txt",
+    "file_size": 10110,
+    "created_at": "2025-06-13T04:47:07.193830",
+    "is_directory": false
+  },
+  {
+    "filename": "Personal Shopper Chatbot for WooCommerce with RAG using Google Drive and openAI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Personal Shopper Chatbot for WooCommerce with RAG using Google Drive and openAI.txt",
+    "file_extension": ".txt",
+    "file_size": 14398,
+    "created_at": "2025-06-13T04:47:07.193837",
+    "is_directory": false
+  },
+  {
+    "filename": "CV Screening with OpenAI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/CV Screening with OpenAI.txt",
+    "file_extension": ".txt",
+    "file_size": 12323,
+    "created_at": "2025-06-13T04:47:07.193842",
+    "is_directory": false
+  },
+  {
+    "filename": "lead_scoring_with_mls_data.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/lead_scoring_with_mls_data.json",
+    "file_extension": ".json",
+    "file_size": 6014,
+    "created_at": "2025-06-13T04:47:07.193849",
+    "is_directory": false
+  },
+  {
+    "filename": "Chat with GitHub API Documentation_ RAG-Powered Chatbot with Pinecone & OpenAI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Chat with GitHub API Documentation_ RAG-Powered Chatbot with Pinecone & OpenAI.txt",
+    "file_extension": ".txt",
+    "file_size": 8239,
+    "created_at": "2025-06-13T04:47:07.193855",
+    "is_directory": false
+  },
+  {
+    "filename": "Modular & Customizable AI-Powered Email Routing_ Text Classifier for eCommerce.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Modular & Customizable AI-Powered Email Routing_ Text Classifier for eCommerce.txt",
+    "file_extension": ".txt",
+    "file_size": 18495,
+    "created_at": "2025-06-13T04:47:07.193861",
+    "is_directory": false
+  },
+  {
+    "filename": "weekly_notes_backup.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/weekly_notes_backup.json",
+    "file_extension": ".json",
+    "file_size": 7580,
+    "created_at": "2025-06-13T04:47:07.193868",
+    "is_directory": false
+  },
+  {
+    "filename": "product_launch_email.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/product_launch_email.json",
+    "file_extension": ".json",
+    "file_size": 7462,
+    "created_at": "2025-06-13T04:47:07.193874",
+    "is_directory": false
+  },
+  {
+    "filename": "Transform Image to Lego Style Using Line and Dall-E.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Transform Image to Lego Style Using Line and Dall-E.txt",
+    "file_extension": ".txt",
+    "file_size": 3535,
+    "created_at": "2025-06-13T04:47:07.193880",
+    "is_directory": false
+  },
+  {
+    "filename": "ETL pipeline for text processing.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/ETL pipeline for text processing.txt",
+    "file_extension": ".txt",
+    "file_size": 3285,
+    "created_at": "2025-06-13T04:47:07.193886",
+    "is_directory": false
+  },
+  {
+    "filename": "ocr_receipts_to_notion.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/ocr_receipts_to_notion.json",
+    "file_extension": ".json",
+    "file_size": 7494,
+    "created_at": "2025-06-13T04:47:07.193892",
+    "is_directory": false
+  },
+  {
+    "filename": "daily_content_ideas.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/daily_content_ideas.json",
+    "file_extension": ".json",
+    "file_size": 7454,
+    "created_at": "2025-06-13T04:47:07.193898",
+    "is_directory": false
+  },
+  {
+    "filename": "Open Deep Research - AI-Powered Autonomous Research Workflow.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Open Deep Research - AI-Powered Autonomous Research Workflow.txt",
+    "file_extension": ".txt",
+    "file_size": 10743,
+    "created_at": "2025-06-13T04:47:07.193904",
+    "is_directory": false
+  },
+  {
+    "filename": "toggl_daily_report.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/toggl_daily_report.json",
+    "file_extension": ".json",
+    "file_size": 7857,
+    "created_at": "2025-06-13T04:47:07.193910",
+    "is_directory": false
+  },
+  {
+    "filename": "carbon_footprint_estimator.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/carbon_footprint_estimator.json",
+    "file_extension": ".json",
+    "file_size": 6024,
+    "created_at": "2025-06-13T04:47:07.193916",
+    "is_directory": false
+  },
+  {
+    "filename": "Scrape and summarize posts of a news site without RSS feed using AI and save them to a NocoDB.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Scrape and summarize posts of a news site without RSS feed using AI and save them to a NocoDB.txt",
+    "file_extension": ".txt",
+    "file_size": 17766,
+    "created_at": "2025-06-13T04:47:07.193923",
+    "is_directory": false
+  },
+  {
+    "filename": "forward_attachments.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/forward_attachments.json",
+    "file_extension": ".json",
+    "file_size": 7734,
+    "created_at": "2025-06-13T04:47:07.193929",
+    "is_directory": false
+  },
+  {
+    "filename": "translate_form_submissions.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/translate_form_submissions.json",
+    "file_extension": ".json",
+    "file_size": 7514,
+    "created_at": "2025-06-13T04:47:07.193938",
+    "is_directory": false
+  },
+  {
+    "filename": "Send a random recipe once a day to Telegram.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Send a random recipe once a day to Telegram.txt",
+    "file_extension": ".txt",
+    "file_size": 7363,
+    "created_at": "2025-06-13T04:47:07.193944",
+    "is_directory": false
+  },
+  {
+    "filename": "Screen Applicants With AI, notify HR and save them in a Google Sheet.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Screen Applicants With AI, notify HR and save them in a Google Sheet.txt",
+    "file_extension": ".txt",
+    "file_size": 8678,
+    "created_at": "2025-06-13T04:47:07.193950",
+    "is_directory": false
+  },
+  {
+    "filename": "Automate Screenshots with URLbox & Analyze them with AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Automate Screenshots with URLbox & Analyze them with AI.txt",
+    "file_extension": ".txt",
+    "file_size": 4366,
+    "created_at": "2025-06-13T04:47:07.193956",
+    "is_directory": false
+  },
+  {
+    "filename": "compliance_checklist_builder.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/compliance_checklist_builder.json",
+    "file_extension": ".json",
+    "file_size": 6024,
+    "created_at": "2025-06-13T04:47:07.193962",
+    "is_directory": false
+  },
+  {
+    "filename": "Dynamically generate a webpage from user request using OpenAI Structured Output.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Dynamically generate a webpage from user request using OpenAI Structured Output.txt",
+    "file_extension": ".txt",
+    "file_size": 7929,
+    "created_at": "2025-06-13T04:47:07.193968",
+    "is_directory": false
+  },
+  {
+    "filename": "Qualify replies from Pipedrive persons with AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Qualify replies from Pipedrive persons with AI.txt",
+    "file_extension": ".txt",
+    "file_size": 6288,
+    "created_at": "2025-06-13T04:47:07.193974",
+    "is_directory": false
+  },
+  {
+    "filename": "monthly_expense_report.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/monthly_expense_report.json",
+    "file_extension": ".json",
+    "file_size": 7494,
+    "created_at": "2025-06-13T04:47:07.193980",
+    "is_directory": false
+  },
+  {
+    "filename": "iot_device_firmware_update_planner.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/iot_device_firmware_update_planner.json",
+    "file_extension": ".json",
+    "file_size": 6063,
+    "created_at": "2025-06-13T04:47:07.193986",
+    "is_directory": false
+  },
+  {
+    "filename": "Autonomous AI crawler.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Autonomous AI crawler.txt",
+    "file_extension": ".txt",
+    "file_size": 28621,
+    "created_at": "2025-06-13T04:47:07.193992",
+    "is_directory": false
+  },
+  {
+    "filename": "AI Agent _ Google calendar assistant using OpenAI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI Agent _ Google calendar assistant using OpenAI.txt",
+    "file_extension": ".txt",
+    "file_size": 11965,
+    "created_at": "2025-06-13T04:47:07.193999",
+    "is_directory": false
+  },
+  {
+    "filename": "Talk to your SQLite database with a LangChain AI Agent.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Talk to your SQLite database with a LangChain AI Agent.txt",
+    "file_extension": ".txt",
+    "file_size": 5713,
+    "created_at": "2025-06-13T04:47:07.194005",
+    "is_directory": false
+  },
+  {
+    "filename": "Analyse papers from Hugging Face with AI and store them in Notion.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Analyse papers from Hugging Face with AI and store them in Notion.txt",
+    "file_extension": ".txt",
+    "file_size": 9419,
+    "created_at": "2025-06-13T04:47:07.194011",
+    "is_directory": false
+  },
+  {
+    "filename": "music_playlist_mood_tagger.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/music_playlist_mood_tagger.json",
+    "file_extension": ".json",
+    "file_size": 5985,
+    "created_at": "2025-06-13T04:47:07.194017",
+    "is_directory": false
+  },
+  {
+    "filename": "mortgage_rate_alert.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/mortgage_rate_alert.json",
+    "file_extension": ".json",
+    "file_size": 5979,
+    "created_at": "2025-06-13T04:47:07.194023",
+    "is_directory": false
+  },
+  {
+    "filename": "Vector Database as a Big Data Analysis Tool for AI Agents [2_2 KNN].txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Vector Database as a Big Data Analysis Tool for AI Agents [2_2 KNN].txt",
+    "file_extension": ".txt",
+    "file_size": 13098,
+    "created_at": "2025-06-13T04:47:07.194029",
+    "is_directory": false
+  },
+  {
+    "filename": "Breakdown Documents into Study Notes using Templating MistralAI and Qdrant.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Breakdown Documents into Study Notes using Templating MistralAI and Qdrant.txt",
+    "file_extension": ".txt",
+    "file_size": 24212,
+    "created_at": "2025-06-13T04:47:07.194035",
+    "is_directory": false
+  },
+  {
+    "filename": "Effortless Email Management with AI-Powered Summarization & Review.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Effortless Email Management with AI-Powered Summarization & Review.txt",
+    "file_extension": ".txt",
+    "file_size": 16999,
+    "created_at": "2025-06-13T04:47:07.194041",
+    "is_directory": false
+  },
+  {
+    "filename": "Custom LangChain agent written in JavaScript.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Custom LangChain agent written in JavaScript.txt",
+    "file_extension": ".txt",
+    "file_size": 4524,
+    "created_at": "2025-06-13T04:47:07.194047",
+    "is_directory": false
+  },
+  {
+    "filename": "Extract and process information directly from PDF using Claude and Gemini.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Extract and process information directly from PDF using Claude and Gemini.txt",
+    "file_extension": ".txt",
+    "file_size": 7199,
+    "created_at": "2025-06-13T04:47:07.194053",
+    "is_directory": false
+  },
+  {
+    "filename": "notion_api_update.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/notion_api_update.json",
+    "file_extension": ".json",
+    "file_size": 7578,
+    "created_at": "2025-06-13T04:47:07.194059",
+    "is_directory": false
+  },
+  {
+    "filename": "battery_health_monitor.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/battery_health_monitor.json",
+    "file_extension": ".json",
+    "file_size": 5978,
+    "created_at": "2025-06-13T04:47:07.194066",
+    "is_directory": false
+  },
+  {
+    "filename": "Twitter Virtual AI Influencer.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Twitter Virtual AI Influencer.txt",
+    "file_extension": ".txt",
+    "file_size": 6769,
+    "created_at": "2025-06-13T04:47:07.194071",
+    "is_directory": false
+  },
+  {
+    "filename": "KB Tool - Confluence Knowledge Base.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/KB Tool - Confluence Knowledge Base.txt",
+    "file_extension": ".txt",
+    "file_size": 5845,
+    "created_at": "2025-06-13T04:47:07.194077",
+    "is_directory": false
+  },
+  {
+    "filename": "game_bug_triage.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/game_bug_triage.json",
+    "file_extension": ".json",
+    "file_size": 5932,
+    "created_at": "2025-06-13T04:47:07.194083",
+    "is_directory": false
+  },
+  {
+    "filename": "AI Customer feedback sentiment analysis.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI Customer feedback sentiment analysis.txt",
+    "file_extension": ".txt",
+    "file_size": 6590,
+    "created_at": "2025-06-13T04:47:07.194089",
+    "is_directory": false
+  },
+  {
+    "filename": "Chat with Postgresql Database.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Chat with Postgresql Database.txt",
+    "file_extension": ".txt",
+    "file_size": 7006,
+    "created_at": "2025-06-13T04:47:07.194095",
+    "is_directory": false
+  },
+  {
+    "filename": "AI Voice Chat using Webhook, Memory Manager, OpenAI, Google Gemini & ElevenLabs.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI Voice Chat using Webhook, Memory Manager, OpenAI, Google Gemini & ElevenLabs.txt",
+    "file_extension": ".txt",
+    "file_size": 8267,
+    "created_at": "2025-06-13T04:47:07.194101",
+    "is_directory": false
+  },
+  {
+    "filename": "Generating Image Embeddings via Textual Summarisation.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Generating Image Embeddings via Textual Summarisation.txt",
+    "file_extension": ".txt",
+    "file_size": 12048,
+    "created_at": "2025-06-13T04:47:07.194108",
+    "is_directory": false
+  },
+  {
+    "filename": "Generate SEO Seed Keywords Using AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Generate SEO Seed Keywords Using AI.txt",
+    "file_extension": ".txt",
+    "file_size": 9009,
+    "created_at": "2025-06-13T04:47:07.194114",
+    "is_directory": false
+  },
+  {
+    "filename": "dealer_lead_qualifier.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/dealer_lead_qualifier.json",
+    "file_extension": ".json",
+    "file_size": 5989,
+    "created_at": "2025-06-13T04:47:07.194121",
+    "is_directory": false
+  },
+  {
+    "filename": "breaking_news_summarizer.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/breaking_news_summarizer.json",
+    "file_extension": ".json",
+    "file_size": 6013,
+    "created_at": "2025-06-13T04:47:07.194127",
+    "is_directory": false
+  },
+  {
+    "filename": "Sentiment Analysis Tracking on Support Issues with Linear and Slack (1).txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Sentiment Analysis Tracking on Support Issues with Linear and Slack (1).txt",
+    "file_extension": ".txt",
+    "file_size": 17943,
+    "created_at": "2025-06-13T04:47:07.194133",
+    "is_directory": false
+  },
+  {
+    "filename": "Summarize your emails with A.I. (via Openrouter) and send to Line messenger.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Summarize your emails with A.I. (via Openrouter) and send to Line messenger.txt",
+    "file_extension": ".txt",
+    "file_size": 4976,
+    "created_at": "2025-06-13T04:47:07.194139",
+    "is_directory": false
+  },
+  {
+    "filename": "OpenAI assistant with custom tools.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/OpenAI assistant with custom tools.txt",
+    "file_extension": ".txt",
+    "file_size": 7905,
+    "created_at": "2025-06-13T04:47:07.194145",
+    "is_directory": false
+  },
+  {
+    "filename": "Translate audio using AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Translate audio using AI.txt",
+    "file_extension": ".txt",
+    "file_size": 7430,
+    "created_at": "2025-06-13T04:47:07.194150",
+    "is_directory": false
+  },
+  {
+    "filename": "\ud83d\udd0d Perplexity Research to HTML_ AI-Powered Content Creation.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/\ud83d\udd0d Perplexity Research to HTML_ AI-Powered Content Creation.txt",
+    "file_extension": ".txt",
+    "file_size": 141476,
+    "created_at": "2025-06-13T04:47:07.194157",
+    "is_directory": false
+  },
+  {
+    "filename": "pr_merged_qa_notify.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/pr_merged_qa_notify.json",
+    "file_extension": ".json",
+    "file_size": 7856,
+    "created_at": "2025-06-13T04:47:07.194163",
+    "is_directory": false
+  },
+  {
+    "filename": "neighborhood_safety_insights.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/neighborhood_safety_insights.json",
+    "file_extension": ".json",
+    "file_size": 6018,
+    "created_at": "2025-06-13T04:47:07.194169",
+    "is_directory": false
+  },
+  {
+    "filename": "mqtt_topic_monitor.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/mqtt_topic_monitor.json",
+    "file_extension": ".json",
+    "file_size": 5947,
+    "created_at": "2025-06-13T04:47:07.194175",
+    "is_directory": false
+  },
+  {
+    "filename": "soil_nutrient_analysis.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/soil_nutrient_analysis.json",
+    "file_extension": ".json",
+    "file_size": 6005,
+    "created_at": "2025-06-13T04:47:07.194181",
+    "is_directory": false
+  },
+  {
+    "filename": "edge_device_log_compressor.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/edge_device_log_compressor.json",
+    "file_extension": ".json",
+    "file_size": 5997,
+    "created_at": "2025-06-13T04:47:07.194187",
+    "is_directory": false
+  },
+  {
+    "filename": "Enrich Pipedrive_s Organization Data with OpenAI GPT-4o & Notify it in Slack.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Enrich Pipedrive_s Organization Data with OpenAI GPT-4o & Notify it in Slack.txt",
+    "file_extension": ".txt",
+    "file_size": 10543,
+    "created_at": "2025-06-13T04:47:07.194193",
+    "is_directory": false
+  },
+  {
+    "filename": "\ud83e\udd16 Telegram Messaging Agent for Text_Audio_Images.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/\ud83e\udd16 Telegram Messaging Agent for Text_Audio_Images.txt",
+    "file_extension": ".txt",
+    "file_size": 21189,
+    "created_at": "2025-06-13T04:47:07.194200",
+    "is_directory": false
+  },
+  {
+    "filename": "Compose reply draft in Gmail with OpenAI Assistant.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Compose reply draft in Gmail with OpenAI Assistant.txt",
+    "file_extension": ".txt",
+    "file_size": 11780,
+    "created_at": "2025-06-13T04:47:07.194206",
+    "is_directory": false
+  },
+  {
+    "filename": "Automated AI image analysis and response via Telegram.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Automated AI image analysis and response via Telegram.txt",
+    "file_extension": ".txt",
+    "file_size": 7706,
+    "created_at": "2025-06-13T04:47:07.194212",
+    "is_directory": false
+  },
+  {
+    "filename": "Recipe Recommendations with Qdrant and Mistral.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Recipe Recommendations with Qdrant and Mistral.txt",
+    "file_extension": ".txt",
+    "file_size": 22221,
+    "created_at": "2025-06-13T04:47:07.194218",
+    "is_directory": false
+  },
+  {
+    "filename": "fitness_api_weekly_report.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/fitness_api_weekly_report.json",
+    "file_extension": ".json",
+    "file_size": 7634,
+    "created_at": "2025-06-13T04:47:07.194224",
+    "is_directory": false
+  },
+  {
+    "filename": "industrial_iot_kpi_email.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/industrial_iot_kpi_email.json",
+    "file_extension": ".json",
+    "file_size": 5975,
+    "created_at": "2025-06-13T04:47:07.194230",
+    "is_directory": false
+  },
+  {
+    "filename": "Enrich FAQ sections on your website pages at scale with AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Enrich FAQ sections on your website pages at scale with AI.txt",
+    "file_extension": ".txt",
+    "file_size": 32816,
+    "created_at": "2025-06-13T04:47:07.194236",
+    "is_directory": false
+  },
+  {
+    "filename": "Prompt-based Object Detection with Gemini 2.0.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Prompt-based Object Detection with Gemini 2.0.txt",
+    "file_extension": ".txt",
+    "file_size": 11417,
+    "created_at": "2025-06-13T04:47:07.194242",
+    "is_directory": false
+  },
+  {
+    "filename": "auto_reply_to_faqs.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/auto_reply_to_faqs.json",
+    "file_extension": ".json",
+    "file_size": 7732,
+    "created_at": "2025-06-13T04:47:07.194249",
+    "is_directory": false
+  },
+  {
+    "filename": "script_dialogue_analyzer.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/script_dialogue_analyzer.json",
+    "file_extension": ".json",
+    "file_size": 6013,
+    "created_at": "2025-06-13T04:47:07.194255",
+    "is_directory": false
+  },
+  {
+    "filename": "Extract Information from a Logo Sheet using forms, AI, Google Sheet and Airtable.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Extract Information from a Logo Sheet using forms, AI, Google Sheet and Airtable.txt",
+    "file_extension": ".txt",
+    "file_size": 36511,
+    "created_at": "2025-06-13T04:47:07.194261",
+    "is_directory": false
+  },
+  {
+    "filename": "voice_note_transcription.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/voice_note_transcription.json",
+    "file_extension": ".json",
+    "file_size": 7494,
+    "created_at": "2025-06-13T04:47:07.194267",
+    "is_directory": false
+  },
+  {
+    "filename": "twitch_clip_highlights_script.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/twitch_clip_highlights_script.json",
+    "file_extension": ".json",
+    "file_size": 6029,
+    "created_at": "2025-06-13T04:47:07.194273",
+    "is_directory": false
+  },
+  {
+    "filename": "onboarding_checklist_slack.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/onboarding_checklist_slack.json",
+    "file_extension": ".json",
+    "file_size": 7659,
+    "created_at": "2025-06-13T04:47:07.194278",
+    "is_directory": false
+  },
+  {
+    "filename": "drink_water_reminder.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/drink_water_reminder.json",
+    "file_extension": ".json",
+    "file_size": 7593,
+    "created_at": "2025-06-13T04:47:07.194285",
+    "is_directory": false
+  },
+  {
+    "filename": "cross-post_youtube_uploads_to_facebook.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/cross-post_youtube_uploads_to_facebook.json",
+    "file_extension": ".json",
+    "file_size": 7936,
+    "created_at": "2025-06-13T04:47:07.194291",
+    "is_directory": false
+  },
+  {
+    "filename": "AI-Powered Children_s English Storytelling on Telegram with OpenAI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI-Powered Children_s English Storytelling on Telegram with OpenAI.txt",
+    "file_extension": ".txt",
+    "file_size": 10879,
+    "created_at": "2025-06-13T04:47:07.194297",
+    "is_directory": false
+  },
+  {
+    "filename": "interview_scheduler.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/interview_scheduler.json",
+    "file_extension": ".json",
+    "file_size": 7584,
+    "created_at": "2025-06-13T04:47:07.194303",
+    "is_directory": false
+  },
+  {
+    "filename": "Enhance Customer Chat by Buffering Messages with Twilio and Redis.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Enhance Customer Chat by Buffering Messages with Twilio and Redis.txt",
+    "file_extension": ".txt",
+    "file_size": 10234,
+    "created_at": "2025-06-13T04:47:07.194309",
+    "is_directory": false
+  },
+  {
+    "filename": "Vector Database as a Big Data Analysis Tool for AI Agents [2_2 KNN] (1).txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Vector Database as a Big Data Analysis Tool for AI Agents [2_2 KNN] (1).txt",
+    "file_extension": ".txt",
+    "file_size": 13098,
+    "created_at": "2025-06-13T04:47:07.194315",
+    "is_directory": false
+  },
+  {
+    "filename": "AI-Powered Information Monitoring with OpenAI, Google Sheets, Jina AI and Slack.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI-Powered Information Monitoring with OpenAI, Google Sheets, Jina AI and Slack.txt",
+    "file_extension": ".txt",
+    "file_size": 34644,
+    "created_at": "2025-06-13T04:47:07.194321",
+    "is_directory": false
+  },
+  {
+    "filename": "AI Youtube Trend Finder Based On Niche.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI Youtube Trend Finder Based On Niche.txt",
+    "file_extension": ".txt",
+    "file_size": 11743,
+    "created_at": "2025-06-13T04:47:07.194327",
+    "is_directory": false
+  },
+  {
+    "filename": "Ultimate Scraper Workflow for n8n.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Ultimate Scraper Workflow for n8n.txt",
+    "file_extension": ".txt",
+    "file_size": 41103,
+    "created_at": "2025-06-13T04:47:07.194333",
+    "is_directory": false
+  },
+  {
+    "filename": "Build an OpenAI Assistant with Google Drive Integration.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Build an OpenAI Assistant with Google Drive Integration.txt",
+    "file_extension": ".txt",
+    "file_size": 6641,
+    "created_at": "2025-06-13T04:47:07.194339",
+    "is_directory": false
+  },
+  {
+    "filename": "flight_price_drop_alert.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/flight_price_drop_alert.json",
+    "file_extension": ".json",
+    "file_size": 5999,
+    "created_at": "2025-06-13T04:47:07.194345",
+    "is_directory": false
+  },
+  {
+    "filename": "survey_auto_analyze.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/survey_auto_analyze.json",
+    "file_extension": ".json",
+    "file_size": 7860,
+    "created_at": "2025-06-13T04:47:07.194351",
+    "is_directory": false
+  },
+  {
+    "filename": "case_law_summarizer.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/case_law_summarizer.json",
+    "file_extension": ".json",
+    "file_size": 5977,
+    "created_at": "2025-06-13T04:47:07.194357",
+    "is_directory": false
+  },
+  {
+    "filename": "Handling Appointment Leads and Follow-up With Twilio, Cal.com and AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Handling Appointment Leads and Follow-up With Twilio, Cal.com and AI.txt",
+    "file_extension": ".txt",
+    "file_size": 44094,
+    "created_at": "2025-06-13T04:47:07.194363",
+    "is_directory": false
+  },
+  {
+    "filename": "Transcribe Audio Files, Summarize with GPT-4, and Store in Notion.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Transcribe Audio Files, Summarize with GPT-4, and Store in Notion.txt",
+    "file_extension": ".txt",
+    "file_size": 6106,
+    "created_at": "2025-06-13T04:47:07.194369",
+    "is_directory": false
+  },
+  {
+    "filename": "LINE Assistant with Google Calendar and Gmail Integration.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/LINE Assistant with Google Calendar and Gmail Integration.txt",
+    "file_extension": ".txt",
+    "file_size": 10496,
+    "created_at": "2025-06-13T04:47:07.194375",
+    "is_directory": false
+  },
+  {
+    "filename": "Query Perplexity AI from your n8n workflows.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Query Perplexity AI from your n8n workflows.txt",
+    "file_extension": ".txt",
+    "file_size": 3890,
+    "created_at": "2025-06-13T04:47:07.194384",
+    "is_directory": false
+  },
+  {
+    "filename": "README.md",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/README.md",
+    "file_extension": ".md",
+    "file_size": 879,
+    "created_at": "2025-06-13T04:47:07.194390",
+    "is_directory": false
+  },
+  {
+    "filename": "local_attraction_recommender.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/local_attraction_recommender.json",
+    "file_extension": ".json",
+    "file_size": 6034,
+    "created_at": "2025-06-13T04:47:07.194396",
+    "is_directory": false
+  },
+  {
+    "filename": "unpaid_invoice_reminder.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/unpaid_invoice_reminder.json",
+    "file_extension": ".json",
+    "file_size": 7486,
+    "created_at": "2025-06-13T04:47:07.194402",
+    "is_directory": false
+  },
+  {
+    "filename": "blog_comment_discord.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/blog_comment_discord.json",
+    "file_extension": ".json",
+    "file_size": 7601,
+    "created_at": "2025-06-13T04:47:07.194408",
+    "is_directory": false
+  },
+  {
+    "filename": "pest_outbreak_alert.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/pest_outbreak_alert.json",
+    "file_extension": ".json",
+    "file_size": 5977,
+    "created_at": "2025-06-13T04:47:07.194415",
+    "is_directory": false
+  },
+  {
+    "filename": "habit_form_weekly_summary.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/habit_form_weekly_summary.json",
+    "file_extension": ".json",
+    "file_size": 7638,
+    "created_at": "2025-06-13T04:47:07.194421",
+    "is_directory": false
+  },
+  {
+    "filename": "crop_yield_predictor.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/crop_yield_predictor.json",
+    "file_extension": ".json",
+    "file_size": 5993,
+    "created_at": "2025-06-13T04:47:07.194427",
+    "is_directory": false
+  },
+  {
+    "filename": "quality_defect_classifier.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/quality_defect_classifier.json",
+    "file_extension": ".json",
+    "file_size": 5992,
+    "created_at": "2025-06-13T04:47:07.194433",
+    "is_directory": false
+  },
+  {
+    "filename": "energy_consumption_anomaly_detector.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/energy_consumption_anomaly_detector.json",
+    "file_extension": ".json",
+    "file_size": 6070,
+    "created_at": "2025-06-13T04:47:07.194439",
+    "is_directory": false
+  },
+  {
+    "filename": "disaster_api_sms.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/disaster_api_sms.json",
+    "file_extension": ".json",
+    "file_size": 7565,
+    "created_at": "2025-06-13T04:47:07.194445",
+    "is_directory": false
+  },
+  {
+    "filename": "ga_report_email.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/ga_report_email.json",
+    "file_extension": ".json",
+    "file_size": 7816,
+    "created_at": "2025-06-13T04:47:07.194451",
+    "is_directory": false
+  },
+  {
+    "filename": "Customer Insights with Qdrant, Python and Information Extractor.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Customer Insights with Qdrant, Python and Information Extractor.txt",
+    "file_extension": ".txt",
+    "file_size": 27743,
+    "created_at": "2025-06-13T04:47:07.194457",
+    "is_directory": false
+  },
+  {
+    "filename": "greenhouse_climate_controller.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/greenhouse_climate_controller.json",
+    "file_extension": ".json",
+    "file_size": 6040,
+    "created_at": "2025-06-13T04:47:07.194463",
+    "is_directory": false
+  },
+  {
+    "filename": "Summarize Umami data with AI (via Openrouter) and save it to Baserow.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Summarize Umami data with AI (via Openrouter) and save it to Baserow.txt",
+    "file_extension": ".txt",
+    "file_size": 11904,
+    "created_at": "2025-06-13T04:47:07.194469",
+    "is_directory": false
+  },
+  {
+    "filename": "Build Your Own Image Search Using AI Object Detection, CDN and ElasticSearchBuild Your Own Image Search Using AI Object Detection, CDN and ElasticSearch.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Build Your Own Image Search Using AI Object Detection, CDN and ElasticSearchBuild Your Own Image Search Using AI Object Detection, CDN and ElasticSearch.txt",
+    "file_extension": ".txt",
+    "file_size": 10684,
+    "created_at": "2025-06-13T04:47:07.194475",
+    "is_directory": false
+  },
+  {
+    "filename": "Auto-label incoming Gmail messages with AI nodes.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Auto-label incoming Gmail messages with AI nodes.txt",
+    "file_extension": ".txt",
+    "file_size": 9484,
+    "created_at": "2025-06-13T04:47:07.194481",
+    "is_directory": false
+  },
+  {
+    "filename": "Proxmox AI Agent with n8n and Generative AI Integration.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Proxmox AI Agent with n8n and Generative AI Integration.txt",
+    "file_extension": ".txt",
+    "file_size": 28989,
+    "created_at": "2025-06-13T04:47:07.194487",
+    "is_directory": false
+  },
+  {
+    "filename": "Hacker News to Video Content.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Hacker News to Video Content.txt",
+    "file_extension": ".txt",
+    "file_size": 30092,
+    "created_at": "2025-06-13T04:47:07.194494",
+    "is_directory": false
+  },
+  {
+    "filename": "OpenAI examples_ ChatGPT, DALLE-2, Whisper-1 \u2013 5-in-1.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/OpenAI examples_ ChatGPT, DALLE-2, Whisper-1 \u2013 5-in-1.txt",
+    "file_extension": ".txt",
+    "file_size": 15320,
+    "created_at": "2025-06-13T04:47:07.194500",
+    "is_directory": false
+  },
+  {
+    "filename": "Organise Your Local File Directories With AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Organise Your Local File Directories With AI.txt",
+    "file_extension": ".txt",
+    "file_size": 10485,
+    "created_at": "2025-06-13T04:47:07.194506",
+    "is_directory": false
+  },
+  {
+    "filename": "Chat with local LLMs using n8n and Ollama.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Chat with local LLMs using n8n and Ollama.txt",
+    "file_extension": ".txt",
+    "file_size": 2970,
+    "created_at": "2025-06-13T04:47:07.194511",
+    "is_directory": false
+  },
+  {
+    "filename": "Send Google analytics data to A.I. to analyze then save results in BaserowSend Google analytics data to A.I. to analyze then save results in Baserow.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Send Google analytics data to A.I. to analyze then save results in BaserowSend Google analytics data to A.I. to analyze then save results in Baserow.txt",
+    "file_extension": ".txt",
+    "file_size": 24195,
+    "created_at": "2025-06-13T04:47:07.194518",
+    "is_directory": false
+  },
+  {
+    "filename": "\u26a1AI-Powered YouTube Video Summarization & Analysis.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/\u26a1AI-Powered YouTube Video Summarization & Analysis.txt",
+    "file_extension": ".txt",
+    "file_size": 6488,
+    "created_at": "2025-06-13T04:47:07.194524",
+    "is_directory": false
+  },
+  {
+    "filename": "Hacker News Job Listing Scraper and Parser.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Hacker News Job Listing Scraper and Parser.txt",
+    "file_extension": ".txt",
+    "file_size": 18506,
+    "created_at": "2025-06-13T04:47:07.194530",
+    "is_directory": false
+  },
+  {
+    "filename": "Vector Database as a Big Data Analysis Tool for AI Agents [3_3 - anomaly].txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Vector Database as a Big Data Analysis Tool for AI Agents [3_3 - anomaly].txt",
+    "file_extension": ".txt",
+    "file_size": 12452,
+    "created_at": "2025-06-13T04:47:07.194537",
+    "is_directory": false
+  },
+  {
+    "filename": "parse_invoice_emails.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/parse_invoice_emails.json",
+    "file_extension": ".json",
+    "file_size": 7478,
+    "created_at": "2025-06-13T04:47:07.194543",
+    "is_directory": false
+  },
+  {
+    "filename": "hourly_weather_log.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/hourly_weather_log.json",
+    "file_extension": ".json",
+    "file_size": 7845,
+    "created_at": "2025-06-13T04:47:07.194549",
+    "is_directory": false
+  },
+  {
+    "filename": "new_job_application_parser.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/new_job_application_parser.json",
+    "file_extension": ".json",
+    "file_size": 7937,
+    "created_at": "2025-06-13T04:47:07.194555",
+    "is_directory": false
+  },
+  {
+    "filename": "low_stock_discord.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/low_stock_discord.json",
+    "file_extension": ".json",
+    "file_size": 7850,
+    "created_at": "2025-06-13T04:47:07.194561",
+    "is_directory": false
+  },
+  {
+    "filename": "Flux AI Image Generator.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Flux AI Image Generator.txt",
+    "file_extension": ".txt",
+    "file_size": 17915,
+    "created_at": "2025-06-13T04:47:07.194568",
+    "is_directory": false
+  },
+  {
+    "filename": "Remove Personally Identifiable Information (PII) from CSV Files with OpenAI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Remove Personally Identifiable Information (PII) from CSV Files with OpenAI.txt",
+    "file_extension": ".txt",
+    "file_size": 7748,
+    "created_at": "2025-06-13T04:47:07.194574",
+    "is_directory": false
+  },
+  {
+    "filename": "AI Agent for project management and meetings with Airtable and Fireflies.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI Agent for project management and meetings with Airtable and Fireflies.txt",
+    "file_extension": ".txt",
+    "file_size": 14513,
+    "created_at": "2025-06-13T04:47:07.194580",
+    "is_directory": false
+  },
+  {
+    "filename": "HR Job Posting and Evaluation with AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/HR Job Posting and Evaluation with AI.txt",
+    "file_extension": ".txt",
+    "file_size": 62111,
+    "created_at": "2025-06-13T04:47:07.194586",
+    "is_directory": false
+  },
+  {
+    "filename": "Telegram Bot with Supabase memory and OpenAI assistant integration.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Telegram Bot with Supabase memory and OpenAI assistant integration.txt",
+    "file_extension": ".txt",
+    "file_size": 25732,
+    "created_at": "2025-06-13T04:47:07.194592",
+    "is_directory": false
+  },
+  {
+    "filename": "daily_student_motivation.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/daily_student_motivation.json",
+    "file_extension": ".json",
+    "file_size": 7629,
+    "created_at": "2025-06-13T04:47:07.194598",
+    "is_directory": false
+  },
+  {
+    "filename": "Reddit AI digest.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Reddit AI digest.txt",
+    "file_extension": ".txt",
+    "file_size": 8880,
+    "created_at": "2025-06-13T04:47:07.194604",
+    "is_directory": false
+  },
+  {
+    "filename": "court_date_reminder.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/court_date_reminder.json",
+    "file_extension": ".json",
+    "file_size": 5977,
+    "created_at": "2025-06-13T04:47:07.194610",
+    "is_directory": false
+  },
+  {
+    "filename": "stripe_to_quickbooks.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/stripe_to_quickbooks.json",
+    "file_extension": ".json",
+    "file_size": 7466,
+    "created_at": "2025-06-13T04:47:07.194616",
+    "is_directory": false
+  },
+  {
+    "filename": "Optimize & Update Printify Title and Description Workflow.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Optimize & Update Printify Title and Description Workflow.txt",
+    "file_extension": ".txt",
+    "file_size": 22300,
+    "created_at": "2025-06-13T04:47:07.194622",
+    "is_directory": false
+  },
+  {
+    "filename": "ride\u2011share_surge_predictor.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/ride\u2011share_surge_predictor.json",
+    "file_extension": ".json",
+    "file_size": 6049,
+    "created_at": "2025-06-13T04:47:07.194628",
+    "is_directory": false
+  },
+  {
+    "filename": "github_commit_jenkins.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/github_commit_jenkins.json",
+    "file_extension": ".json",
+    "file_size": 7602,
+    "created_at": "2025-06-13T04:47:07.194635",
+    "is_directory": false
+  },
+  {
+    "filename": "schedule_instagram_content_from_airtable.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/schedule_instagram_content_from_airtable.json",
+    "file_extension": ".json",
+    "file_size": 7956,
+    "created_at": "2025-06-13T04:47:07.194641",
+    "is_directory": false
+  },
+  {
+    "filename": "Send specific PDF attachments from Gmail to Google Drive using OpenAI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Send specific PDF attachments from Gmail to Google Drive using OpenAI.txt",
+    "file_extension": ".txt",
+    "file_size": 9479,
+    "created_at": "2025-06-13T04:47:07.194647",
+    "is_directory": false
+  },
+  {
+    "filename": "voice_task_to_notion.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/voice_task_to_notion.json",
+    "file_extension": ".json",
+    "file_size": 7593,
+    "created_at": "2025-06-13T04:47:07.194653",
+    "is_directory": false
+  },
+  {
+    "filename": "Speed Up Social Media Banners With BannerBear.com.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Speed Up Social Media Banners With BannerBear.com.txt",
+    "file_extension": ".txt",
+    "file_size": 11358,
+    "created_at": "2025-06-13T04:47:07.194659",
+    "is_directory": false
+  },
+  {
+    "filename": "vin_decoder.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/vin_decoder.json",
+    "file_extension": ".json",
+    "file_size": 5923,
+    "created_at": "2025-06-13T04:47:07.194666",
+    "is_directory": false
+  },
+  {
+    "filename": "Bitrix24 Chatbot Application Workflow example with Webhook Integration.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Bitrix24 Chatbot Application Workflow example with Webhook Integration.txt",
+    "file_extension": ".txt",
+    "file_size": 15956,
+    "created_at": "2025-06-13T04:47:07.194672",
+    "is_directory": false
+  },
+  {
+    "filename": "\ud83d\udd10\ud83e\udd99\ud83e\udd16 Private & Local Ollama Self-Hosted AI Assistant.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/\ud83d\udd10\ud83e\udd99\ud83e\udd16 Private & Local Ollama Self-Hosted AI Assistant.txt",
+    "file_extension": ".txt",
+    "file_size": 8206,
+    "created_at": "2025-06-13T04:47:07.194678",
+    "is_directory": false
+  },
+  {
+    "filename": "competitor_price_scraper.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/competitor_price_scraper.json",
+    "file_extension": ".json",
+    "file_size": 7641,
+    "created_at": "2025-06-13T04:47:07.194685",
+    "is_directory": false
+  },
+  {
+    "filename": "ALL_unique_nodes.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/ALL_unique_nodes.txt",
+    "file_extension": ".txt",
+    "file_size": 0,
+    "created_at": "2025-06-13T04:47:07.194690",
+    "is_directory": false
+  },
+  {
+    "filename": "Visual Regression Testing with Apify and AI Vision Model.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Visual Regression Testing with Apify and AI Vision Model.txt",
+    "file_extension": ".txt",
+    "file_size": 23496,
+    "created_at": "2025-06-13T04:47:07.194696",
+    "is_directory": false
+  },
+  {
+    "filename": "public_record_email_update.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/public_record_email_update.json",
+    "file_extension": ".json",
+    "file_size": 7933,
+    "created_at": "2025-06-13T04:47:07.194702",
+    "is_directory": false
+  },
+  {
+    "filename": "inventory_slack_alert.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/inventory_slack_alert.json",
+    "file_extension": ".json",
+    "file_size": 7878,
+    "created_at": "2025-06-13T04:47:07.194708",
+    "is_directory": false
+  },
+  {
+    "filename": "Generate 9_16 Images from Content and Brand Guidelines.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Generate 9_16 Images from Content and Brand Guidelines.txt",
+    "file_extension": ".txt",
+    "file_size": 43027,
+    "created_at": "2025-06-13T04:47:07.194714",
+    "is_directory": false
+  },
+  {
+    "filename": "fuel_price_monitor.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/fuel_price_monitor.json",
+    "file_extension": ".json",
+    "file_size": 5995,
+    "created_at": "2025-06-13T04:47:07.194721",
+    "is_directory": false
+  },
+  {
+    "filename": "renewable_incentive_tracker.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/renewable_incentive_tracker.json",
+    "file_extension": ".json",
+    "file_size": 6040,
+    "created_at": "2025-06-13T04:47:07.194727",
+    "is_directory": false
+  },
+  {
+    "filename": "podcast_transcribe_publish.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/podcast_transcribe_publish.json",
+    "file_extension": ".json",
+    "file_size": 7945,
+    "created_at": "2025-06-13T04:47:07.194733",
+    "is_directory": false
+  },
+  {
+    "filename": "summarize_customer_emails.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/summarize_customer_emails.json",
+    "file_extension": ".json",
+    "file_size": 7514,
+    "created_at": "2025-06-13T04:47:07.194739",
+    "is_directory": false
+  },
+  {
+    "filename": "autonomous_vehicle_log_summarizer.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/autonomous_vehicle_log_summarizer.json",
+    "file_extension": ".json",
+    "file_size": 6058,
+    "created_at": "2025-06-13T04:47:07.194745",
+    "is_directory": false
+  },
+  {
+    "filename": "Convert text to speech with OpenAI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Convert text to speech with OpenAI.txt",
+    "file_extension": ".txt",
+    "file_size": 4005,
+    "created_at": "2025-06-13T04:47:07.194751",
+    "is_directory": false
+  },
+  {
+    "filename": "Email Subscription Service with n8n Forms, Airtable and AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Email Subscription Service with n8n Forms, Airtable and AI.txt",
+    "file_extension": ".txt",
+    "file_size": 28842,
+    "created_at": "2025-06-13T04:47:07.194757",
+    "is_directory": false
+  },
+  {
+    "filename": "Creating a AI Slack Bot with Google Gemini.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Creating a AI Slack Bot with Google Gemini.txt",
+    "file_extension": ".txt",
+    "file_size": 5077,
+    "created_at": "2025-06-13T04:47:07.194763",
+    "is_directory": false
+  },
+  {
+    "filename": "api_monitor_auto_restart.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/api_monitor_auto_restart.json",
+    "file_extension": ".json",
+    "file_size": 7629,
+    "created_at": "2025-06-13T04:47:07.194769",
+    "is_directory": false
+  },
+  {
+    "filename": "Enhance Security Operations with the Qualys Slack Shortcut Bot!.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Enhance Security Operations with the Qualys Slack Shortcut Bot!.txt",
+    "file_extension": ".txt",
+    "file_size": 23948,
+    "created_at": "2025-06-13T04:47:07.194775",
+    "is_directory": false
+  },
+  {
+    "filename": "Telegram AI bot with LangChain nodes.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Telegram AI bot with LangChain nodes.txt",
+    "file_extension": ".txt",
+    "file_size": 8592,
+    "created_at": "2025-06-13T04:47:07.194781",
+    "is_directory": false
+  },
+  {
+    "filename": "virtual_economy_price_tracker.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/virtual_economy_price_tracker.json",
+    "file_extension": ".json",
+    "file_size": 6029,
+    "created_at": "2025-06-13T04:47:07.194787",
+    "is_directory": false
+  },
+  {
+    "filename": "Email Subscription Service with n8n Forms, Airtable and AI (1).txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Email Subscription Service with n8n Forms, Airtable and AI (1).txt",
+    "file_extension": ".txt",
+    "file_size": 28842,
+    "created_at": "2025-06-13T04:47:07.194793",
+    "is_directory": false
+  },
+  {
+    "filename": "AI Agent to chat with Supabase_PostgreSQL DB.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI Agent to chat with Supabase_PostgreSQL DB.txt",
+    "file_extension": ".txt",
+    "file_size": 7548,
+    "created_at": "2025-06-13T04:47:07.194799",
+    "is_directory": false
+  },
+  {
+    "filename": "Telegram to Spotify with OpenAI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Telegram to Spotify with OpenAI.txt",
+    "file_extension": ".txt",
+    "file_size": 7742,
+    "created_at": "2025-06-13T04:47:07.194805",
+    "is_directory": false
+  },
+  {
+    "filename": "Agentic Telegram AI bot with with LangChain nodes and new tools.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Agentic Telegram AI bot with with LangChain nodes and new tools.txt",
+    "file_extension": ".txt",
+    "file_size": 4894,
+    "created_at": "2025-06-13T04:47:07.194811",
+    "is_directory": false
+  },
+  {
+    "filename": "AI agent that can scrape webpages.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI agent that can scrape webpages.txt",
+    "file_extension": ".txt",
+    "file_size": 11723,
+    "created_at": "2025-06-13T04:47:07.194817",
+    "is_directory": false
+  },
+  {
+    "filename": "zoom_attendance_log.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/zoom_attendance_log.json",
+    "file_extension": ".json",
+    "file_size": 7596,
+    "created_at": "2025-06-13T04:47:07.194823",
+    "is_directory": false
+  },
+  {
+    "filename": "Basic Automatic Gmail Email Labelling with OpenAI and Gmail API.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Basic Automatic Gmail Email Labelling with OpenAI and Gmail API.txt",
+    "file_extension": ".txt",
+    "file_size": 10475,
+    "created_at": "2025-06-13T04:47:07.194830",
+    "is_directory": false
+  },
+  {
+    "filename": "\ud83e\udd16\ud83e\uddd1_\ud83d\udcbb AI Agent for Top n8n Creators Leaderboard Reporting.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/\ud83e\udd16\ud83e\uddd1_\ud83d\udcbb AI Agent for Top n8n Creators Leaderboard Reporting.txt",
+    "file_extension": ".txt",
+    "file_size": 26823,
+    "created_at": "2025-06-13T04:47:07.194838",
+    "is_directory": false
+  },
+  {
+    "filename": "social_buzz_heatmap.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/social_buzz_heatmap.json",
+    "file_extension": ".json",
+    "file_size": 5979,
+    "created_at": "2025-06-13T04:47:07.194844",
+    "is_directory": false
+  },
+  {
+    "filename": "patent_abstract_summarizer.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/patent_abstract_summarizer.json",
+    "file_extension": ".json",
+    "file_size": 6012,
+    "created_at": "2025-06-13T04:47:07.194850",
+    "is_directory": false
+  },
+  {
+    "filename": "wind_farm_maintenance_scheduler.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/wind_farm_maintenance_scheduler.json",
+    "file_extension": ".json",
+    "file_size": 6048,
+    "created_at": "2025-06-13T04:47:07.194856",
+    "is_directory": false
+  },
+  {
+    "filename": "Actioning Your Meeting Next Steps using Transcripts and AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Actioning Your Meeting Next Steps using Transcripts and AI.txt",
+    "file_extension": ".txt",
+    "file_size": 18436,
+    "created_at": "2025-06-13T04:47:07.194862",
+    "is_directory": false
+  },
+  {
+    "filename": "sensor_fault_detector.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/sensor_fault_detector.json",
+    "file_extension": ".json",
+    "file_size": 5989,
+    "created_at": "2025-06-13T04:47:07.194868",
+    "is_directory": false
+  },
+  {
+    "filename": "Extract spending history from gmail to google sheet.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Extract spending history from gmail to google sheet.txt",
+    "file_extension": ".txt",
+    "file_size": 25813,
+    "created_at": "2025-06-13T04:47:07.194874",
+    "is_directory": false
+  },
+  {
+    "filename": "Scrape and summarize webpages with AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Scrape and summarize webpages with AI.txt",
+    "file_extension": ".txt",
+    "file_size": 5989,
+    "created_at": "2025-06-13T04:47:07.194880",
+    "is_directory": false
+  },
+  {
+    "filename": "Handling Job Application Submissions with AI and n8n Forms.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Handling Job Application Submissions with AI and n8n Forms.txt",
+    "file_extension": ".txt",
+    "file_size": 27018,
+    "created_at": "2025-06-13T04:47:07.194886",
+    "is_directory": false
+  },
+  {
+    "filename": "visa_requirement_checker.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/visa_requirement_checker.json",
+    "file_extension": ".json",
+    "file_size": 6014,
+    "created_at": "2025-06-13T04:47:07.194892",
+    "is_directory": false
+  },
+  {
+    "filename": "solar_output_forecaster.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/solar_output_forecaster.json",
+    "file_extension": ".json",
+    "file_size": 6020,
+    "created_at": "2025-06-13T04:47:07.194898",
+    "is_directory": false
+  },
+  {
+    "filename": "Transcribing Bank Statements To Markdown Using Gemini Vision AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Transcribing Bank Statements To Markdown Using Gemini Vision AI.txt",
+    "file_extension": ".txt",
+    "file_size": 13303,
+    "created_at": "2025-06-13T04:47:07.194904",
+    "is_directory": false
+  },
+  {
+    "filename": "Automate Pinterest Analysis & AI-Powered Content Suggestions With Pinterest API.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Automate Pinterest Analysis & AI-Powered Content Suggestions With Pinterest API.txt",
+    "file_extension": ".txt",
+    "file_size": 11073,
+    "created_at": "2025-06-13T04:47:07.194910",
+    "is_directory": false
+  },
+  {
+    "filename": "ticket_urgency_classification.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/ticket_urgency_classification.json",
+    "file_extension": ".json",
+    "file_size": 7842,
+    "created_at": "2025-06-13T04:47:07.194916",
+    "is_directory": false
+  },
+  {
+    "filename": "Analyze & Sort Suspicious Email Contents with ChatGPT.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Analyze & Sort Suspicious Email Contents with ChatGPT.txt",
+    "file_extension": ".txt",
+    "file_size": 19769,
+    "created_at": "2025-06-13T04:47:07.194922",
+    "is_directory": false
+  },
+  {
+    "filename": "Daily Podcast Summary.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Daily Podcast Summary.txt",
+    "file_extension": ".txt",
+    "file_size": 13164,
+    "created_at": "2025-06-13T04:47:07.194928",
+    "is_directory": false
+  },
+  {
+    "filename": "Generate SQL queries from schema only - AI-powered.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Generate SQL queries from schema only - AI-powered.txt",
+    "file_extension": ".txt",
+    "file_size": 16702,
+    "created_at": "2025-06-13T04:47:07.194934",
+    "is_directory": false
+  },
+  {
+    "filename": "Hacker News Throwback Machine - See What Was Hot on This Day, Every Year!.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Hacker News Throwback Machine - See What Was Hot on This Day, Every Year!.txt",
+    "file_extension": ".txt",
+    "file_size": 8379,
+    "created_at": "2025-06-13T04:47:07.194940",
+    "is_directory": false
+  },
+  {
+    "filename": "server_health_grafana.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/server_health_grafana.json",
+    "file_extension": ".json",
+    "file_size": 7610,
+    "created_at": "2025-06-13T04:47:07.194946",
+    "is_directory": false
+  },
+  {
+    "filename": "Obsidian Notes Read Aloud using AI_ Available as a Podcast Feed.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Obsidian Notes Read Aloud using AI_ Available as a Podcast Feed.txt",
+    "file_extension": ".txt",
+    "file_size": 19744,
+    "created_at": "2025-06-13T04:47:07.194954",
+    "is_directory": false
+  },
+  {
+    "filename": "safety_incident_alert.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/safety_incident_alert.json",
+    "file_extension": ".json",
+    "file_size": 5973,
+    "created_at": "2025-06-13T04:47:07.194959",
+    "is_directory": false
+  },
+  {
+    "filename": "\ud83c\udfa8 Interactive Image Editor with FLUX.1 Fill Tool for Inpainting.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/\ud83c\udfa8 Interactive Image Editor with FLUX.1 Fill Tool for Inpainting.txt",
+    "file_extension": ".txt",
+    "file_size": 13001,
+    "created_at": "2025-06-13T04:47:07.194966",
+    "is_directory": false
+  },
+  {
+    "filename": "Venafi Cloud Slack Cert Bot.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Venafi Cloud Slack Cert Bot.txt",
+    "file_extension": ".txt",
+    "file_size": 39701,
+    "created_at": "2025-06-13T04:47:07.194972",
+    "is_directory": false
+  },
+  {
+    "filename": "AI_ Summarize podcast episode and enhance using Wikipedia.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI_ Summarize podcast episode and enhance using Wikipedia.txt",
+    "file_extension": ".txt",
+    "file_size": 38201,
+    "created_at": "2025-06-13T04:47:07.194978",
+    "is_directory": false
+  },
+  {
+    "filename": "reddit_upvote_alert.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/reddit_upvote_alert.json",
+    "file_extension": ".json",
+    "file_size": 7470,
+    "created_at": "2025-06-13T04:47:07.194984",
+    "is_directory": false
+  },
+  {
+    "filename": "HR & IT Helpdesk Chatbot with Audio Transcription.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/HR & IT Helpdesk Chatbot with Audio Transcription.txt",
+    "file_extension": ".txt",
+    "file_size": 16203,
+    "created_at": "2025-06-13T04:47:07.194990",
+    "is_directory": false
+  },
+  {
+    "filename": "\ud83d\udcda Auto-generate documentation for n8n workflows with GPT and Docsify.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/\ud83d\udcda Auto-generate documentation for n8n workflows with GPT and Docsify.txt",
+    "file_extension": ".txt",
+    "file_size": 45737,
+    "created_at": "2025-06-13T04:47:07.194996",
+    "is_directory": false
+  },
+  {
+    "filename": "return_ticket_assignment.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/return_ticket_assignment.json",
+    "file_extension": ".json",
+    "file_size": 7625,
+    "created_at": "2025-06-13T04:47:07.195003",
+    "is_directory": false
+  },
+  {
+    "filename": "player_sentiment_dashboard.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/player_sentiment_dashboard.json",
+    "file_extension": ".json",
+    "file_size": 6035,
+    "created_at": "2025-06-13T04:47:07.195009",
+    "is_directory": false
+  },
+  {
+    "filename": "Translate Telegram audio messages with AI (55 supported languages).txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Translate Telegram audio messages with AI (55 supported languages).txt",
+    "file_extension": ".txt",
+    "file_size": 7111,
+    "created_at": "2025-06-13T04:47:07.195015",
+    "is_directory": false
+  },
+  {
+    "filename": "Auto-Tag Blog Posts in WordPress with AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Auto-Tag Blog Posts in WordPress with AI.txt",
+    "file_extension": ".txt",
+    "file_size": 16721,
+    "created_at": "2025-06-13T04:47:07.195021",
+    "is_directory": false
+  },
+  {
+    "filename": "Building Your First WhatsApp Chatbot.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Building Your First WhatsApp Chatbot.txt",
+    "file_extension": ".txt",
+    "file_size": 16598,
+    "created_at": "2025-06-13T04:47:07.195027",
+    "is_directory": false
+  },
+  {
+    "filename": "issue_trello_card.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/issue_trello_card.json",
+    "file_extension": ".json",
+    "file_size": 7574,
+    "created_at": "2025-06-13T04:47:07.195034",
+    "is_directory": false
+  },
+  {
+    "filename": "fleet_fuel_efficiency_report.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/fleet_fuel_efficiency_report.json",
+    "file_extension": ".json",
+    "file_size": 6045,
+    "created_at": "2025-06-13T04:47:07.195040",
+    "is_directory": false
+  },
+  {
+    "filename": "AI-powered WooCommerce Support-Agent.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI-powered WooCommerce Support-Agent.txt",
+    "file_extension": ".txt",
+    "file_size": 25852,
+    "created_at": "2025-06-13T04:47:07.195046",
+    "is_directory": false
+  },
+  {
+    "filename": "travel_itinerary_builder.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/travel_itinerary_builder.json",
+    "file_extension": ".json",
+    "file_size": 6002,
+    "created_at": "2025-06-13T04:47:07.195052",
+    "is_directory": false
+  },
+  {
+    "filename": "Extract text from PDF and image using Vertex AI (Gemini) into CSV.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Extract text from PDF and image using Vertex AI (Gemini) into CSV.txt",
+    "file_extension": ".txt",
+    "file_size": 10236,
+    "created_at": "2025-06-13T04:47:07.195058",
+    "is_directory": false
+  },
+  {
+    "filename": "Enrich Property Inventory Survey with Image Recognition and AI Agent.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Enrich Property Inventory Survey with Image Recognition and AI Agent.txt",
+    "file_extension": ".txt",
+    "file_size": 21638,
+    "created_at": "2025-06-13T04:47:07.195064",
+    "is_directory": false
+  },
+  {
+    "filename": "packaging_waste_calculator.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/packaging_waste_calculator.json",
+    "file_extension": ".json",
+    "file_size": 5997,
+    "created_at": "2025-06-13T04:47:07.195072",
+    "is_directory": false
+  },
+  {
+    "filename": "property_description_generator.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/property_description_generator.json",
+    "file_extension": ".json",
+    "file_size": 6045,
+    "created_at": "2025-06-13T04:47:07.195078",
+    "is_directory": false
+  },
+  {
+    "filename": "gdpr_violation_alert.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/gdpr_violation_alert.json",
+    "file_extension": ".json",
+    "file_size": 5984,
+    "created_at": "2025-06-13T04:47:07.195084",
+    "is_directory": false
+  },
+  {
+    "filename": "AI Crew to Automate Fundamental Stock Analysis - Q&A Workflow.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI Crew to Automate Fundamental Stock Analysis - Q&A Workflow.txt",
+    "file_extension": ".txt",
+    "file_size": 7668,
+    "created_at": "2025-06-13T04:47:07.195090",
+    "is_directory": false
+  },
+  {
+    "filename": "travel_advisory_monitor.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/travel_advisory_monitor.json",
+    "file_extension": ".json",
+    "file_size": 6009,
+    "created_at": "2025-06-13T04:47:07.195096",
+    "is_directory": false
+  },
+  {
+    "filename": "\ud83d\udc0b\ud83e\udd16 DeepSeek AI Agent + Telegram + LONG TERM Memory \ud83e\udde0.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/\ud83d\udc0b\ud83e\udd16 DeepSeek AI Agent + Telegram + LONG TERM Memory \ud83e\udde0.txt",
+    "file_extension": ".txt",
+    "file_size": 16986,
+    "created_at": "2025-06-13T04:47:07.195103",
+    "is_directory": false
+  },
+  {
+    "filename": "\ud83d\udcc8 Receive Daily Market News from FT.com to your Microsoft outlook inbox.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/\ud83d\udcc8 Receive Daily Market News from FT.com to your Microsoft outlook inbox.txt",
+    "file_extension": ".txt",
+    "file_size": 7289,
+    "created_at": "2025-06-13T04:47:07.195109",
+    "is_directory": false
+  },
+  {
+    "filename": "record_crypto_prices.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/record_crypto_prices.json",
+    "file_extension": ".json",
+    "file_size": 7474,
+    "created_at": "2025-06-13T04:47:07.195117",
+    "is_directory": false
+  },
+  {
+    "filename": "esports_match_alert.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/esports_match_alert.json",
+    "file_extension": ".json",
+    "file_size": 5988,
+    "created_at": "2025-06-13T04:47:07.195123",
+    "is_directory": false
+  },
+  {
+    "filename": "woo_order_mailchimp.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/woo_order_mailchimp.json",
+    "file_extension": ".json",
+    "file_size": 7580,
+    "created_at": "2025-06-13T04:47:07.195130",
+    "is_directory": false
+  },
+  {
+    "filename": "Complete business WhatsApp AI-Powered RAG Chatbot using OpenAI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Complete business WhatsApp AI-Powered RAG Chatbot using OpenAI.txt",
+    "file_extension": ".txt",
+    "file_size": 15334,
+    "created_at": "2025-06-13T04:47:07.195136",
+    "is_directory": false
+  },
+  {
+    "filename": "patch_note_summarizer.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/patch_note_summarizer.json",
+    "file_extension": ".json",
+    "file_size": 5989,
+    "created_at": "2025-06-13T04:47:07.195142",
+    "is_directory": false
+  },
+  {
+    "filename": "keyword_rank_checker.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/keyword_rank_checker.json",
+    "file_extension": ".json",
+    "file_size": 7867,
+    "created_at": "2025-06-13T04:47:07.195148",
+    "is_directory": false
+  },
+  {
+    "filename": "Classify lemlist replies using OpenAI and automate reply handling.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Classify lemlist replies using OpenAI and automate reply handling.txt",
+    "file_extension": ".txt",
+    "file_size": 10840,
+    "created_at": "2025-06-13T04:47:07.195154",
+    "is_directory": false
+  },
+  {
+    "filename": "Send daily translated Calvin and Hobbes Comics to Discord.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Send daily translated Calvin and Hobbes Comics to Discord.txt",
+    "file_extension": ".txt",
+    "file_size": 5806,
+    "created_at": "2025-06-13T04:47:07.195160",
+    "is_directory": false
+  },
+  {
+    "filename": "AI Social Media Caption Creator creates social media post captions in Airtable.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI Social Media Caption Creator creates social media post captions in Airtable.txt",
+    "file_extension": ".txt",
+    "file_size": 21382,
+    "created_at": "2025-06-13T04:47:07.195166",
+    "is_directory": false
+  },
+  {
+    "filename": "CV Resume PDF Parsing with Multimodal Vision AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/CV Resume PDF Parsing with Multimodal Vision AI.txt",
+    "file_extension": ".txt",
+    "file_size": 8721,
+    "created_at": "2025-06-13T04:47:07.195172",
+    "is_directory": false
+  },
+  {
+    "filename": "\ud83d\udc0bDeepSeek V3 Chat & R1 Reasoning Quick Start.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/\ud83d\udc0bDeepSeek V3 Chat & R1 Reasoning Quick Start.txt",
+    "file_extension": ".txt",
+    "file_size": 7566,
+    "created_at": "2025-06-13T04:47:07.195178",
+    "is_directory": false
+  },
+  {
+    "filename": "Automate Sales Meeting Prep with AI & APIFY Sent To WhatsApp.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Automate Sales Meeting Prep with AI & APIFY Sent To WhatsApp.txt",
+    "file_extension": ".txt",
+    "file_size": 43242,
+    "created_at": "2025-06-13T04:47:07.195184",
+    "is_directory": false
+  },
+  {
+    "filename": "bank_sms_alert_to_telegram.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/bank_sms_alert_to_telegram.json",
+    "file_extension": ".json",
+    "file_size": 7526,
+    "created_at": "2025-06-13T04:47:07.195190",
+    "is_directory": false
+  },
+  {
+    "filename": "auto_archive_promotions.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/auto_archive_promotions.json",
+    "file_extension": ".json",
+    "file_size": 7774,
+    "created_at": "2025-06-13T04:47:07.195196",
+    "is_directory": false
+  },
+  {
+    "filename": "privacy_policy_generator.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/privacy_policy_generator.json",
+    "file_extension": ".json",
+    "file_size": 5987,
+    "created_at": "2025-06-13T04:47:07.195202",
+    "is_directory": false
+  },
+  {
+    "filename": "RAG Chatbot for Company Documents using Google Drive and Gemini.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/RAG Chatbot for Company Documents using Google Drive and Gemini.txt",
+    "file_extension": ".txt",
+    "file_size": 10484,
+    "created_at": "2025-06-13T04:47:07.195208",
+    "is_directory": false
+  },
+  {
+    "filename": "crm_patient_intake.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/crm_patient_intake.json",
+    "file_extension": ".json",
+    "file_size": 7587,
+    "created_at": "2025-06-13T04:47:07.195215",
+    "is_directory": false
+  },
+  {
+    "filename": "Summarize YouTube Videos from Transcript.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Summarize YouTube Videos from Transcript.txt",
+    "file_extension": ".txt",
+    "file_size": 4277,
+    "created_at": "2025-06-13T04:47:07.195221",
+    "is_directory": false
+  },
+  {
+    "filename": "alert_on_instagram_competitor_story.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/alert_on_instagram_competitor_story.json",
+    "file_extension": ".json",
+    "file_size": 7586,
+    "created_at": "2025-06-13T04:47:07.195227",
+    "is_directory": false
+  },
+  {
+    "filename": "Survey Insights with Qdrant, Python and Information Extractor.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Survey Insights with Qdrant, Python and Information Extractor.txt",
+    "file_extension": ".txt",
+    "file_size": 29256,
+    "created_at": "2025-06-13T04:47:07.195233",
+    "is_directory": false
+  },
+  {
+    "filename": "Vector Database as a Big Data Analysis Tool for AI Agents [2_3 - anomaly].txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Vector Database as a Big Data Analysis Tool for AI Agents [2_3 - anomaly].txt",
+    "file_extension": ".txt",
+    "file_size": 34969,
+    "created_at": "2025-06-13T04:47:07.195239",
+    "is_directory": false
+  },
+  {
+    "filename": "Share YouTube Videos with AI Summaries on Discord.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Share YouTube Videos with AI Summaries on Discord.txt",
+    "file_extension": ".txt",
+    "file_size": 5214,
+    "created_at": "2025-06-13T04:47:07.195245",
+    "is_directory": false
+  },
+  {
+    "filename": "contract_clause_extractor.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/contract_clause_extractor.json",
+    "file_extension": ".json",
+    "file_size": 6007,
+    "created_at": "2025-06-13T04:47:07.195251",
+    "is_directory": false
+  },
+  {
+    "filename": "AI web researcher for sales.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI web researcher for sales.txt",
+    "file_extension": ".txt",
+    "file_size": 20242,
+    "created_at": "2025-06-13T04:47:07.195257",
+    "is_directory": false
+  },
+  {
+    "filename": "maintenance_ticket_router.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/maintenance_ticket_router.json",
+    "file_extension": ".json",
+    "file_size": 6009,
+    "created_at": "2025-06-13T04:47:07.195263",
+    "is_directory": false
+  },
+  {
+    "filename": "Visualize your SQL Agent queries with OpenAI and Quickchart.io.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Visualize your SQL Agent queries with OpenAI and Quickchart.io.txt",
+    "file_extension": ".txt",
+    "file_size": 19685,
+    "created_at": "2025-06-13T04:47:07.195269",
+    "is_directory": false
+  },
+  {
+    "filename": "youtube_transcript_to_blog.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/youtube_transcript_to_blog.json",
+    "file_extension": ".json",
+    "file_size": 7949,
+    "created_at": "2025-06-13T04:47:07.195275",
+    "is_directory": false
+  },
+  {
+    "filename": "auto-tag_blog_posts.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/auto-tag_blog_posts.json",
+    "file_extension": ".json",
+    "file_size": 7470,
+    "created_at": "2025-06-13T04:47:07.195281",
+    "is_directory": false
+  },
+  {
+    "filename": "weekly_shopify_sales_summary.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/weekly_shopify_sales_summary.json",
+    "file_extension": ".json",
+    "file_size": 7832,
+    "created_at": "2025-06-13T04:47:07.195287",
+    "is_directory": false
+  },
+  {
+    "filename": "rss_headlines_slack.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/rss_headlines_slack.json",
+    "file_extension": ".json",
+    "file_size": 7856,
+    "created_at": "2025-06-13T04:47:07.195293",
+    "is_directory": false
+  },
+  {
+    "filename": "Notion AI Assistant Generator.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Notion AI Assistant Generator.txt",
+    "file_extension": ".txt",
+    "file_size": 25747,
+    "created_at": "2025-06-13T04:47:07.195299",
+    "is_directory": false
+  },
+  {
+    "filename": "legal_billing_analyzer.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/legal_billing_analyzer.json",
+    "file_extension": ".json",
+    "file_size": 5977,
+    "created_at": "2025-06-13T04:47:07.195304",
+    "is_directory": false
+  },
+  {
+    "filename": "Enhance Security Operations with the Qualys Slack Shortcut Bot! (1).txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Enhance Security Operations with the Qualys Slack Shortcut Bot! (1).txt",
+    "file_extension": ".txt",
+    "file_size": 23948,
+    "created_at": "2025-06-13T04:47:07.195311",
+    "is_directory": false
+  },
+  {
+    "filename": "nda_risk_detector.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/nda_risk_detector.json",
+    "file_extension": ".json",
+    "file_size": 5951,
+    "created_at": "2025-06-13T04:47:07.195316",
+    "is_directory": false
+  },
+  {
+    "filename": "Chat with OpenAI Assistant (by adding a memory).txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Chat with OpenAI Assistant (by adding a memory).txt",
+    "file_extension": ".txt",
+    "file_size": 5818,
+    "created_at": "2025-06-13T04:47:07.195322",
+    "is_directory": false
+  },
+  {
+    "filename": "AI-powered email processing autoresponder and response approval (Yes_No).txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI-powered email processing autoresponder and response approval (Yes_No).txt",
+    "file_extension": ".txt",
+    "file_size": 9829,
+    "created_at": "2025-06-13T04:47:07.195328",
+    "is_directory": false
+  },
+  {
+    "filename": "shopify_order_sms.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/shopify_order_sms.json",
+    "file_extension": ".json",
+    "file_size": 7846,
+    "created_at": "2025-06-13T04:47:07.195334",
+    "is_directory": false
+  },
+  {
+    "filename": "farm_equipment_maintenance_reminder.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/farm_equipment_maintenance_reminder.json",
+    "file_extension": ".json",
+    "file_size": 6059,
+    "created_at": "2025-06-13T04:47:07.195340",
+    "is_directory": false
+  },
+  {
+    "filename": "starred_slack_to_notion.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/starred_slack_to_notion.json",
+    "file_extension": ".json",
+    "file_size": 7616,
+    "created_at": "2025-06-13T04:47:07.195346",
+    "is_directory": false
+  },
+  {
+    "filename": "AI Data Extraction with Dynamic Prompts and Airtable.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI Data Extraction with Dynamic Prompts and Airtable.txt",
+    "file_extension": ".txt",
+    "file_size": 35914,
+    "created_at": "2025-06-13T04:47:07.195353",
+    "is_directory": false
+  },
+  {
+    "filename": "Image Creation with OpenAI and Telegram.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Image Creation with OpenAI and Telegram.txt",
+    "file_extension": ".txt",
+    "file_size": 6120,
+    "created_at": "2025-06-13T04:47:07.195359",
+    "is_directory": false
+  },
+  {
+    "filename": "AI Data Extraction with Dynamic Prompts and Baserow.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI Data Extraction with Dynamic Prompts and Baserow.txt",
+    "file_extension": ".txt",
+    "file_size": 28924,
+    "created_at": "2025-06-13T04:47:07.195365",
+    "is_directory": false
+  },
+  {
+    "filename": "OpenAI Assistant workflow_ upload file, create an Assistant, chat with it!.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/OpenAI Assistant workflow_ upload file, create an Assistant, chat with it!.txt",
+    "file_extension": ".txt",
+    "file_size": 6014,
+    "created_at": "2025-06-13T04:47:07.195371",
+    "is_directory": false
+  },
+  {
+    "filename": "mes_log_analyzer.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/mes_log_analyzer.json",
+    "file_extension": ".json",
+    "file_size": 5973,
+    "created_at": "2025-06-13T04:47:07.195377",
+    "is_directory": false
+  },
+  {
+    "filename": "AI Voice Chatbot with ElevenLabs & OpenAI for Customer Service and Restaurants.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI Voice Chatbot with ElevenLabs & OpenAI for Customer Service and Restaurants.txt",
+    "file_extension": ".txt",
+    "file_size": 12021,
+    "created_at": "2025-06-13T04:47:07.195383",
+    "is_directory": false
+  },
+  {
+    "filename": "zoning_regulation_checker.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/zoning_regulation_checker.json",
+    "file_extension": ".json",
+    "file_size": 5982,
+    "created_at": "2025-06-13T04:47:07.195389",
+    "is_directory": false
+  },
+  {
+    "filename": "vehicle_telematics_analyzer.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/vehicle_telematics_analyzer.json",
+    "file_extension": ".json",
+    "file_size": 5992,
+    "created_at": "2025-06-13T04:47:07.195395",
+    "is_directory": false
+  },
+  {
+    "filename": "Automate Customer Support Issue Resolution using AI Text Classifier.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Automate Customer Support Issue Resolution using AI Text Classifier.txt",
+    "file_extension": ".txt",
+    "file_size": 28228,
+    "created_at": "2025-06-13T04:47:07.195401",
+    "is_directory": false
+  },
+  {
+    "filename": "Parse PDF with LlamaParse and save to Airtable.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Parse PDF with LlamaParse and save to Airtable.txt",
+    "file_extension": ".txt",
+    "file_size": 14962,
+    "created_at": "2025-06-13T04:47:07.195407",
+    "is_directory": false
+  },
+  {
+    "filename": "Spot Workplace Discrimination Patterns with AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Spot Workplace Discrimination Patterns with AI.txt",
+    "file_extension": ".txt",
+    "file_size": 59976,
+    "created_at": "2025-06-13T04:47:07.195414",
+    "is_directory": false
+  },
+  {
+    "filename": "hotel_review_sentiment.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/hotel_review_sentiment.json",
+    "file_extension": ".json",
+    "file_size": 6005,
+    "created_at": "2025-06-13T04:47:07.195420",
+    "is_directory": false
+  },
+  {
+    "filename": "Turn Emails into AI-Enhanced Tasks in Notion (Multi-User Support) with Gmail, Airtable and Softr.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Turn Emails into AI-Enhanced Tasks in Notion (Multi-User Support) with Gmail, Airtable and Softr.txt",
+    "file_extension": ".txt",
+    "file_size": 25382,
+    "created_at": "2025-06-13T04:47:07.195426",
+    "is_directory": false
+  },
+  {
+    "filename": "AI Fitness Coach Strava Data Analysis and Personalized Training Insights.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI Fitness Coach Strava Data Analysis and Personalized Training Insights.txt",
+    "file_extension": ".txt",
+    "file_size": 16542,
+    "created_at": "2025-06-13T04:47:07.195432",
+    "is_directory": false
+  },
+  {
+    "filename": "\u2728 Vision-Based AI Agent Scraper - with Google Sheets, ScrapingBee, and Gemini.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/\u2728 Vision-Based AI Agent Scraper - with Google Sheets, ScrapingBee, and Gemini.txt",
+    "file_extension": ".txt",
+    "file_size": 21118,
+    "created_at": "2025-06-13T04:47:07.195439",
+    "is_directory": false
+  },
+  {
+    "filename": "Ask a human for help when the AI doesn_t know the answer.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Ask a human for help when the AI doesn_t know the answer.txt",
+    "file_extension": ".txt",
+    "file_size": 7094,
+    "created_at": "2025-06-13T04:47:07.195445",
+    "is_directory": false
+  },
+  {
+    "filename": "shift_handover_summary.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/shift_handover_summary.json",
+    "file_extension": ".json",
+    "file_size": 6005,
+    "created_at": "2025-06-13T04:47:07.195450",
+    "is_directory": false
+  },
+  {
+    "filename": "Introduction to the HTTP Tool.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Introduction to the HTTP Tool.txt",
+    "file_extension": ".txt",
+    "file_size": 6565,
+    "created_at": "2025-06-13T04:47:07.195456",
+    "is_directory": false
+  },
+  {
+    "filename": "hoa_fee_analyzer.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/hoa_fee_analyzer.json",
+    "file_extension": ".json",
+    "file_size": 5985,
+    "created_at": "2025-06-13T04:47:07.195462",
+    "is_directory": false
+  },
+  {
+    "filename": "Slack slash commands AI Chat Bot.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Slack slash commands AI Chat Bot.txt",
+    "file_extension": ".txt",
+    "file_size": 6166,
+    "created_at": "2025-06-13T04:47:07.195468",
+    "is_directory": false
+  },
+  {
+    "filename": "ev_battery_degradation_report.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/ev_battery_degradation_report.json",
+    "file_extension": ".json",
+    "file_size": 6000,
+    "created_at": "2025-06-13T04:47:07.195474",
+    "is_directory": false
+  },
+  {
+    "filename": "resume_screening.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/resume_screening.json",
+    "file_extension": ".json",
+    "file_size": 7430,
+    "created_at": "2025-06-13T04:47:07.195480",
+    "is_directory": false
+  },
+  {
+    "filename": "Create a Google Analytics Data Report with AI and sent it to E-Mail and Telegram.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Create a Google Analytics Data Report with AI and sent it to E-Mail and Telegram.txt",
+    "file_extension": ".txt",
+    "file_size": 14971,
+    "created_at": "2025-06-13T04:47:07.195486",
+    "is_directory": false
+  },
+  {
+    "filename": "paypal_to_airtable.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/paypal_to_airtable.json",
+    "file_extension": ".json",
+    "file_size": 7450,
+    "created_at": "2025-06-13T04:47:07.195492",
+    "is_directory": false
+  },
+  {
+    "filename": "Chat Assistant (OpenAI assistant) with Postgres Memory And API Calling Capabalities.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Chat Assistant (OpenAI assistant) with Postgres Memory And API Calling Capabalities.txt",
+    "file_extension": ".txt",
+    "file_size": 9881,
+    "created_at": "2025-06-13T04:47:07.195498",
+    "is_directory": false
+  },
+  {
+    "filename": "BambooHR AI-Powered Company Policies and Benefits Chatbot.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/BambooHR AI-Powered Company Policies and Benefits Chatbot.txt",
+    "file_extension": ".txt",
+    "file_size": 26693,
+    "created_at": "2025-06-13T04:47:07.195504",
+    "is_directory": false
+  },
+  {
+    "filename": "Narrating over a Video using Multimodal AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Narrating over a Video using Multimodal AI.txt",
+    "file_extension": ".txt",
+    "file_size": 15883,
+    "created_at": "2025-06-13T04:47:07.195510",
+    "is_directory": false
+  },
+  {
+    "filename": "Angie, Personal AI Assistant with Telegram Voice and Text.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Angie, Personal AI Assistant with Telegram Voice and Text.txt",
+    "file_extension": ".txt",
+    "file_size": 8535,
+    "created_at": "2025-06-13T04:47:07.195516",
+    "is_directory": false
+  },
+  {
+    "filename": "Use OpenRouter in n8n versions _1.78.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Use OpenRouter in n8n versions _1.78.txt",
+    "file_extension": ".txt",
+    "file_size": 3797,
+    "created_at": "2025-06-13T04:47:07.195522",
+    "is_directory": false
+  },
+  {
+    "filename": "AI-Driven Lead Management and Inquiry Automation with ERPNext & n8n.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI-Driven Lead Management and Inquiry Automation with ERPNext & n8n.txt",
+    "file_extension": ".txt",
+    "file_size": 21457,
+    "created_at": "2025-06-13T04:47:07.195529",
+    "is_directory": false
+  },
+  {
+    "filename": "Building Your First WhatsApp Chatbot (1).txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Building Your First WhatsApp Chatbot (1).txt",
+    "file_extension": ".txt",
+    "file_size": 16598,
+    "created_at": "2025-06-13T04:47:07.195536",
+    "is_directory": false
+  },
+  {
+    "filename": "Extract data from resume and create PDF with Gotenberg.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Extract data from resume and create PDF with Gotenberg.txt",
+    "file_extension": ".txt",
+    "file_size": 25038,
+    "created_at": "2025-06-13T04:47:07.195542",
+    "is_directory": false
+  },
+  {
+    "filename": "adas_event_annotator.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/adas_event_annotator.json",
+    "file_extension": ".json",
+    "file_size": 5982,
+    "created_at": "2025-06-13T04:47:07.195548",
+    "is_directory": false
+  },
+  {
+    "filename": "course_completion_certificate.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/course_completion_certificate.json",
+    "file_extension": ".json",
+    "file_size": 7674,
+    "created_at": "2025-06-13T04:47:07.195554",
+    "is_directory": false
+  },
+  {
+    "filename": "Automate Competitor Research with Exa.ai, Notion and AI Agents.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Automate Competitor Research with Exa.ai, Notion and AI Agents.txt",
+    "file_extension": ".txt",
+    "file_size": 36620,
+    "created_at": "2025-06-13T04:47:07.195560",
+    "is_directory": false
+  },
+  {
+    "filename": "MongoDB AI Agent - Intelligent Movie Recommendations.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/MongoDB AI Agent - Intelligent Movie Recommendations.txt",
+    "file_extension": ".txt",
+    "file_size": 5427,
+    "created_at": "2025-06-13T04:47:07.195566",
+    "is_directory": false
+  },
+  {
+    "filename": "medication_sms_reminder.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/medication_sms_reminder.json",
+    "file_extension": ".json",
+    "file_size": 7628,
+    "created_at": "2025-06-13T04:47:07.195571",
+    "is_directory": false
+  },
+  {
+    "filename": "discord_guild_welcome_bot.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/discord_guild_welcome_bot.json",
+    "file_extension": ".json",
+    "file_size": 6009,
+    "created_at": "2025-06-13T04:47:07.195577",
+    "is_directory": false
+  },
+  {
+    "filename": "connected_car_alert.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/connected_car_alert.json",
+    "file_extension": ".json",
+    "file_size": 5950,
+    "created_at": "2025-06-13T04:47:07.195583",
+    "is_directory": false
+  },
+  {
+    "filename": "AI agent chat.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI agent chat.txt",
+    "file_extension": ".txt",
+    "file_size": 1945,
+    "created_at": "2025-06-13T04:47:07.195589",
+    "is_directory": false
+  },
+  {
+    "filename": "Invoice data extraction with LlamaParse and OpenAI (1).txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Invoice data extraction with LlamaParse and OpenAI (1).txt",
+    "file_extension": ".txt",
+    "file_size": 22067,
+    "created_at": "2025-06-13T04:47:07.195595",
+    "is_directory": false
+  },
+  {
+    "filename": "Generate audio from text using OpenAI and Webhook _ Text to Speech Workflow.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Generate audio from text using OpenAI and Webhook _ Text to Speech Workflow.txt",
+    "file_extension": ".txt",
+    "file_size": 2905,
+    "created_at": "2025-06-13T04:47:07.195601",
+    "is_directory": false
+  },
+  {
+    "filename": "Manipulate PDF with Adobe developer API.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Manipulate PDF with Adobe developer API.txt",
+    "file_extension": ".txt",
+    "file_size": 12624,
+    "created_at": "2025-06-13T04:47:07.195607",
+    "is_directory": false
+  },
+  {
+    "filename": "smart_home_energy_saver.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/smart_home_energy_saver.json",
+    "file_extension": ".json",
+    "file_size": 5999,
+    "created_at": "2025-06-13T04:47:07.195613",
+    "is_directory": false
+  },
+  {
+    "filename": "Qualifying Appointment Requests with AI & n8n Forms.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Qualifying Appointment Requests with AI & n8n Forms.txt",
+    "file_extension": ".txt",
+    "file_size": 20266,
+    "created_at": "2025-06-13T04:47:07.195619",
+    "is_directory": false
+  },
+  {
+    "filename": "Text automations using Apple Shortcuts (1).txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Text automations using Apple Shortcuts (1).txt",
+    "file_extension": ".txt",
+    "file_size": 10110,
+    "created_at": "2025-06-13T04:47:07.195625",
+    "is_directory": false
+  },
+  {
+    "filename": "trademark_status_monitor.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/trademark_status_monitor.json",
+    "file_extension": ".json",
+    "file_size": 6015,
+    "created_at": "2025-06-13T04:47:07.195631",
+    "is_directory": false
+  },
+  {
+    "filename": "A Very Simple _Human in the Loop_ Email Response System Using AI and IMAP.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/A Very Simple _Human in the Loop_ Email Response System Using AI and IMAP.txt",
+    "file_extension": ".txt",
+    "file_size": 8171,
+    "created_at": "2025-06-13T04:47:07.195638",
+    "is_directory": false
+  },
+  {
+    "filename": "inventory_restock_forecast.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/inventory_restock_forecast.json",
+    "file_extension": ".json",
+    "file_size": 6024,
+    "created_at": "2025-06-13T04:47:07.195644",
+    "is_directory": false
+  },
+  {
+    "filename": "appointment_whatsapp_notify.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/appointment_whatsapp_notify.json",
+    "file_extension": ".json",
+    "file_size": 7656,
+    "created_at": "2025-06-13T04:47:07.195650",
+    "is_directory": false
+  },
+  {
+    "filename": "currency_rate_monitor.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/currency_rate_monitor.json",
+    "file_extension": ".json",
+    "file_size": 7474,
+    "created_at": "2025-06-13T04:47:07.195656",
+    "is_directory": false
+  },
+  {
+    "filename": "Get Airtable data via AI and Obsidian Notes.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Get Airtable data via AI and Obsidian Notes.txt",
+    "file_extension": ".txt",
+    "file_size": 4220,
+    "created_at": "2025-06-13T04:47:07.195662",
+    "is_directory": false
+  },
+  {
+    "filename": "etsy_review_to_slack.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/etsy_review_to_slack.json",
+    "file_extension": ".json",
+    "file_size": 7593,
+    "created_at": "2025-06-13T04:47:07.195668",
+    "is_directory": false
+  },
+  {
+    "filename": "unsplash_to_pinterest.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/unsplash_to_pinterest.json",
+    "file_extension": ".json",
+    "file_size": 7598,
+    "created_at": "2025-06-13T04:47:07.195674",
+    "is_directory": false
+  },
+  {
+    "filename": "\ud83d\ude80 Local Multi-LLM Testing & Performance Tracker.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/\ud83d\ude80 Local Multi-LLM Testing & Performance Tracker.txt",
+    "file_extension": ".txt",
+    "file_size": 19227,
+    "created_at": "2025-06-13T04:47:07.195680",
+    "is_directory": false
+  },
+  {
+    "filename": "Social Media Analysis and Automated Email Generation.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Social Media Analysis and Automated Email Generation.txt",
+    "file_extension": ".txt",
+    "file_size": 17853,
+    "created_at": "2025-06-13T04:47:07.195686",
+    "is_directory": false
+  },
+  {
+    "filename": "Learn Anything from HN - Get Top Resource Recommendations from Hacker News.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Learn Anything from HN - Get Top Resource Recommendations from Hacker News.txt",
+    "file_extension": ".txt",
+    "file_size": 6486,
+    "created_at": "2025-06-13T04:47:07.195692",
+    "is_directory": false
+  },
+  {
+    "filename": "Dynamically generate a webpage from user request using OpenAI Structured Output (1).txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Dynamically generate a webpage from user request using OpenAI Structured Output (1).txt",
+    "file_extension": ".txt",
+    "file_size": 7929,
+    "created_at": "2025-06-13T04:47:07.195698",
+    "is_directory": false
+  },
+  {
+    "filename": "Discord AI-powered bot.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Discord AI-powered bot.txt",
+    "file_extension": ".txt",
+    "file_size": 5273,
+    "created_at": "2025-06-13T04:47:07.195704",
+    "is_directory": false
+  },
+  {
+    "filename": "daily_email_digest.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/daily_email_digest.json",
+    "file_extension": ".json",
+    "file_size": 7462,
+    "created_at": "2025-06-13T04:47:07.195710",
+    "is_directory": false
+  },
+  {
+    "filename": "Fetch Dynamic Prompts from GitHub and Auto-Populate n8n Expressions in Prompt.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Fetch Dynamic Prompts from GitHub and Auto-Populate n8n Expressions in Prompt.txt",
+    "file_extension": ".txt",
+    "file_size": 9656,
+    "created_at": "2025-06-13T04:47:07.195716",
+    "is_directory": false
+  },
+  {
+    "filename": "ChatGPT Automatic Code Review in Gitlab MR.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/ChatGPT Automatic Code Review in Gitlab MR.txt",
+    "file_extension": ".txt",
+    "file_size": 8444,
+    "created_at": "2025-06-13T04:47:07.195722",
+    "is_directory": false
+  },
+  {
+    "filename": "Post New YouTube Videos to X.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Post New YouTube Videos to X.txt",
+    "file_extension": ".txt",
+    "file_size": 3414,
+    "created_at": "2025-06-13T04:47:07.195728",
+    "is_directory": false
+  },
+  {
+    "filename": "real_estate_market_trend_report.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/real_estate_market_trend_report.json",
+    "file_extension": ".json",
+    "file_size": 6049,
+    "created_at": "2025-06-13T04:47:07.195734",
+    "is_directory": false
+  },
+  {
+    "filename": "AI-Powered Children_s Arabic Storytelling on Telegram.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI-Powered Children_s Arabic Storytelling on Telegram.txt",
+    "file_extension": ".txt",
+    "file_size": 10992,
+    "created_at": "2025-06-13T04:47:07.195740",
+    "is_directory": false
+  },
+  {
+    "filename": "tv_rating_trend_report.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/tv_rating_trend_report.json",
+    "file_extension": ".json",
+    "file_size": 5978,
+    "created_at": "2025-06-13T04:47:07.195747",
+    "is_directory": false
+  },
+  {
+    "filename": "Advanced AI Demo (Presented at AI Developers #14 meetup).txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Advanced AI Demo (Presented at AI Developers #14 meetup).txt",
+    "file_extension": ".txt",
+    "file_size": 18988,
+    "created_at": "2025-06-13T04:47:07.195753",
+    "is_directory": false
+  },
+  {
+    "filename": "Summarize the New Documents from Google Drive and Save Summary in Google Sheet.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Summarize the New Documents from Google Drive and Save Summary in Google Sheet.txt",
+    "file_extension": ".txt",
+    "file_size": 7030,
+    "created_at": "2025-06-13T04:47:07.195759",
+    "is_directory": false
+  },
+  {
+    "filename": "json_to_sheet.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/json_to_sheet.json",
+    "file_extension": ".json",
+    "file_size": 7794,
+    "created_at": "2025-06-13T04:47:07.195765",
+    "is_directory": false
+  },
+  {
+    "filename": "production_kpi_dashboard.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/production_kpi_dashboard.json",
+    "file_extension": ".json",
+    "file_size": 6002,
+    "created_at": "2025-06-13T04:47:07.195771",
+    "is_directory": false
+  },
+  {
+    "filename": "Intelligent Web Query and Semantic Re-Ranking Flow using Brave and Google Gemini.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Intelligent Web Query and Semantic Re-Ranking Flow using Brave and Google Gemini.txt",
+    "file_extension": ".txt",
+    "file_size": 35424,
+    "created_at": "2025-06-13T04:47:07.195777",
+    "is_directory": false
+  },
+  {
+    "filename": "AI chat with any data source (using the n8n workflow tool).txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI chat with any data source (using the n8n workflow tool).txt",
+    "file_extension": ".txt",
+    "file_size": 4736,
+    "created_at": "2025-06-13T04:47:07.195783",
+    "is_directory": false
+  },
+  {
+    "filename": "weather_impact_report.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/weather_impact_report.json",
+    "file_extension": ".json",
+    "file_size": 6010,
+    "created_at": "2025-06-13T04:47:07.195789",
+    "is_directory": false
+  },
+  {
+    "filename": "Integrating AI with Open-Meteo API for Enhanced Weather Forecasting.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Integrating AI with Open-Meteo API for Enhanced Weather Forecasting.txt",
+    "file_extension": ".txt",
+    "file_size": 8418,
+    "created_at": "2025-06-13T04:47:07.195795",
+    "is_directory": false
+  },
+  {
+    "filename": "Host Your Own AI Deep Research Agent with n8n, Apify and OpenAI o3.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Host Your Own AI Deep Research Agent with n8n, Apify and OpenAI o3.txt",
+    "file_extension": ".txt",
+    "file_size": 150314,
+    "created_at": "2025-06-13T04:47:07.195801",
+    "is_directory": false
+  },
+  {
+    "filename": "AI Agent to chat with you Search Console Data, using OpenAI and Postgres.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI Agent to chat with you Search Console Data, using OpenAI and Postgres.txt",
+    "file_extension": ".txt",
+    "file_size": 24138,
+    "created_at": "2025-06-13T04:47:07.195807",
+    "is_directory": false
+  },
+  {
+    "filename": "Extract personal data with self-hosted LLM Mistral NeMo.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Extract personal data with self-hosted LLM Mistral NeMo.txt",
+    "file_extension": ".txt",
+    "file_size": 6489,
+    "created_at": "2025-06-13T04:47:07.195813",
+    "is_directory": false
+  },
+  {
+    "filename": "Telegram AI Chatbot.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Telegram AI Chatbot.txt",
+    "file_extension": ".txt",
+    "file_size": 8622,
+    "created_at": "2025-06-13T04:47:07.195819",
+    "is_directory": false
+  },
+  {
+    "filename": "UTM Link Creator & QR Code Generator with Scheduled Google Analytics Reports.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/UTM Link Creator & QR Code Generator with Scheduled Google Analytics Reports.txt",
+    "file_extension": ".txt",
+    "file_size": 10084,
+    "created_at": "2025-06-13T04:47:07.195825",
+    "is_directory": false
+  },
+  {
+    "filename": "Auto-Categorize blog posts in wordpress using A.I..txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Auto-Categorize blog posts in wordpress using A.I..txt",
+    "file_extension": ".txt",
+    "file_size": 4773,
+    "created_at": "2025-06-13T04:47:07.195831",
+    "is_directory": false
+  },
+  {
+    "filename": "Classify new bugs in Linear with OpenAI_s GPT-4 and move them to the right team.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Classify new bugs in Linear with OpenAI_s GPT-4 and move them to the right team.txt",
+    "file_extension": ".txt",
+    "file_size": 17220,
+    "created_at": "2025-06-13T04:47:07.195837",
+    "is_directory": false
+  },
+  {
+    "filename": "vAssistant for Hubspot Chat using OpenAi and Airtable.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/vAssistant for Hubspot Chat using OpenAi and Airtable.txt",
+    "file_extension": ".txt",
+    "file_size": 22013,
+    "created_at": "2025-06-13T04:47:07.195843",
+    "is_directory": false
+  },
+  {
+    "filename": "Qualify new leads in Google Sheets via OpenAI_s GPT-4.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Qualify new leads in Google Sheets via OpenAI_s GPT-4.txt",
+    "file_extension": ".txt",
+    "file_size": 8560,
+    "created_at": "2025-06-13T04:47:07.195849",
+    "is_directory": false
+  },
+  {
+    "filename": "youtube_comment_summarizer.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/youtube_comment_summarizer.json",
+    "file_extension": ".json",
+    "file_size": 7804,
+    "created_at": "2025-06-13T04:47:07.195855",
+    "is_directory": false
+  },
+  {
+    "filename": "Microsoft Outlook AI Email Assistant with contact support from Monday and Airtable.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Microsoft Outlook AI Email Assistant with contact support from Monday and Airtable.txt",
+    "file_extension": ".txt",
+    "file_size": 20747,
+    "created_at": "2025-06-13T04:47:07.195861",
+    "is_directory": false
+  },
+  {
+    "filename": "supply_chain_delay_monitor.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/supply_chain_delay_monitor.json",
+    "file_extension": ".json",
+    "file_size": 6012,
+    "created_at": "2025-06-13T04:47:07.195867",
+    "is_directory": false
+  },
+  {
+    "filename": "\ud83d\udd25\ud83d\udcc8\ud83e\udd16 AI Agent for n8n Creators Leaderboard - Find Popular Workflows.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/\ud83d\udd25\ud83d\udcc8\ud83e\udd16 AI Agent for n8n Creators Leaderboard - Find Popular Workflows.txt",
+    "file_extension": ".txt",
+    "file_size": 27674,
+    "created_at": "2025-06-13T04:47:07.195873",
+    "is_directory": false
+  },
+  {
+    "filename": "Deduplicate Scraping AI Grants for Eligibility using AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Deduplicate Scraping AI Grants for Eligibility using AI.txt",
+    "file_extension": ".txt",
+    "file_size": 35090,
+    "created_at": "2025-06-13T04:47:07.195879",
+    "is_directory": false
+  },
+  {
+    "filename": "auto-reply_to_tiktok_comments.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/auto-reply_to_tiktok_comments.json",
+    "file_extension": ".json",
+    "file_size": 7842,
+    "created_at": "2025-06-13T04:47:07.195885",
+    "is_directory": false
+  },
+  {
+    "filename": "AI Powered Web Scraping with Jina, Google Sheets and OpenAI _ the EASY way.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI Powered Web Scraping with Jina, Google Sheets and OpenAI _ the EASY way.txt",
+    "file_extension": ".txt",
+    "file_size": 5365,
+    "created_at": "2025-06-13T04:47:07.195891",
+    "is_directory": false
+  },
+  {
+    "filename": "API Schema Extractor.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/API Schema Extractor.txt",
+    "file_extension": ".txt",
+    "file_size": 73443,
+    "created_at": "2025-06-13T04:47:07.195897",
+    "is_directory": false
+  },
+  {
+    "filename": "AI Agent with Ollama for current weather and wiki.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/AI Agent with Ollama for current weather and wiki.txt",
+    "file_extension": ".txt",
+    "file_size": 4335,
+    "created_at": "2025-06-13T04:47:07.195903",
+    "is_directory": false
+  },
+  {
+    "filename": "Auto Categorise Outlook Emails with AI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Auto Categorise Outlook Emails with AI.txt",
+    "file_extension": ".txt",
+    "file_size": 26364,
+    "created_at": "2025-06-13T04:47:07.195909",
+    "is_directory": false
+  },
+  {
+    "filename": "achievement_suggestion_engine.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/achievement_suggestion_engine.json",
+    "file_extension": ".json",
+    "file_size": 6040,
+    "created_at": "2025-06-13T04:47:07.195915",
+    "is_directory": false
+  },
+  {
+    "filename": "Scrape Trustpilot Reviews with DeepSeek, Analyze Sentiment with OpenAI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Scrape Trustpilot Reviews with DeepSeek, Analyze Sentiment with OpenAI.txt",
+    "file_extension": ".txt",
+    "file_size": 16333,
+    "created_at": "2025-06-13T04:47:07.195921",
+    "is_directory": false
+  },
+  {
+    "filename": "Upsert huge documents in a vector store with Supabase and Notion.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Upsert huge documents in a vector store with Supabase and Notion.txt",
+    "file_extension": ".txt",
+    "file_size": 15045,
+    "created_at": "2025-06-13T04:47:07.195927",
+    "is_directory": false
+  },
+  {
+    "filename": "assignment_sms_reminder.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/assignment_sms_reminder.json",
+    "file_extension": ".json",
+    "file_size": 7616,
+    "created_at": "2025-06-13T04:47:07.195932",
+    "is_directory": false
+  },
+  {
+    "filename": "Reconcile Rent Payments with Local Excel Spreadsheet and OpenAI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Reconcile Rent Payments with Local Excel Spreadsheet and OpenAI.txt",
+    "file_extension": ".txt",
+    "file_size": 13037,
+    "created_at": "2025-06-13T04:47:07.195942",
+    "is_directory": false
+  },
+  {
+    "filename": "harvest_logbook.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/harvest_logbook.json",
+    "file_extension": ".json",
+    "file_size": 5959,
+    "created_at": "2025-06-13T04:47:07.195948",
+    "is_directory": false
+  },
+  {
+    "filename": "Store Notion_s Pages as Vector Documents into Supabase with OpenAI.txt",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/Store Notion_s Pages as Vector Documents into Supabase with OpenAI.txt",
+    "file_extension": ".txt",
+    "file_size": 6920,
+    "created_at": "2025-06-13T04:47:07.195954",
+    "is_directory": false
+  },
+  {
+    "filename": "notion_job_board_poster.json",
+    "file_path": "/Users/tushar/Desktop/N8N-Agents/n8n/notion_job_board_poster.json",
+    "file_extension": ".json",
+    "file_size": 7620,
+    "created_at": "2025-06-13T04:47:07.195960",
+    "is_directory": false
+  }
+]
