@@ -3,6 +3,7 @@ import { Header } from '@/components/Header'
 import { CategoryCard } from '@/components/CategoryCard'
 import { CategoryView } from '@/components/CategoryView'
 import { SearchResults } from '@/components/SearchResults'
+import { LeadModal } from '@/components/LeadModal'
 import { getAllCategories, getTotalWorkflowCount } from '@/data/agents'
 import type { Category, WorkflowFile } from '@/data/agents'
 
@@ -17,6 +18,8 @@ function App() {
   const [selectedCategory, setSelectedCategory] = useState<Category | null>(null)
   const [searchResults, setSearchResults] = useState<{ category: Category; workflow: WorkflowFile }[]>([])
   const [isDarkMode, setIsDarkMode] = useState(false)
+  const [showLeadModal, setShowLeadModal] = useState(false)
+  const [hasSubmittedLead, setHasSubmittedLead] = useState(false)
 
   // Initialize theme from localStorage or system preference
   useEffect(() => {
@@ -45,6 +48,23 @@ function App() {
     } else {
       document.documentElement.classList.remove('dark')
     }
+  }
+
+  // Show lead modal on first visit
+  useEffect(() => {
+    const hasSubmitted = localStorage.getItem('leadSubmitted')
+    if (!hasSubmitted) {
+      setShowLeadModal(true)
+    } else {
+      setHasSubmittedLead(true)
+    }
+  }, [])
+
+  // Handle lead form submission
+  const handleLeadSubmit = () => {
+    localStorage.setItem('leadSubmitted', 'true')
+    setHasSubmittedLead(true)
+    setShowLeadModal(false)
   }
 
   // Handle search results
@@ -147,6 +167,13 @@ function App() {
           />
         )}
       </main>
+      
+      {/* Lead Generation Modal */}
+      <LeadModal
+        isOpen={showLeadModal}
+        onClose={() => setShowLeadModal(false)}
+        onSubmit={handleLeadSubmit}
+      />
     </div>
   )
 }

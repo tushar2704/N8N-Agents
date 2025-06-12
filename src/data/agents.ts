@@ -24,36 +24,19 @@ export interface Category {
 export const categories: Category[] = [
   {
     id: 'ai-ml',
-    name: 'AI & Machine Learning',
+    name: 'AI_ML',
     description: 'Intelligent automation workflows powered by AI and ML technologies',
     icon: '🤖',
     count: 10,
-    workflows: [
-      { name: 'Auto-tag Blog Posts', filename: 'auto-tag_blog_posts.json', type: 'json' },
-      { name: 'Customer Sentiment Analysis', filename: 'customer_sentiment_analysis.json', type: 'json' },
-      { name: 'Daily Content Ideas', filename: 'daily_content_ideas.json', type: 'json' },
-      { name: 'Image Captioning', filename: 'image_captioning.json', type: 'json' },
-      { name: 'Product Description Generator', filename: 'product_description_generator.json', type: 'json' },
-      { name: 'Resume Screening', filename: 'resume_screening.json', type: 'json' },
-      { name: 'Summarize Customer Emails', filename: 'summarize_customer_emails.json', type: 'json' },
-      { name: 'Ticket Urgency Classification', filename: 'ticket_urgency_classification.json', type: 'json' },
-      { name: 'Translate Form Submissions', filename: 'translate_form_submissions.json', type: 'json' },
-      { name: 'Voice Note Transcription', filename: 'voice_note_transcription.json', type: 'json' }
-    ]
+    workflows: []
   },
   {
-    id: 'ai-research',
-    name: 'AI Research & Data Analysis',
+    id: 'ai-research-rag-data-analysis',
+    name: 'AI_Research_RAG_and_Data_Analysis',
     description: 'Advanced AI research workflows with RAG, vector databases, and data analysis',
     icon: '🔬',
     count: 35,
-    workflows: [
-      { name: 'Analyze TradingView Charts with Chrome Extension', filename: 'Analyze tradingview.com charts with Chrome extension, N8N and OpenAI.txt', type: 'txt' },
-      { name: 'Automated Hugging Face Paper Summary', filename: 'Automated Hugging Face Paper Summary Fetching & Categorization Workflow.txt', type: 'txt' },
-      { name: 'Autonomous AI Crawler', filename: 'Autonomous AI crawler.txt', type: 'txt' },
-      { name: 'Build Image Search with AI Object Detection', filename: 'Build Your Own Image Search Using AI Object Detection, CDN and ElasticSearchBuild Your Own Image Search Using AI Object Detection, CDN and ElasticSearch.txt', type: 'txt' },
-      { name: 'Financial Documents Assistant with Qdrant', filename: 'Build a Financial Documents Assistant using Qdrant and Mistral.ai.txt', type: 'txt' }
-    ]
+    workflows: []
   },
   {
     id: 'agriculture',
@@ -61,18 +44,15 @@ export const categories: Category[] = [
     description: 'Smart farming and agricultural automation workflows',
     icon: '🌾',
     count: 10,
-    workflows: [
-      { name: 'Commodity Price Tracker', filename: 'commodity_price_tracker.json', type: 'json' },
-      { name: 'Crop Yield Predictor', filename: 'crop_yield_predictor.json', type: 'json' },
-      { name: 'Drone Image Crop Health', filename: 'drone_image_crop_health.json', type: 'json' },
-      { name: 'Farm Equipment Maintenance Reminder', filename: 'farm_equipment_maintenance_reminder.json', type: 'json' },
-      { name: 'Greenhouse Climate Controller', filename: 'greenhouse_climate_controller.json', type: 'json' },
-      { name: 'Harvest Logbook', filename: 'harvest_logbook.json', type: 'json' },
-      { name: 'Irrigation Schedule Optimizer', filename: 'irrigation_schedule_optimizer.json', type: 'json' },
-      { name: 'Pest Outbreak Alert', filename: 'pest_outbreak_alert.json', type: 'json' },
-      { name: 'Soil Nutrient Analysis', filename: 'soil_nutrient_analysis.json', type: 'json' },
-      { name: 'Weather Impact Report', filename: 'weather_impact_report.json', type: 'json' }
-    ]
+    workflows: []
+  },
+  {
+    id: 'airtable',
+    name: 'Airtable',
+    description: 'Airtable integration and database automation workflows',
+    icon: '📊',
+    count: 5,
+    workflows: []
   },
   {
     id: 'automotive',
@@ -80,73 +60,71 @@ export const categories: Category[] = [
     description: 'Connected car and automotive industry automation workflows',
     icon: '🚗',
     count: 10,
-    workflows: [
-      { name: 'ADAS Event Annotator', filename: 'adas_event_annotator.json', type: 'json' },
-      { name: 'Autonomous Vehicle Log Summarizer', filename: 'autonomous_vehicle_log_summarizer.json', type: 'json' },
-      { name: 'Car Insurance Quote Generator', filename: 'car_insurance_quote_generator.json', type: 'json' },
-      { name: 'Connected Car Alert', filename: 'connected_car_alert.json', type: 'json' },
-      { name: 'Dealer Lead Qualifier', filename: 'dealer_lead_qualifier.json', type: 'json' },
-      { name: 'EV Battery Degradation Report', filename: 'ev_battery_degradation_report.json', type: 'json' },
-      { name: 'Fleet Fuel Efficiency Report', filename: 'fleet_fuel_efficiency_report.json', type: 'json' },
-      { name: 'Recall Notice Tracker', filename: 'recall_notice_tracker.json', type: 'json' },
-      { name: 'Ride-share Surge Predictor', filename: 'ride‑share_surge_predictor.json', type: 'json' },
-      { name: 'VIN Decoder', filename: 'vin_decoder.json', type: 'json' }
-    ]
+    workflows: []
+  },
+  {
+    id: 'creative-content',
+    name: 'Creative_Content',
+    description: 'Content creation and creative automation workflows',
+    icon: '🎨',
+    count: 2,
+    workflows: []
+  },
+  {
+    id: 'data-analytics',
+    name: 'Data_Analytics',
+    description: 'Data analysis and business intelligence automation workflows',
+    icon: '📈',
+    count: 2,
+    workflows: []
+  },
+  {
+    id: 'database-and-storage',
+    name: 'Database_and_Storage',
+    description: 'Database management and data storage automation workflows',
+    icon: '🗄️',
+    count: 5,
+    workflows: []
+  },
+  {
+    id: 'devops',
+    name: 'DevOps',
+    description: 'Development operations and CI/CD automation workflows',
+    icon: '⚙️',
+    count: 2,
+    workflows: []
+  },
+  {
+    id: 'discord',
+    name: 'Discord',
+    description: 'Discord bot and community management automation workflows',
+    icon: '💬',
+    count: 3,
+    workflows: []
+  },
+  {
+    id: 'e-commerce-retail',
+    name: 'E_Commerce_Retail',
+    description: 'Online retail and e-commerce automation workflows',
+    icon: '🛒',
+    count: 4,
+    workflows: []
+  },
+  {
+    id: 'education',
+    name: 'Education',
+    description: 'Educational technology and learning automation workflows',
+    icon: '🎓',
+    count: 3,
+    workflows: []
   },
   {
     id: 'email-automation',
-    name: 'Email Automation',
-    description: 'Powerful email processing and automation workflows',
+    name: 'Email_Automation',
+    description: 'Email processing and automation workflows',
     icon: '📧',
-    count: 10,
-    workflows: [
-      { name: 'Auto Archive Promotions', filename: 'auto_archive_promotions.json', type: 'json' },
-      { name: 'Auto Reply to FAQs', filename: 'auto_reply_to_faqs.json', type: 'json' },
-      { name: 'Daily Email Digest', filename: 'daily_email_digest.json', type: 'json' },
-      { name: 'Follow-up Emails', filename: 'follow-up_emails.json', type: 'json' },
-      { name: 'Forward Attachments', filename: 'forward_attachments.json', type: 'json' },
-      { name: 'Lead to HubSpot', filename: 'lead_to_hubspot.json', type: 'json' },
-      { name: 'MailChimp Campaign Tracking', filename: 'mailchimp_campaign_tracking.json', type: 'json' },
-      { name: 'Parse Invoice Emails', filename: 'parse_invoice_emails.json', type: 'json' },
-      { name: 'Product Launch Email', filename: 'product_launch_email.json', type: 'json' },
-      { name: 'SendGrid Bounce Alert', filename: 'sendgrid_bounce_alert.json', type: 'json' }
-    ]
-  },
-  {
-    id: 'finance-accounting',
-    name: 'Finance & Accounting',
-    description: 'Financial automation and accounting workflow solutions',
-    icon: '💰',
-    count: 8,
-    workflows: [
-      { name: 'Currency Rate Monitor', filename: 'currency_rate_monitor.json', type: 'json' },
-      { name: 'Monthly Expense Report', filename: 'monthly_expense_report.json', type: 'json' },
-      { name: 'OCR Receipts to Notion', filename: 'ocr_receipts_to_notion.json', type: 'json' },
-      { name: 'PayPal to Airtable', filename: 'paypal_to_airtable.json', type: 'json' },
-      { name: 'Stripe to QuickBooks', filename: 'stripe_to_quickbooks.json', type: 'json' },
-      { name: 'Transaction Logs Backup', filename: 'transaction_logs_backup.json', type: 'json' },
-      { name: 'Unpaid Invoice Reminder', filename: 'unpaid_invoice_reminder.json', type: 'json' },
-      { name: 'Weekly Shopify Sales Summary', filename: 'weekly_shopify_sales_summary.json', type: 'json' }
-    ]
-  },
-  {
-    id: 'gaming',
-    name: 'Gaming',
-    description: 'Gaming industry automation and community management workflows',
-    icon: '🎮',
-    count: 10,
-    workflows: [
-      { name: 'Achievement Suggestion Engine', filename: 'achievement_suggestion_engine.json', type: 'json' },
-      { name: 'Discord Guild Welcome Bot', filename: 'discord_guild_welcome_bot.json', type: 'json' },
-      { name: 'Esports Match Alert', filename: 'esports_match_alert.json', type: 'json' },
-      { name: 'Game Bug Triage', filename: 'game_bug_triage.json', type: 'json' },
-      { name: 'In-game Event Reminder', filename: 'in‑game_event_reminder.json', type: 'json' },
-      { name: 'Loot-box Probability Calculator', filename: 'loot‑box_probability_calculator.json', type: 'json' },
-      { name: 'Patch Note Summarizer', filename: 'patch_note_summarizer.json', type: 'json' },
-      { name: 'Player Sentiment Dashboard', filename: 'player_sentiment_dashboard.json', type: 'json' },
-      { name: 'Twitch Clip Highlights Script', filename: 'twitch_clip_highlights_script.json', type: 'json' },
-      { name: 'Virtual Economy Price Tracker', filename: 'virtual_economy_price_tracker.json', type: 'json' }
-    ]
+    count: 11,
+    workflows: []
   },
   {
     id: 'energy',
@@ -154,22 +132,163 @@ export const categories: Category[] = [
     description: 'Energy management and renewable energy automation workflows',
     icon: '⚡',
     count: 10,
-    workflows: [
-      { name: 'Battery Health Monitor', filename: 'battery_health_monitor.json', type: 'json' },
-      { name: 'Carbon Footprint Estimator', filename: 'carbon_footprint_estimator.json', type: 'json' },
-      { name: 'Energy Consumption Anomaly Detector', filename: 'energy_consumption_anomaly_detector.json', type: 'json' },
-      { name: 'EV Charging Station Locator', filename: 'ev_charging_station_locator.json', type: 'json' },
-      { name: 'Fuel Price Monitor', filename: 'fuel_price_monitor.json', type: 'json' },
-      { name: 'Grid Load Alert', filename: 'grid_load_alert.json', type: 'json' },
-      { name: 'Power Outage SMS', filename: 'power_outage_sms.json', type: 'json' },
-      { name: 'Renewable Incentive Tracker', filename: 'renewable_incentive_tracker.json', type: 'json' },
-      { name: 'Solar Output Forecaster', filename: 'solar_output_forecaster.json', type: 'json' },
-      { name: 'Wind Farm Maintenance Scheduler', filename: 'wind_farm_maintenance_scheduler.json', type: 'json' }
-    ]
-  }
-]
+    workflows: []
+  },
+  {
+    id: 'finance-accounting',
+    name: 'Finance_Accounting',
+    description: 'Financial automation and accounting workflows',
+    icon: '💰',
+    count: 8,
+    workflows: []
+  },
+  {
+    id: 'forms-and-surveys',
+    name: 'Forms_and_Surveys',
+    description: 'Form processing and survey automation workflows',
+    icon: '📝',
+     count: 4,
+     workflows: []
+   },
+   {
+     id: 'gaming',
+     name: 'Gaming',
+     description: 'Gaming industry automation workflows',
+     icon: '🎮',
+     count: 10,
+     workflows: []
+   },
+   {
+     id: 'gmail-email',
+     name: 'Gmail_Email',
+     description: 'Gmail and advanced email automation workflows',
+     icon: '📧',
+     count: 20,
+     workflows: []
+   },
+   {
+     id: 'google-drive-sheets',
+     name: 'Google_Drive_Sheets',
+     description: 'Google Drive and Google Sheets integration workflows',
+     icon: '📁',
+     count: 15,
+     workflows: []
+   },
+   {
+     id: 'hr',
+     name: 'HR',
+     description: 'Human resources automation workflows',
+     icon: '👥',
+     count: 8,
+     workflows: []
+   },
+   {
+     id: 'healthcare',
+     name: 'Healthcare',
+     description: 'Healthcare and medical automation workflows',
+     icon: '🏥',
+     count: 10,
+     workflows: []
+   },
+   {
+     id: 'instagram-twitter-social',
+     name: 'Instagram_Twitter_Social',
+     description: 'Instagram, Twitter and social media automation workflows',
+     icon: '📱',
+     count: 15,
+     workflows: []
+   },
+   {
+     id: 'manufacturing',
+     name: 'Manufacturing',
+     description: 'Manufacturing industry automation workflows',
+     icon: '🏭',
+     count: 12,
+     workflows: []
+   },
+   {
+     id: 'misc',
+     name: 'Misc',
+     description: 'Miscellaneous automation workflows and utilities',
+     icon: '🔧',
+     count: 5,
+     workflows: []
+   },
+   {
+     id: 'notion',
+     name: 'Notion',
+     description: 'Notion integration and workspace automation workflows',
+     icon: '📝',
+     count: 8,
+     workflows: []
+   },
+   {
+     id: 'openai-llms',
+     name: 'OpenAI_LLMs',
+     description: 'OpenAI and Large Language Model integration workflows',
+     icon: '🧠',
+     count: 25,
+     workflows: []
+   },
+   {
+     id: 'other-integrations',
+     name: 'Other_Integrations_and_Use_Cases',
+     description: 'Various integration patterns and use cases',
+     icon: '🔗',
+     count: 12,
+     workflows: []
+   },
+   {
+     id: 'pdf-document',
+     name: 'PDF_Document_Processing',
+     description: 'PDF and document processing automation workflows',
+     icon: '📄',
+     count: 8,
+     workflows: []
+   },
+   {
+     id: 'productivity',
+     name: 'Productivity',
+     description: 'Personal and business productivity automation workflows',
+     icon: '⚡',
+     count: 15,
+     workflows: []
+   },
+   {
+     id: 'slack',
+     name: 'Slack',
+     description: 'Slack integration and team communication workflows',
+     icon: '💬',
+     count: 12,
+     workflows: []
+   },
+   {
+     id: 'social-media',
+     name: 'Social_Media',
+     description: 'Social media management and automation workflows',
+     icon: '📱',
+     count: 10,
+     workflows: []
+   },
+   {
+     id: 'telegram',
+     name: 'Telegram',
+     description: 'Telegram bot and messaging automation workflows',
+     icon: '✈️',
+     count: 8,
+     workflows: []
+   },
+   {
+     id: 'whatsapp',
+     name: 'WhatsApp',
+     description: 'WhatsApp automation and messaging workflows',
+     icon: '💬',
+     count: 7,
+     workflows: []
+   }
+ ] 
 
-/**
+ /**
  * Get all categories with their workflow counts
  */
 export function getAllCategories(): Category[] {
