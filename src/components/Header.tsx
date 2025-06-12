@@ -2,26 +2,42 @@ import React, { useState } from 'react'
 import { Search, Moon, Sun, Github, Download } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
-import { searchWorkflows } from '@/data/agents'
-import type { WorkflowFile, Category } from '@/data/agents'
+import type { WorkflowFile, Category } from '@/hooks/useSupabaseData'
 
 interface HeaderProps {
   onSearch: (results: { category: Category; workflow: WorkflowFile }[]) => void
   isDarkMode: boolean
   onToggleTheme: () => void
+  categories: Category[]
+  workflows: WorkflowFile[]
 }
 
 /**
  * Header component with navigation, search, and theme toggle
  * Provides the main navigation and search functionality for the N8N Agents Directory
  */
-export function Header({ onSearch, isDarkMode, onToggleTheme }: HeaderProps) {
+export function Header({ onSearch, isDarkMode, onToggleTheme, categories, workflows }: HeaderProps) {
   const [searchQuery, setSearchQuery] = useState('')
 
   const handleSearch = (query: string) => {
     setSearchQuery(query)
     if (query.trim()) {
-      const results = searchWorkflows(query)
+      const searchTerm = query.toLowerCase()
+      const results: { category: Category; workflow: WorkflowFile }[] = []
+      
+      categories.forEach(category => {
+        category.workflows.forEach(workflow => {
+          if (
+            workflow.name.toLowerCase().includes(searchTerm) ||
+            workflow.description?.toLowerCase().includes(searchTerm) ||
+            category.name.toLowerCase().includes(searchTerm) ||
+            workflow.tags?.some(tag => tag.toLowerCase().includes(searchTerm))
+          ) {
+            results.push({ category, workflow })
+          }
+        })
+      })
+      
       onSearch(results)
     } else {
       onSearch([])

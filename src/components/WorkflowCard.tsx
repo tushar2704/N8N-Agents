@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { formatFileName, getDownloadUrl } from '@/lib/utils'
-import type { WorkflowFile, Category } from '@/data/agents'
+import type { WorkflowFile, Category } from '@/hooks/useSupabaseData'
 
 interface WorkflowCardProps {
   workflow: WorkflowFile
@@ -17,10 +17,10 @@ interface WorkflowCardProps {
  */
 export function WorkflowCard({ workflow, category }: WorkflowCardProps) {
   const handleDownload = () => {
-    const downloadUrl = getDownloadUrl(category.id, workflow.filename)
+    const downloadUrl = getDownloadUrl(category.id, workflow.path)
     const link = document.createElement('a')
     link.href = downloadUrl
-    link.download = workflow.filename
+    link.download = workflow.path
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -68,7 +68,7 @@ export function WorkflowCard({ workflow, category }: WorkflowCardProps) {
                 <span className="ml-1 uppercase">{workflow.type}</span>
               </Badge>
               <span className="text-xs text-muted-foreground">
-                {workflow.filename}
+                {workflow.path}
               </span>
             </div>
           </div>

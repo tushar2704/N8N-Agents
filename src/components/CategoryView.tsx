@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
 import { WorkflowCard } from '@/components/WorkflowCard'
-import type { Category, WorkflowFile } from '@/data/agents'
+import type { Category, WorkflowFile } from '@/hooks/useSupabaseData'
 
 interface CategoryViewProps {
   category: Category

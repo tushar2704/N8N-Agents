@@ -4,8 +4,7 @@ import { CategoryCard } from '@/components/CategoryCard'
 import { CategoryView } from '@/components/CategoryView'
 import { SearchResults } from '@/components/SearchResults'
 import { LeadModal } from '@/components/LeadModal'
-import { getAllCategories, getTotalWorkflowCount } from '@/data/agents'
-import type { Category, WorkflowFile } from '@/data/agents'
+import useSupabaseData, { type Category, type WorkflowFile } from '@/hooks/useSupabaseData'
 
 type ViewMode = 'categories' | 'category' | 'search'
 
@@ -50,18 +49,15 @@ function App() {
     }
   }
 
-  // Show lead modal on first visit
+  // Show lead modal on every visit
   useEffect(() => {
-    const hasSubmitted = localStorage.getItem('leadSubmitted')
-    if (!hasSubmitted) {
-      setShowLeadModal(true)
-    } else {
-      setHasSubmittedLead(true)
-    }
+    // Always show the modal when the page loads
+    setShowLeadModal(true)
   }, [])
 
   // Handle lead form submission
   const handleLeadSubmit = () => {
+    // Store submission data but don't prevent modal from showing again
     localStorage.setItem('leadSubmitted', 'true')
     setHasSubmittedLead(true)
     setShowLeadModal(false)
@@ -90,9 +86,9 @@ function App() {
     setSearchResults([])
   }
 
-  // Get categories data
-  const categories = getAllCategories()
-  const totalWorkflows = getTotalWorkflowCount()
+  // Get data from Supabase
+  const { categories, workflows, loading, error } = useSupabaseData()
+  const totalWorkflows = workflows.length
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -100,10 +96,35 @@ function App() {
         onSearch={handleSearch}
         isDarkMode={isDarkMode}
         onToggleTheme={handleToggleTheme}
+        categories={categories}
+        workflows={workflows}
       />
       
       <main>
-        {viewMode === 'categories' && (
+        {loading && (
+          <div className="container mx-auto px-4 py-8 max-w-7xl">
+            <div className="text-center">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+              <p className="text-muted-foreground">Loading workflows from database...</p>
+            </div>
+          </div>
+        )}
+        
+        {error && (
+          <div className="container mx-auto px-4 py-8 max-w-7xl">
+            <div className="text-center text-red-600">
+              <p className="mb-4">Error loading data: {error}</p>
+              <button 
+                onClick={() => window.location.reload()} 
+                className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+              >
+                Retry
+              </button>
+            </div>
+          </div>
+        )}
+        
+        {!loading && !error && viewMode === 'categories' && (
           <div className="container mx-auto px-4 py-8 max-w-7xl">
             {/* Hero Section */}
             <div className="text-center mb-12">
@@ -152,14 +173,14 @@ function App() {
           </div>
         )}
 
-        {viewMode === 'category' && selectedCategory && (
+        {!loading && !error && viewMode === 'category' && selectedCategory && (
           <CategoryView
             category={selectedCategory}
             onBack={handleBackToCategories}
           />
         )}
 
-        {viewMode === 'search' && (
+        {!loading && !error && viewMode === 'search' && (
           <SearchResults
             results={searchResults}
             query="" // We could track the actual query if needed

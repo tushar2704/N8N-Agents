@@ -2,7 +2,7 @@ import React from 'react'
 import { ArrowLeft, Search } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { WorkflowCard } from '@/components/WorkflowCard'
-import type { WorkflowFile, Category } from '@/data/agents'
+import type { WorkflowFile, Category } from '@/hooks/useSupabaseData'
 
 interface SearchResultsProps {
   results: { category: Category; workflow: WorkflowFile }[]

@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import { X, User, Mail, Building, Phone, MapPin } from 'lucide-react'
+import { createClient } from '@supabase/supabase-js'
+
+// Initialize Supabase client
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY
+const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 interface LeadModalProps {
   isOpen: boolean
@@ -87,23 +93,51 @@ export function LeadModal({ isOpen, onClose, onSubmit }: LeadModalProps) {
     setIsSubmitting(true)
     
     try {
-      // Simulate API call delay
-      await new Promise(resolve => setTimeout(resolve, 1000))
-      
-      // Store lead data in localStorage for now
+      // Insert lead directly into Supabase
       const leadData = {
+        name: formData.name,
+        email: formData.email,
+        company: formData.company || null,
+        use_case: formData.interests || null, // Map interests to use_case
+        interest_level: 'medium', // Default interest level
+        source: 'modal_popup',
+        consent_data_processing: true,
+        metadata: {
+          phone: formData.phone || null,
+          job_title: formData.jobTitle || null,
+          location: formData.location || null,
+          original_form_data: formData
+        }
+      }
+
+      const { data, error } = await supabase
+        .from('leads')
+        .insert([leadData])
+        .select()
+
+      if (error) {
+        console.error('Supabase error:', error)
+        throw new Error(error.message || 'Failed to save lead to database')
+      }
+
+      console.log('Lead saved successfully to database:', data)
+      
+      // Also store in localStorage as backup
+      const backupData = {
         ...formData,
-        timestamp: new Date().toISOString()
+        timestamp: new Date().toISOString(),
+        source: 'modal_popup'
       }
       
       const existingLeads = JSON.parse(localStorage.getItem('leads') || '[]')
-      existingLeads.push(leadData)
+      existingLeads.push(backupData)
       localStorage.setItem('leads', JSON.stringify(existingLeads))
       
       onSubmit(formData)
       onClose()
     } catch (error) {
       console.error('Error submitting form:', error)
+      setErrors({ submit: `Failed to submit: ${error instanceof Error ? error.message : 'Unknown error occurred'}` })
     } finally {
       setIsSubmitting(false)
     }

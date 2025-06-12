@@ -1,92 +1,83 @@
 -- Supabase Database Schema for N8N Workflows Repository
 -- This schema supports categorized storage of JSON/TXT workflow files with search capabilities
 
--- Enable Row Level Security
-ALTER DATABASE postgres SET "app.jwt_secret" TO 'your-jwt-secret-here';
+-- Enable necessary extensions
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+CREATE EXTENSION IF NOT EXISTS "pg_trgm";
 
--- Create categories table
+-- Categories table
 CREATE TABLE categories (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    category_id VARCHAR(100) UNIQUE NOT NULL, -- e.g., 'ai-ml', 'finance-accounting'
-    name VARCHAR(255) NOT NULL, -- e.g., 'AI_ML', 'Finance_Accounting'
-    display_name VARCHAR(255) NOT NULL, -- e.g., 'AI & Machine Learning'
+    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    name VARCHAR(255) NOT NULL UNIQUE,
     description TEXT,
-    icon VARCHAR(50), -- emoji or icon identifier
-    folder_name VARCHAR(255) NOT NULL, -- actual folder name in repository
+    icon VARCHAR(100),
     workflow_count INTEGER DEFAULT 0,
-    is_active BOOLEAN DEFAULT true,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
--- Create workflows table
+-- Workflows table
 CREATE TABLE workflows (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    category_id UUID REFERENCES categories(id) ON DELETE CASCADE,
-    name VARCHAR(500) NOT NULL, -- workflow display name
-    filename VARCHAR(500) NOT NULL, -- actual filename with extension
-    file_type VARCHAR(10) NOT NULL CHECK (file_type IN ('json', 'txt')),
+    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    name VARCHAR(500) NOT NULL,
     description TEXT,
-    content JSONB, -- for JSON files, store parsed content
-    raw_content TEXT, -- for TXT files or raw JSON content
-    file_size INTEGER, -- file size in bytes
-    
-    -- Metadata extracted from workflow content
-    workflow_name VARCHAR(500), -- extracted from JSON 'name' field
-    workflow_id VARCHAR(100), -- extracted from JSON 'id' field
-    node_count INTEGER, -- number of nodes in the workflow
-    has_webhook BOOLEAN DEFAULT false, -- whether workflow has webhook trigger
-    has_ai_nodes BOOLEAN DEFAULT false, -- whether workflow uses AI/ML nodes
-    
-    -- Search and indexing fields
-    search_vector TSVECTOR, -- full-text search vector
-    tags TEXT[], -- array of tags for categorization
-    
-    -- File management
-    file_path TEXT, -- relative path from repository root
-    file_hash VARCHAR(64), -- SHA256 hash for change detection
-    
-    -- Timestamps
+    category_id UUID REFERENCES categories(id) ON DELETE SET NULL,
+    file_path VARCHAR(1000) NOT NULL,
+    file_type VARCHAR(10) NOT NULL CHECK (file_type IN ('json', 'txt')),
+    file_size INTEGER,
+    original_filename VARCHAR(500),
+    n8n_workflow_id VARCHAR(100),
+    node_count INTEGER DEFAULT 0,
+    connection_count INTEGER DEFAULT 0,
+    complexity_score INTEGER DEFAULT 0,
+    is_active BOOLEAN DEFAULT true,
+    search_vector TSVECTOR,
+    metadata JSONB DEFAULT '{}',
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     last_synced_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
--- Create workflow_nodes table for detailed node information
+-- Workflow nodes table
 CREATE TABLE workflow_nodes (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     workflow_id UUID REFERENCES workflows(id) ON DELETE CASCADE,
-    node_id VARCHAR(100) NOT NULL, -- node ID from JSON
-    node_name VARCHAR(500), -- node display name
-    node_type VARCHAR(200) NOT NULL, -- e.g., 'n8n-nodes-base.webhook'
-    node_category VARCHAR(100), -- e.g., 'trigger', 'action', 'transform'
-    parameters JSONB, -- node parameters
-    position_x INTEGER, -- x coordinate
-    position_y INTEGER, -- y coordinate
+    node_id VARCHAR(100) NOT NULL,
+    node_name VARCHAR(500),
+    node_type VARCHAR(200),
+    node_type_version VARCHAR(20),
+    position_x FLOAT,
+    position_y FLOAT,
+    parameters JSONB DEFAULT '{}',
+    credentials JSONB DEFAULT '{}',
+    is_disabled BOOLEAN DEFAULT false,
+    notes TEXT,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
--- Create workflow_connections table for node relationships
+-- Workflow connections table
 CREATE TABLE workflow_connections (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     workflow_id UUID REFERENCES workflows(id) ON DELETE CASCADE,
     source_node_id VARCHAR(100) NOT NULL,
     target_node_id VARCHAR(100) NOT NULL,
-    connection_type VARCHAR(50) DEFAULT 'main', -- main, error, etc.
+    source_output_index INTEGER DEFAULT 0,
+    target_input_index INTEGER DEFAULT 0,
+    connection_type VARCHAR(50) DEFAULT 'main',
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
--- Create tags table for better tag management
+-- Tags table
 CREATE TABLE tags (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    name VARCHAR(100) UNIQUE NOT NULL,
+    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    name VARCHAR(100) NOT NULL UNIQUE,
     description TEXT,
-    color VARCHAR(7), -- hex color code
+    color VARCHAR(7) DEFAULT '#3B82F6',
     usage_count INTEGER DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
--- Create workflow_tags junction table
+-- Workflow tags junction table
 CREATE TABLE workflow_tags (
     workflow_id UUID REFERENCES workflows(id) ON DELETE CASCADE,
     tag_id UUID REFERENCES tags(id) ON DELETE CASCADE,
@@ -94,62 +85,83 @@ CREATE TABLE workflow_tags (
     PRIMARY KEY (workflow_id, tag_id)
 );
 
--- Create sync_logs table for tracking repository synchronization
+-- Sync logs table
 CREATE TABLE sync_logs (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    sync_type VARCHAR(50) NOT NULL, -- 'full', 'incremental', 'category'
-    status VARCHAR(20) NOT NULL, -- 'started', 'completed', 'failed'
-    files_processed INTEGER DEFAULT 0,
-    files_added INTEGER DEFAULT 0,
-    files_updated INTEGER DEFAULT 0,
-    files_deleted INTEGER DEFAULT 0,
+    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    operation_type VARCHAR(50) NOT NULL,
+    file_path VARCHAR(1000),
+    status VARCHAR(20) NOT NULL CHECK (status IN ('success', 'error', 'skipped')),
     error_message TEXT,
-    started_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
-    completed_at TIMESTAMP WITH TIME ZONE,
-    duration_ms INTEGER
+    files_processed INTEGER DEFAULT 0,
+    workflows_created INTEGER DEFAULT 0,
+    workflows_updated INTEGER DEFAULT 0,
+    workflows_deleted INTEGER DEFAULT 0,
+    duration_ms INTEGER,
+    metadata JSONB DEFAULT '{}',
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
+
+-- Lead generation table
+CREATE TABLE leads (
+    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    company VARCHAR(255),
+    use_case TEXT,
+    interest_level VARCHAR(50) CHECK (interest_level IN ('low', 'medium', 'high')),
+    source VARCHAR(100) DEFAULT 'modal_popup',
+    ip_address INET,
+    user_agent TEXT,
+    referrer_url TEXT,
+    utm_source VARCHAR(100),
+    utm_medium VARCHAR(100),
+    utm_campaign VARCHAR(100),
+    consent_marketing BOOLEAN DEFAULT false,
+    consent_data_processing BOOLEAN DEFAULT true,
+    status VARCHAR(50) DEFAULT 'new' CHECK (status IN ('new', 'contacted', 'qualified', 'converted', 'archived')),
+    notes TEXT,
+    metadata JSONB DEFAULT '{}',
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
 -- Create indexes for performance
 CREATE INDEX idx_workflows_category_id ON workflows(category_id);
 CREATE INDEX idx_workflows_file_type ON workflows(file_type);
-CREATE INDEX idx_workflows_search_vector ON workflows USING gin(search_vector);
-CREATE INDEX idx_workflows_tags ON workflows USING gin(tags);
-CREATE INDEX idx_workflows_filename ON workflows(filename);
-CREATE INDEX idx_workflows_updated_at ON workflows(updated_at);
+CREATE INDEX idx_workflows_is_active ON workflows(is_active);
+CREATE INDEX idx_workflows_created_at ON workflows(created_at);
 CREATE INDEX idx_workflow_nodes_workflow_id ON workflow_nodes(workflow_id);
 CREATE INDEX idx_workflow_nodes_type ON workflow_nodes(node_type);
-CREATE INDEX idx_categories_category_id ON categories(category_id);
-CREATE INDEX idx_categories_folder_name ON categories(folder_name);
+CREATE INDEX idx_workflow_connections_workflow_id ON workflow_connections(workflow_id);
+CREATE INDEX idx_workflow_connections_source ON workflow_connections(source_node_id);
+CREATE INDEX idx_workflow_connections_target ON workflow_connections(target_node_id);
+CREATE INDEX idx_sync_logs_status ON sync_logs(status);
+CREATE INDEX idx_sync_logs_created_at ON sync_logs(created_at);
+CREATE INDEX idx_leads_email ON leads(email);
+CREATE INDEX idx_leads_status ON leads(status);
+CREATE INDEX idx_leads_created_at ON leads(created_at);
+CREATE INDEX idx_leads_source ON leads(source);
 
--- Create full-text search index
-CREATE INDEX idx_workflows_search ON workflows USING gin(to_tsvector('english', 
-    COALESCE(name, '') || ' ' || 
-    COALESCE(description, '') || ' ' || 
-    COALESCE(workflow_name, '') || ' ' ||
-    COALESCE(array_to_string(tags, ' '), '')
-));
+-- Full-text search index
+CREATE INDEX idx_workflows_search_vector ON workflows USING GIN(search_vector);
 
--- Create trigger to update search_vector automatically
+-- Function to update search vector
 CREATE OR REPLACE FUNCTION update_workflow_search_vector()
 RETURNS TRIGGER AS $$
 BEGIN
-    NEW.search_vector := to_tsvector('english', 
-        COALESCE(NEW.name, '') || ' ' || 
-        COALESCE(NEW.description, '') || ' ' || 
-        COALESCE(NEW.workflow_name, '') || ' ' ||
-        COALESCE(array_to_string(NEW.tags, ' '), '')
-    );
-    NEW.updated_at := NOW();
+    NEW.search_vector := setweight(to_tsvector('english', COALESCE(NEW.name, '')), 'A') ||
+                        setweight(to_tsvector('english', COALESCE(NEW.description, '')), 'B');
     RETURN NEW;
 END;
 $$ LANGUAGE plpgsql;
 
+-- Trigger to automatically update search vector
 CREATE TRIGGER trigger_update_workflow_search_vector
     BEFORE INSERT OR UPDATE ON workflows
     FOR EACH ROW
     EXECUTE FUNCTION update_workflow_search_vector();
 
--- Create function to update category workflow counts
+-- Function to update category workflow count
 CREATE OR REPLACE FUNCTION update_category_workflow_count()
 RETURNS TRIGGER AS $$
 BEGIN
@@ -183,70 +195,82 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
+-- Trigger to automatically update category workflow count
 CREATE TRIGGER trigger_update_category_workflow_count
     AFTER INSERT OR UPDATE OR DELETE ON workflows
     FOR EACH ROW
     EXECUTE FUNCTION update_category_workflow_count();
 
--- Create function to update tag usage counts
+-- Function to update tag usage count
 CREATE OR REPLACE FUNCTION update_tag_usage_count()
 RETURNS TRIGGER AS $$
 BEGIN
     IF TG_OP = 'INSERT' THEN
-        UPDATE tags SET usage_count = usage_count + 1 WHERE id = NEW.tag_id;
+        UPDATE tags 
+        SET usage_count = usage_count + 1
+        WHERE id = NEW.tag_id;
         RETURN NEW;
     ELSIF TG_OP = 'DELETE' THEN
-        UPDATE tags SET usage_count = usage_count - 1 WHERE id = OLD.tag_id;
+        UPDATE tags 
+        SET usage_count = usage_count - 1
+        WHERE id = OLD.tag_id;
         RETURN OLD;
     END IF;
     RETURN NULL;
 END;
 $$ LANGUAGE plpgsql;
 
+-- Trigger to automatically update tag usage count
 CREATE TRIGGER trigger_update_tag_usage_count
     AFTER INSERT OR DELETE ON workflow_tags
     FOR EACH ROW
     EXECUTE FUNCTION update_tag_usage_count();
 
--- Insert initial categories based on repository structure
-INSERT INTO categories (category_id, name, display_name, description, icon, folder_name) VALUES
-('ai-ml', 'AI_ML', 'AI & Machine Learning', 'Intelligent automation workflows powered by AI and ML technologies', '🤖', 'AI_ML'),
-('ai-research-rag-data-analysis', 'AI_Research_RAG_and_Data_Analysis', 'AI Research & Data Analysis', 'Advanced AI research workflows with RAG, vector databases, and data analysis', '🔬', 'AI_Research_RAG_and_Data_Analysis'),
-('agriculture', 'Agriculture', 'Agriculture', 'Smart farming and agricultural automation workflows', '🌾', 'Agriculture'),
-('airtable', 'Airtable', 'Airtable', 'Airtable integration and database automation workflows', '📊', 'Airtable'),
-('automotive', 'Automotive', 'Automotive', 'Connected car and automotive industry automation workflows', '🚗', 'Automotive'),
-('creative-content', 'Creative_Content', 'Creative Content', 'Content creation and creative automation workflows', '🎨', 'Creative_Content'),
-('data-analytics', 'Data_Analytics', 'Data Analytics', 'Data analysis and business intelligence automation workflows', '📈', 'Data_Analytics'),
-('database-and-storage', 'Database_and_Storage', 'Database & Storage', 'Database management and data storage automation workflows', '🗄️', 'Database_and_Storage'),
-('devops', 'DevOps', 'DevOps', 'Development operations and CI/CD automation workflows', '⚙️', 'DevOps'),
-('discord', 'Discord', 'Discord', 'Discord bot and community management automation workflows', '💬', 'Discord'),
-('e-commerce-retail', 'E_Commerce_Retail', 'E-Commerce & Retail', 'Online retail and e-commerce automation workflows', '🛒', 'E_Commerce_Retail'),
-('education', 'Education', 'Education', 'Educational technology and learning automation workflows', '🎓', 'Education'),
-('email-automation', 'Email_Automation', 'Email Automation', 'Email processing and automation workflows', '📧', 'Email_Automation'),
-('energy', 'Energy', 'Energy', 'Energy management and renewable energy automation workflows', '⚡', 'Energy'),
-('finance-accounting', 'Finance_Accounting', 'Finance & Accounting', 'Financial automation and accounting workflows', '💰', 'Finance_Accounting'),
-('forms-and-surveys', 'Forms_and_Surveys', 'Forms & Surveys', 'Form processing and survey automation workflows', '📝', 'Forms_and_Surveys'),
-('gaming', 'Gaming', 'Gaming', 'Gaming and entertainment automation workflows', '🎮', 'Gaming'),
-('gmail-email', 'Gmail_Email', 'Gmail & Email', 'Gmail and email automation workflows', '📬', 'Gmail_Email'),
-('google-drive-sheets', 'Google_Drive_Sheets', 'Google Drive & Sheets', 'Google Workspace automation workflows', '📄', 'Google_Drive_Sheets'),
-('hr', 'HR', 'Human Resources', 'HR and recruitment automation workflows', '👥', 'HR'),
-('healthcare', 'Healthcare', 'Healthcare', 'Healthcare and medical automation workflows', '🏥', 'Healthcare'),
-('instagram-twitter-social', 'Instagram_Twitter_Social', 'Social Media', 'Social media automation workflows', '📱', 'Instagram_Twitter_Social'),
-('manufacturing', 'Manufacturing', 'Manufacturing', 'Manufacturing and industrial automation workflows', '🏭', 'Manufacturing'),
-('misc', 'Misc', 'Miscellaneous', 'Various automation workflows and utilities', '🔧', 'Misc'),
-('notion', 'Notion', 'Notion', 'Notion integration and productivity workflows', '📚', 'Notion'),
-('openai-llms', 'OpenAI_LLMs', 'OpenAI & LLMs', 'OpenAI and Large Language Model workflows', '🧠', 'OpenAI_LLMs'),
-('other-integrations-and-use-cases', 'Other_Integrations_and_Use_Cases', 'Other Integrations', 'Various integration and use case workflows', '🔗', 'Other_Integrations_and_Use_Cases'),
-('pdf-document-processing', 'PDF_Document_Processing', 'PDF & Documents', 'PDF and document processing workflows', '📄', 'PDF_Document_Processing'),
-('productivity', 'Productivity', 'Productivity', 'Productivity and workflow optimization', '⚡', 'Productivity'),
-('slack', 'Slack', 'Slack', 'Slack integration and team communication workflows', '💬', 'Slack'),
-('social-media', 'Social_Media', 'Social Media', 'Social media management and automation workflows', '📱', 'Social_Media'),
-('telegram', 'Telegram', 'Telegram', 'Telegram bot and messaging automation workflows', '📱', 'Telegram'),
-('whatsapp', 'WhatsApp', 'WhatsApp', 'WhatsApp automation and messaging workflows', '📱', 'WhatsApp');
+-- Insert initial categories data
+INSERT INTO categories (name, description, icon, workflow_count) VALUES
+('AI_ML', 'Artificial Intelligence and Machine Learning workflows', '🤖', 11),
+('AI_Research_RAG_and_Data_Analysis', 'AI Research, RAG systems and Data Analysis', '🔍', 39),
+('Agriculture', 'Agricultural and farming automation workflows', '🌾', 10),
+('Airtable', 'Airtable integration workflows', '📊', 5),
+('Automotive', 'Automotive industry workflows', '🚗', 10),
+('Creative_Content', 'Creative content generation workflows', '🎨', 1),
+('Data_Analytics', 'Data analytics and reporting workflows', '📈', 1),
+('Database_and_Storage', 'Database and storage integration workflows', '💾', 5),
+('DevOps', 'DevOps and development workflows', '⚙️', 1),
+('Discord', 'Discord bot and integration workflows', '💬', 3),
+('E_Commerce_Retail', 'E-commerce and retail workflows', '🛒', 3),
+('Education', 'Educational and training workflows', '📚', 2),
+('Email_Automation', 'Email automation and management workflows', '📧', 10),
+('Energy', 'Energy and utilities workflows', '⚡', 10),
+('Finance_Accounting', 'Finance and accounting workflows', '💰', 8),
+('Forms_and_Surveys', 'Forms and survey automation workflows', '📝', 4),
+('Gaming', 'Gaming and entertainment workflows', '🎮', 10),
+('Gmail_and_Email_Automation', 'Gmail and email automation workflows', '✉️', 21),
+('Google_Drive_and_Google_Sheets', 'Google Drive and Sheets integration workflows', '📊', 17),
+('Government_NGO', 'Government and NGO workflows', '🏛️', 8),
+('HR', 'Human Resources workflows', '👥', 7),
+('HR_and_Recruitment', 'HR and recruitment workflows', '🤝', 16),
+('Healthcare', 'Healthcare and medical workflows', '🏥', 16),
+('Instagram_Twitter_Social_Media', 'Social media automation workflows', '📱', 26),
+('IoT', 'Internet of Things workflows', '🔌', 8),
+('Legal_Tech', 'Legal technology workflows', '⚖️', 7),
+('Manufacturing', 'Manufacturing and production workflows', '🏭', 10),
+('Media', 'Media and broadcasting workflows', '📺', 7),
+('Misc', 'Miscellaneous workflows', '🔧', 17),
+('Notion', 'Notion integration workflows', '📔', 10),
+('OpenAI_and_LLMs', 'OpenAI and Language Model workflows', '🧠', 28),
+('Other', 'Other specialized workflows', '📋', 12),
+('Other_Integrations_and_Use_Cases', 'Various integration workflows', '🔗', 13);
 
--- Insert some common tags
+-- Insert common tags
 INSERT INTO tags (name, description, color) VALUES
-('ai', 'Artificial Intelligence workflows', '#FF6B6B'),
-('webhook', 'Workflows with webhook triggers', '#4ECDC4'),
-('automation', 'General automation workflows', '#45B7D1'),
-('integration', 'Third-party service integrations', '#96CEB4'),
+('automation', 'Workflow automation', '#3B82F6'),
+('ai', 'Artificial Intelligence', '#8B5CF6'),
+('email', 'Email related workflows', '#EF4444'),
+('social-media', 'Social media automation', '#F59E0B'),
+('data-processing', 'Data processing and analysis', '#10B981'),
+('notification', 'Notification and alerting', '#F97316'),
+('integration', 'Third-party integrations', '#6366F1'),
+('webhook', 'Webhook based workflows', '#84CC16'),
+('api', 'API integrations', '#06B6D4'),
+('scheduler', 'Scheduled workflows', '#EC4899');
