@@ -34,13 +34,59 @@ export function formatFolderName(folderName: string): string {
 
 /**
  * Generates a download URL for a file
+ * @param categoryId - The category/folder name
  * @param filePath - The path to the file
  * @returns Download URL
  */
-export function getDownloadUrl(filePath: string): string {
-  // In a real implementation, this would handle file serving
-  // For now, we'll create a blob URL or direct file path
-  return filePath
+export function getDownloadUrl(categoryId: string, filePath: string): string {
+  // Construct the full path to the file in the repository
+  const fullPath = `/${categoryId}/${filePath}`
+  
+  // For GitHub-hosted files, we can use raw.githubusercontent.com
+  // For local development, we'll use the relative path
+  if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
+    // For local development, serve from the public directory or API
+    return `/api/download?path=${encodeURIComponent(fullPath)}`
+  } else {
+    // For production, you might want to serve from a CDN or file server
+    // For now, we'll create a downloadable blob with placeholder content
+    return createDownloadableFile(filePath)
+  }
+}
+
+/**
+ * Creates a downloadable file with placeholder content
+ * @param fileName - The name of the file
+ * @returns Blob URL for download
+ */
+function createDownloadableFile(fileName: string): string {
+  const fileExtension = getFileExtension(fileName)
+  let content = ''
+  
+  if (fileExtension === 'json') {
+    // Create a basic n8n workflow JSON structure
+    content = JSON.stringify({
+      "name": fileName.replace(/\.(json|txt)$/, ''),
+      "nodes": [],
+      "connections": {},
+      "active": false,
+      "settings": {},
+      "id": Math.random().toString(36).substr(2, 9)
+    }, null, 2)
+  } else {
+    // Create a basic text file content
+    content = `# ${fileName.replace(/\.(json|txt)$/, '').replace(/[_-]/g, ' ')}
+
+This is a placeholder workflow file. Please customize it according to your needs.
+
+Created: ${new Date().toISOString()}`
+  }
+  
+  const blob = new Blob([content], { 
+    type: fileExtension === 'json' ? 'application/json' : 'text/plain' 
+  })
+  
+  return URL.createObjectURL(blob)
 }
 
 /**

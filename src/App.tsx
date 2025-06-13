@@ -1,10 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import { Header } from '@/components/Header'
 import { CategoryCard } from '@/components/CategoryCard'
+import { WorkflowCardNew } from '@/components/WorkflowCardNew'
 import { CategoryView } from '@/components/CategoryView'
 import { SearchResults } from '@/components/SearchResults'
 import { LeadModal } from '@/components/LeadModal'
+import DataVerification from '@/components/DataVerification'
 import useSupabaseData, { type Category, type WorkflowFile } from '@/hooks/useSupabaseData'
+import { Search } from 'lucide-react'
+import { Input } from '@/components/ui/input'
+import { Button } from '@/components/ui/button'
 
 type ViewMode = 'categories' | 'category' | 'search'
 
@@ -19,6 +24,7 @@ function App() {
   const [isDarkMode, setIsDarkMode] = useState(false)
   const [showLeadModal, setShowLeadModal] = useState(false)
   const [hasSubmittedLead, setHasSubmittedLead] = useState(false)
+  const [searchQuery, setSearchQuery] = useState('')
 
   // Initialize theme from localStorage or system preference
   useEffect(() => {
@@ -63,12 +69,34 @@ function App() {
     setShowLeadModal(false)
   }
 
-  // Handle search results
-  const handleSearch = (results: { category: Category; workflow: WorkflowFile }[]) => {
-    setSearchResults(results)
-    if (results.length > 0) {
-      setViewMode('search')
+  // Handle search functionality
+  const handleSearch = (query: string) => {
+    setSearchQuery(query)
+    if (query.trim()) {
+      const searchTerm = query.toLowerCase()
+      const results: { category: Category; workflow: WorkflowFile }[] = []
+      
+      categories.forEach(category => {
+        category.workflows.forEach(workflow => {
+          if (
+            workflow.name.toLowerCase().includes(searchTerm) ||
+            workflow.description?.toLowerCase().includes(searchTerm) ||
+            category.name.toLowerCase().includes(searchTerm) ||
+            workflow.tags?.some(tag => tag.toLowerCase().includes(searchTerm))
+          ) {
+            results.push({ category, workflow })
+          }
+        })
+      })
+      
+      setSearchResults(results)
+      if (results.length > 0) {
+        setViewMode('search')
+      } else {
+        setViewMode('categories')
+      }
     } else {
+      setSearchResults([])
       setViewMode('categories')
     }
   }
@@ -84,6 +112,7 @@ function App() {
     setViewMode('categories')
     setSelectedCategory(null)
     setSearchResults([])
+    setSearchQuery('')
   }
 
   // Get data from Supabase
@@ -91,16 +120,61 @@ function App() {
   const totalWorkflows = workflows.length
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <Header 
-        onSearch={handleSearch}
-        isDarkMode={isDarkMode}
-        onToggleTheme={handleToggleTheme}
-        categories={categories}
-        workflows={workflows}
-      />
+    <div className="min-h-screen">
+      {/* Hero Section with Background */}
+      {viewMode === 'categories' && (
+        <div className="bg-gradient-to-br from-purple-900 via-purple-800 to-pink-800 relative">
+          <Header 
+            onSearch={() => {}}
+            isDarkMode={isDarkMode}
+            onToggleTheme={handleToggleTheme}
+            categories={categories}
+            workflows={workflows}
+          />
+          
+          <section className="py-20 px-4">
+            <div className="container mx-auto max-w-4xl text-center">
+              <div className="mb-8">
+                <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
+                  ✨ Free AI Agents & Automations
+                </h1>
+                <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+                  Get started building AI agents and automations to streamline your workflows!
+                </p>
+              </div>
+              
+              {/* Search Bar */}
+              <div className="relative max-w-xl mx-auto mb-12">
+                <div className="relative">
+                  <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+                  <Input
+                    type="text"
+                    placeholder="Search Automations"
+                    value={searchQuery}
+                    onChange={(e) => handleSearch(e.target.value)}
+                    className="w-full pl-12 pr-4 py-4 text-lg bg-white/10 backdrop-blur-sm border-white/20 text-white placeholder-white/60 rounded-xl focus:bg-white/20 focus:border-white/40"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      )}
       
-      <main>
+      {/* Other views without hero section */}
+      {viewMode !== 'categories' && (
+        <div className="bg-background">
+          <Header 
+            onSearch={() => {}}
+            isDarkMode={isDarkMode}
+            onToggleTheme={handleToggleTheme}
+            categories={categories}
+            workflows={workflows}
+          />
+        </div>
+      )}
+      
+      <main className={viewMode === 'categories' ? 'bg-gray-50' : 'bg-background'}>
         {loading && (
           <div className="container mx-auto px-4 py-8 max-w-7xl">
             <div className="text-center">
@@ -125,50 +199,59 @@ function App() {
         )}
         
         {!loading && !error && viewMode === 'categories' && (
-          <div className="container mx-auto px-4 py-8 max-w-7xl">
-            {/* Hero Section */}
-            <div className="text-center mb-12">
-              <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent">
-                N8N Agents Directory
-              </h1>
-              <p className="text-xl text-muted-foreground mb-6 max-w-2xl mx-auto">
-                Discover, explore, and download automation workflows from our comprehensive collection of N8N agents.
-              </p>
-              <div className="flex items-center justify-center space-x-8 text-sm text-muted-foreground">
-                <div className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                  <span>{categories.length} Categories</span>
+          <div className="px-4 py-8">
+            <div className="container mx-auto max-w-7xl">
+              {/* Platform Filter */}
+              <div className="mb-8">
+                <div className="flex items-center space-x-2 text-sm text-gray-600 mb-4">
+                  <span>🌐 Platform</span>
                 </div>
-                <div className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                  <span>{totalWorkflows} Workflows</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                  <span>Free Downloads</span>
+                <div className="flex flex-wrap gap-2 mb-6">
+                  <Button variant="default" className="bg-blue-600 hover:bg-blue-700 text-white">
+                    All Platforms
+                  </Button>
                 </div>
               </div>
-            </div>
 
-            {/* Categories Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {categories.map((category) => (
-                <CategoryCard
-                  key={category.id}
-                  category={category}
-                  onClick={handleCategoryClick}
-                />
-              ))}
-            </div>
+              {/* Categories */}
+              <div className="mb-8">
+                <div className="flex items-center space-x-2 text-sm text-gray-600 mb-4">
+                  <span>📁 Categories</span>
+                </div>
+                <div className="flex flex-wrap gap-2 mb-6">
+                  {categories.slice(0, 10).map((category) => (
+                    <Button 
+                      key={category.id}
+                      variant="outline" 
+                      className="text-gray-700 border-gray-300"
+                      onClick={() => handleCategoryClick(category)}
+                    >
+                      {category.icon} {category.name}
+                    </Button>
+                  ))}
+                </div>
+              </div>
 
-            {/* Footer */}
-            <div className="mt-16 pt-8 border-t text-center text-muted-foreground">
-              <p className="mb-2">
-                Built with ❤️ by <a href="https://www.linkedin.com/in/tusharaggarwalinseec/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline">Tushar Aggarwal</a>
-              </p>
-              <p className="text-sm">
-                Explore automation workflows across {categories.length} categories with {totalWorkflows} ready-to-use templates.
-              </p>
+              {/* Results Header */}
+              <div className="mb-6">
+                <h2 className="text-2xl font-bold text-gray-900 mb-2">
+                  All Automations <span className="text-gray-500">({totalWorkflows} results)</span>
+                </h2>
+              </div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                {workflows.map((workflow) => (
+                  <WorkflowCardNew
+                    key={workflow.id}
+                    workflow={workflow}
+                  />
+                ))}
+              </div>
+
+              {/* Database Verification - Hidden */}
+              <div className="hidden">
+                <DataVerification />
+              </div>
             </div>
           </div>
         )}

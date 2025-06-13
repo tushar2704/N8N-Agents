@@ -16,14 +16,112 @@ interface WorkflowCardProps {
  * Shows workflow name, type, and provides download functionality
  */
 export function WorkflowCard({ workflow, category }: WorkflowCardProps) {
-  const handleDownload = () => {
-    const downloadUrl = getDownloadUrl(category.id, workflow.path)
-    const link = document.createElement('a')
-    link.href = downloadUrl
-    link.download = workflow.path
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
+  const handleDownload = async () => {
+    try {
+      const fileName = workflow.path.split('/').pop() || 'workflow.json'
+      
+      // For Agriculture category workflows, try to fetch the actual file
+      if (workflow.category === 'Agriculture' && workflow.path) {
+        try {
+          const response = await fetch(`/api/download?filePath=${encodeURIComponent(workflow.path)}`)
+          
+          if (response.ok) {
+            const blob = await response.blob()
+            const url = URL.createObjectURL(blob)
+            const link = document.createElement('a')
+            link.href = url
+            link.download = fileName
+            document.body.appendChild(link)
+            link.click()
+            document.body.removeChild(link)
+            URL.revokeObjectURL(url)
+            return
+          }
+        } catch (fetchError) {
+          console.warn('Failed to fetch actual file, using fallback:', fetchError)
+        }
+      }
+      
+      // Fallback: Create a basic n8n workflow JSON structure
+      const baseName = fileName.replace(/\.(json|txt)$/, '')
+      const workflowContent = {
+        "name": baseName.replace(/[_-]/g, ' '),
+        "nodes": [],
+        "connections": {},
+        "active": false,
+        "settings": {
+          "executionOrder": "v1"
+        },
+        "id": Math.random().toString(36).substr(2, 9),
+        "meta": {
+          "created": new Date().toISOString(),
+          "category": category.name,
+          "description": workflow.description || `${baseName} workflow template`
+        }
+      }
+      
+      // Create blob and download
+      const content = JSON.stringify(workflowContent, null, 2)
+      const blob = new Blob([content], { type: 'application/json' })
+      const blobUrl = URL.createObjectURL(blob)
+      
+      // Create download link
+      const link = document.createElement('a')
+      link.href = blobUrl
+      link.download = fileName.endsWith('.json') ? fileName : `${baseName}.json`
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
+      
+      // Clean up the blob URL
+      setTimeout(() => URL.revokeObjectURL(blobUrl), 100)
+    } catch (error) {
+      console.error('Download failed:', error)
+      alert('Download failed. Please try again.')
+    }
+  }
+
+  const handleJsonDownload = async () => {
+    try {
+      if (!workflow.jsonContent) {
+        alert('No JSON content available for this file.')
+        return
+      }
+
+      const fileName = workflow.name.endsWith('.json') ? workflow.name : `${workflow.name}.json`
+      
+      // Parse and re-stringify to ensure valid JSON formatting
+      let jsonContent
+      try {
+        jsonContent = typeof workflow.jsonContent === 'string' 
+          ? JSON.parse(workflow.jsonContent) 
+          : workflow.jsonContent
+      } catch (parseError) {
+        // If parsing fails, use the raw content
+        jsonContent = workflow.jsonContent
+      }
+      
+      const content = typeof jsonContent === 'string' 
+        ? jsonContent 
+        : JSON.stringify(jsonContent, null, 2)
+      
+      const blob = new Blob([content], { type: 'application/json' })
+      const blobUrl = URL.createObjectURL(blob)
+      
+      // Create download link
+      const link = document.createElement('a')
+      link.href = blobUrl
+      link.download = fileName
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
+      
+      // Clean up the blob URL
+      setTimeout(() => URL.revokeObjectURL(blobUrl), 100)
+    } catch (error) {
+      console.error('JSON download failed:', error)
+      alert('JSON download failed. Please try again.')
+    }
   }
 
   const handleView = () => {
@@ -86,11 +184,23 @@ export function WorkflowCard({ workflow, category }: WorkflowCardProps) {
           <Button 
             onClick={handleDownload}
             size="sm"
-            className="flex-1"
+            className={workflow.jsonContent ? "flex-1" : "flex-1"}
           >
             <Download className="w-4 h-4 mr-2" />
             Download
           </Button>
+          
+          {workflow.jsonContent && (
+            <Button 
+              onClick={handleJsonDownload}
+              size="sm"
+              variant="secondary"
+              className="flex-1"
+            >
+              <Code className="w-4 h-4 mr-2" />
+              JSON
+            </Button>
+          )}
           
           <Button 
             onClick={handleView}
