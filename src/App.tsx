@@ -4,6 +4,7 @@ import { CategoryCard } from '@/components/CategoryCard'
 import { CategoryView } from '@/components/CategoryView'
 import { SearchResults } from '@/components/SearchResults'
 import { LeadModal } from '@/components/LeadModal'
+import DataVerification from '@/components/DataVerification'
 import useSupabaseData, { type Category, type WorkflowFile } from '@/hooks/useSupabaseData'
 
 type ViewMode = 'categories' | 'category' | 'search'
@@ -148,6 +149,11 @@ function App() {
                   <span>Free Downloads</span>
                 </div>
               </div>
+            </div>
+
+            {/* Database Verification */}
+            <div className="mb-12">
+              <DataVerification />
             </div>
 
             {/* Categories Grid */}
